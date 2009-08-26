@@ -1,6 +1,6 @@
 #labels Phase-Support
-#Adora Submitted to ADC2
+=Adora Submitted to ADC2=
 
-ADC2 submission site finally opened. Adora is submitted under Education/Reference category.
+*ADC2 submission site finally opened. Adora is submitted under Education/Reference category.*
 
 Good luck! Adora!
