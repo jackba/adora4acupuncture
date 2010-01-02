@@ -19,7 +19,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.util.Log;
 import android.widget.ArrayAdapter;
-import efan.zz.aa.android.AA;
+import efan.zz.aa.AA;
 import efan.zz.customize.IdentifiedString;
 import efan.zz.aa.android.util.AAUtil;
 

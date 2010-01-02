@@ -25,11 +25,13 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import efan.zz.aa.R;
+
 public class DbHelper extends SQLiteOpenHelper
 {
+  private static final String VERSION = "0.01";
+  private static final int DB_VERSION = (int) (Float.parseFloat(VERSION)*100);
   private static final String DB_PATH = "AA.db";
-  private static final String VERSION = "0.1";
-  private static final int DB_VERSION = (int) (Float.parseFloat(VERSION)*10);
   
   private static DbHelper dbHelper;
   
@@ -69,7 +71,7 @@ public class DbHelper extends SQLiteOpenHelper
     catch(Exception e)
     {
       Log.e(this.getClass().getName(), "", e);
-      try { Thread.sleep(3600000);} catch (InterruptedException e1){}
+      throw new RuntimeException("Database create error! Please contact the support or developer.", e);
     }
     finally
     {
@@ -104,6 +106,6 @@ public class DbHelper extends SQLiteOpenHelper
   @Override
   public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
   {
-    /*** NO upgrade before 1.0 ***/
+    /*** NO upgrade before 1.0.0 ***/
   }
 }

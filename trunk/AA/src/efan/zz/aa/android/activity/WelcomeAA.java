@@ -16,7 +16,10 @@
 package efan.zz.aa.android.activity;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -26,8 +29,8 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.AdapterView.OnItemSelectedListener;
-import efan.zz.aa.android.AA;
-import efan.zz.aa.android.R;
+import efan.zz.aa.AA;
+import efan.zz.aa.R;
 import efan.zz.customize.IdentifiedString;
 import efan.zz.aa.android.customize.IdentifiedStringAdapter;
 import efan.zz.aa.android.util.AAUtil;
@@ -139,14 +142,56 @@ public class WelcomeAA extends Activity
 //      break;
       
     case R.id.menu_item_chinese_version:
-      AAUtil.youngGirlWarning("Sorry but non English version is out the scope of ADC2. 抱歉ADC2不考虑中文版.");
+      AAUtil.youngGirlWarning("待需求!");
       break;
     
+    case R.id.menu_item_about:
+      showAbout();
+      break;
+
     default:
       AAUtil.youngGirlWarning(null);
       break;
     }
 
     return true;
+  }
+
+  private void showAbout()
+  {
+    StringBuilder about = new StringBuilder();
+    about.append("Adora AA=>\nAcupuncture Assistant 1.0.0\n")
+         .append("\n") 
+         .append("【Function】: Quick & easy query from hundreds of acupoints standardized by WHO. \n") 
+         .append("\n") 
+         .append("【Notes】: Contents come from internet (including WHO), for education / reference only, no commercial usage please. \n") 
+         .append("\n") 
+         .append("1/1/2010"); 
+    final AlertDialog pop = new AlertDialog.Builder(this).create();
+    pop.setMessage(about);
+    pop.setButton(DialogInterface.BUTTON_POSITIVE, "Market", new DialogInterface.OnClickListener()
+    {
+      public void onClick(DialogInterface dialog, int which)
+      {
+        try
+        {
+          AAUtil.searchMarket(WelcomeAA.this, "pub", "efansoftware");
+        } catch (Exception e)
+        {
+          Log.w(WelcomeAA.this.getClass().getName(), "", e);
+          AAUtil.toastMessage("Sorry but Market application exception. Please check network or try again later...", true);
+        }
+      }
+    });
+    pop.setButton(DialogInterface.BUTTON_NEGATIVE, "OK", new DialogInterface.OnClickListener()
+    {
+      public void onClick(DialogInterface dialog, int which)
+      {
+        pop.dismiss();
+      }
+    });
+    pop.setCancelable(true);
+    pop.setCanceledOnTouchOutside(true);
+    pop.show();
   }
 }

@@ -80,6 +80,7 @@ welcome (screen) = default home + support
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:paddingTop="10sp"
         android:text="@string/button_query" />
 
@@ -104,25 +105,28 @@ welcome (screen) = default home + support
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:autoLink="email"
+            android:autoLink="web|email"
+            android:linksClickable="true"
             android:text="@string/efan_support" />
 
-        <!--  
         <TextView
           android:id="@+id/logo"
             android:layout_below="@id/support"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:autoLink="web|email"
+            android:linksClickable="true"
             android:text="@string/efan_logo" />
-        -->
     
         <TextView
             android:id="@+id/copy_right"
-            android:layout_below="@id/support"
+            android:layout_below="@id/logo"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:autoLink="web|email"
+            android:linksClickable="true"
             android:text="@string/efan_copy_right" />
     
     </RelativeLayout>

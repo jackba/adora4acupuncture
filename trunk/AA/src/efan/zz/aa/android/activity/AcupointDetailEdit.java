@@ -30,8 +30,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import efan.zz.aa.android.AA;
-import efan.zz.aa.android.R;
+import efan.zz.aa.AA;
+import efan.zz.aa.R;
 import efan.zz.aa.android.util.AAUtil;
 
 /*

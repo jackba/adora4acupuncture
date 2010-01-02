@@ -74,7 +74,7 @@
 
 
     <!-- Support -->
-    <string name="efan_support">support@efansoftware.com</string>
-    <string name="efan_logo">eFANsoft (Vancouver)</string>
-    <string name="efan_copy_right">Contents come from internet (including WHO), for education / reference only, no commercial usage please. \t (2009)</string>
+    <string name="efan_support">Support: Ask EFAN Question: http://code.google.com/p/adora4acupuncture/issues/entry</string>
+    <string name="efan_logo">EFANSOFTWARE(2009~~2010)</string>
+    <string name="efan_copy_right">http://www.apache.org/licenses/LICENSE-2.0</string>
 </resources>

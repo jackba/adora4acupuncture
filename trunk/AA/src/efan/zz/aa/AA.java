@@ -13,8 +13,9 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package efan.zz.aa.android;
+package efan.zz.aa;
 
+import efan.zz.aa.android.DbHelper;
 import android.app.Application;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -41,7 +42,7 @@ public class AA extends Application
     catch (Throwable e)
     {
       Log.e(this.getClass().getName(), "", e);
-      try { Thread.sleep(3600000);} catch (InterruptedException e1){}
+      throw new RuntimeException(e);
     }
   }
   

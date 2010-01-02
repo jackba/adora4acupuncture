@@ -16,7 +16,7 @@
 
 package efan.zz.aa.android.activity;
 
-import efan.zz.aa.android.R;
+import efan.zz.aa.R;
 import efan.zz.aa.android.util.AAUtil;
 
 import android.app.Activity;

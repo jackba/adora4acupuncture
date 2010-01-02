@@ -15,7 +15,7 @@
  */
 package efan.zz.aa.android.customize;
 
-import efan.zz.aa.android.R;
+import efan.zz.aa.R;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;

@@ -29,8 +29,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
-import efan.zz.aa.android.AA;
-import efan.zz.aa.android.R;
+import efan.zz.aa.AA;
+import efan.zz.aa.R;
 import efan.zz.aa.android.util.AAUtil;
 
 public class AcupointDetail extends TabActivity
@@ -102,8 +102,8 @@ public class AcupointDetail extends TabActivity
     // Apply DB data to view
     ImageView imgView = (ImageView) findViewById(R.id.acupoint_image_tab_view);
     ImageView imgViewChannel = (ImageView) findViewById(R.id.acupoint_image_tab_view_channel);
-    int drawableId = getResources().getIdentifier(imgFileId, "drawable", "efan.zz.aa.android");
-    int drawableIdChannel = getResources().getIdentifier(imgFileIdChannel, "drawable", "efan.zz.aa.android");
+    int drawableId = getResources().getIdentifier(imgFileId, "drawable", "efan.zz.aa");
+    int drawableIdChannel = getResources().getIdentifier(imgFileIdChannel, "drawable", "efan.zz.aa");
     imgView.setImageResource(drawableId);
     imgViewChannel.setImageResource(drawableIdChannel);
     
