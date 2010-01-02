@@ -15,8 +15,8 @@
  */
 package efan.zz.aa.android.activity;
 
-import efan.zz.aa.android.AA;
-import efan.zz.aa.android.R;
+import efan.zz.aa.AA;
+import efan.zz.aa.R;
 import efan.zz.aa.android.customize.GlobalImageAdapter;
 import efan.zz.aa.android.util.AAUtil;
 import android.app.Activity;

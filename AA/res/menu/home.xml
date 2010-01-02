@@ -30,4 +30,6 @@
     <item android:id="@+id/menu_item_chinese_version"
         android:title="@string/menu_item_chinese_version" />
 
+    <item android:id="@+id/menu_item_about"
+        android:title="About" />
 </menu>

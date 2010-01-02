@@ -20,7 +20,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
-import efan.zz.aa.android.AA;
+import efan.zz.aa.AA;
 import efan.zz.aa.android.activity.WelcomeAA;
 
 public class AAUtil
@@ -71,9 +71,27 @@ public class AAUtil
   public static void youngGirlWarning(String msg)
   {
     if (msg == null)
-      msg = "Hi, I am still growing! Try me later. Sorry lah...";
-    Toast t = Toast.makeText(AA.ctx, msg, Toast.LENGTH_LONG);
-    t.show();
+      msg = "Sorry but not support yet.";
+    toastMessage(msg, true);
   }
 
+  public static void toastMessage(String msg, boolean wannaShowLong)
+  {
+    int length = Toast.LENGTH_SHORT;
+    if (wannaShowLong)
+      length = Toast.LENGTH_LONG;
+    
+    Toast t = Toast.makeText(AA.ctx, msg, length);
+    t.show();
+  }
+  
+  // http://developer.android.com/guide/publishing/publishing.html#marketintent
+  public static void searchMarket(Activity caller, String paramtype, String value)
+  {
+    Uri uri = Uri.parse("market://search?q=" + paramtype + ":" + value);
+    Intent intent = new Intent();
+    intent.setData(uri);
+    intent.setAction(Intent.ACTION_VIEW);
+    caller.startActivity(intent);
+  }
 }

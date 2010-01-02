@@ -23,7 +23,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import efan.zz.aa.android.R;
+import efan.zz.aa.R;
 import efan.zz.aa.android.util.AAUtil;
 
 public class AcuMapper extends Activity
