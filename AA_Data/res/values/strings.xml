@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adora AA Data</string>
+
+    <string name="progress_msg">Please wait while installing AA data 1.1.0 to SD card ...</string>
+    <string name="finished_msg">Andora AA Data 1.1.0 installed successfully. You can uninstall the data app to save device space any time.</string>
+
+    <string name="btn_label0">Start AA</string>
+    <string name="btn_label1">Go Install AA</string>
+</resources>
