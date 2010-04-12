@@ -40,12 +40,12 @@ public class GlobalGallery extends Activity
 {
   private Integer[] mImageIds = 
   { 
-      R.drawable.global1_woman_front,
-      R.drawable.global2_woman_back, 
-      R.drawable.global3_woman_side,
-      R.drawable.global4_man_front,
-      R.drawable.global5_man_back,
-      R.drawable.global6_man_side
+//      R.drawable.global1_woman_front,
+//      R.drawable.global2_woman_back, 
+//      R.drawable.global3_woman_side,
+//      R.drawable.global4_man_front,
+//      R.drawable.global5_man_back,
+//      R.drawable.global6_man_side
   };
   
   private Bitmap[] drawableImg = new Bitmap[mImageIds.length];

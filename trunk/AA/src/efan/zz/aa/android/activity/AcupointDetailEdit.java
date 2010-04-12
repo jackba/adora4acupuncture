@@ -174,10 +174,6 @@ public class AcupointDetailEdit extends Activity
       AAUtil.goHome(this);
       break;
       
-    case R.id.menu_item_full_picture:
-      AAUtil.showActivity(null, AcupointDetailEdit.this, GlobalGallery.class);
-      break;
-    
     case R.id.menu_item_relax:
       AAUtil.showActivity(null, AcupointDetailEdit.this, RestGallery.class);
       break;

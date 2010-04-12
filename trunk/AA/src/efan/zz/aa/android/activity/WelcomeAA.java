@@ -129,10 +129,6 @@ public class WelcomeAA extends Activity
   {
     switch (item.getItemId())
     {
-    case R.id.menu_item_full_picture:
-      AAUtil.showActivity(null, WelcomeAA.this, GlobalGallery.class);
-      break;
-
 //    case R.id.menu_item_patient:
 //      AAUtil.youngGirlWarning("Sorry, Patient is planned for v2.");
 //      break;
@@ -141,10 +137,6 @@ public class WelcomeAA extends Activity
 //      AAUtil.youngGirlWarning("Sorry, Statistics is planned for v2.");
 //      break;
       
-    case R.id.menu_item_chinese_version:
-      AAUtil.youngGirlWarning("待需求!");
-      break;
-    
     case R.id.menu_item_about:
       showAbout();
       break;

@@ -16,19 +16,16 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/menu_item_full_picture"
-        android:title="@string/menu_item_full_picture" />
-
     <!--  
     <item android:id="@+id/menu_item_patient"
         android:title="@string/menu_item_patient" />
 
     <item android:id="@+id/menu_item_statistics"
         android:title="@string/menu_item_statistics" />
-    -->
 
     <item android:id="@+id/menu_item_chinese_version"
         android:title="@string/menu_item_chinese_version" />
+    -->
 
     <item android:id="@+id/menu_item_about"
         android:title="About" />
