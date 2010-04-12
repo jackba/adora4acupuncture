@@ -21,15 +21,12 @@
     <!-- Menus -->    
     <string name="menu_item_home">Home</string>
     <string name="menu_item_acupoint">Acupoint</string>
-    <string name="menu_item_full_picture">Wallchart</string>
     <string name="menu_item_relax">Relax</string>
     <string name="menu_item_credits">Credits</string>
     <!-- TODO: Advanced features -->
     <string name="menu_item_patient">Patient</string>
     <string name="menu_item_statistics">Statistics</string>
     <string name="menu_item_full_web">AcuMapper</string> 
-    <string name="menu_item_web_links">Web Links</string>
-    <string name="menu_item_chinese_version">源中文版</string>
     
     
     <!-- Acupoint Query -->

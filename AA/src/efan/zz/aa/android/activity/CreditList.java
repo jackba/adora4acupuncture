@@ -70,10 +70,6 @@ public class CreditList extends Activity
       AAUtil.goHome(this);
       break;
       
-    case R.id.menu_item_full_picture:
-      AAUtil.showActivity(null, CreditList.this, GlobalGallery.class);
-      break;
-      
     case R.id.menu_item_relax:
       AAUtil.showActivity(null, CreditList.this, RestGallery.class);
       break;

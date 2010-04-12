@@ -80,10 +80,6 @@ public class AcuMapper extends Activity
       AAUtil.showActivity(null, AcuMapper.this, RestGallery.class);
       break;
     
-    case R.id.menu_item_web_links:
-      AAUtil.showActivity(null, AcuMapper.this, WebLinks.class);
-      break;
-    
     default:
       AAUtil.youngGirlWarning(null);
       break;

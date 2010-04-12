@@ -82,10 +82,6 @@ public class RestGallery extends Activity
       AAUtil.goHome(this);
       break;
       
-    case R.id.menu_item_full_picture:
-      AAUtil.showActivity(null, RestGallery.this, GlobalGallery.class);
-      break;
-      
     case R.id.menu_item_credits:
       AAUtil.showActivity(null, RestGallery.this, CreditList.class);
       break;

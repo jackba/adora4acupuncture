@@ -21,6 +21,7 @@ import android.database.Cursor;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -35,6 +36,9 @@ import efan.zz.aa.android.util.AAUtil;
 
 public class AcupointDetail extends TabActivity
 {
+  private static final String   DATA_DRAWABLE_DIR = 
+    Environment.getExternalStorageDirectory().getAbsolutePath() + "/data/efan.zz/aa/data/drawable/";
+
   private String acupointId;
   
   private TabHost mTabHost;
@@ -102,10 +106,10 @@ public class AcupointDetail extends TabActivity
     // Apply DB data to view
     ImageView imgView = (ImageView) findViewById(R.id.acupoint_image_tab_view);
     ImageView imgViewChannel = (ImageView) findViewById(R.id.acupoint_image_tab_view_channel);
-    int drawableId = getResources().getIdentifier(imgFileId, "drawable", "efan.zz.aa");
-    int drawableIdChannel = getResources().getIdentifier(imgFileIdChannel, "drawable", "efan.zz.aa");
-    imgView.setImageResource(drawableId);
-    imgViewChannel.setImageResource(drawableIdChannel);
+    Drawable d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileId + ".jpg");
+    imgView.setImageDrawable(d);
+    d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileIdChannel);
+    imgViewChannel.setImageDrawable(d);
     
     final TextView nameView = (TextView) findViewById(R.id.acupoint_name);
     nameView.setText(code + ": " + name + " = " + cnName);
@@ -153,10 +157,6 @@ public class AcupointDetail extends TabActivity
       AAUtil.goHome(this);
       break;
       
-    case R.id.menu_item_full_picture:
-      AAUtil.showActivity(null, AcupointDetail.this, GlobalGallery.class);
-      break;
-    
     case R.id.menu_item_relax:
       AAUtil.showActivity(null, AcupointDetail.this, RestGallery.class);
       break;

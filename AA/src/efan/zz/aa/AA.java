@@ -32,6 +32,8 @@ public class AA extends Application
   @Override
   public void onCreate()
   {
+    super.onCreate();
+    
     try
     {
       // Initialize db instance. Create the db at the first time
