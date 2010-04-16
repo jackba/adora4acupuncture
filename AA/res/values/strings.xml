@@ -43,6 +43,7 @@
     <string name="acupoint_detail_tab_img_indicator">Point</string>
     <string name="acupoint_detail_tab_img_indicator_channel">Meridian</string>
 
+    <string name="notes_title_alias">[Alias]: </string>
 
     <!-- Acupoint Detail Edit -->
     <string name="acupoint_detail_edit_confirm_update">Confirm Save?</string>

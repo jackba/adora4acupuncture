@@ -116,7 +116,7 @@ public class AcupointDetail extends TabActivity
 
     final TextView descView = (TextView) findViewById(R.id.acupoint_desc);
     /// descView.setText("Alias: " + alias + "\n\n" + desc.replace("\\n", "\n "));
-    descView.setText("[Alias]: " + alias + "\n\n" + desc);
+    descView.setText(getResources().getString(R.string.notes_title_alias) + alias + "\n\n" + desc);
     
     editAcupointAction();
   }
