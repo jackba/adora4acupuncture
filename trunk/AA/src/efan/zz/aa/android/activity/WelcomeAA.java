@@ -15,11 +15,13 @@
  */
 package efan.zz.aa.android.activity;
 
+import java.io.File;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.util.Log;
+import android.os.Environment;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -31,9 +33,9 @@ import android.widget.Spinner;
 import android.widget.AdapterView.OnItemSelectedListener;
 import efan.zz.aa.AA;
 import efan.zz.aa.R;
-import efan.zz.customize.IdentifiedString;
 import efan.zz.aa.android.customize.IdentifiedStringAdapter;
 import efan.zz.aa.android.util.AAUtil;
+import efan.zz.customize.IdentifiedString;
 
 public class WelcomeAA extends Activity
 {
@@ -44,13 +46,18 @@ public class WelcomeAA extends Activity
   {
     super.onCreate(savedInstanceState);
 
-    setContentView(R.layout.welcome_aa);
-
-    init();
+    if (isDataInstalled())
+    {
+      init();
+    }
+    else
+      promptInstallAAData();
   }
 
   private void init()
   {
+    setContentView(R.layout.welcome_aa);
+
     final IdentifiedStringAdapter channelAdapter = new IdentifiedStringAdapter(AA.ctx,
             android.R.layout.simple_spinner_item);
     String sql = getResources().getString(R.string.SQL_LOAD_MERIDIAN_CHANNEL_FOR_ADAPTER);
@@ -106,7 +113,8 @@ public class WelcomeAA extends Activity
     {
       public void onClick(View v)
       {
-        selectedAcupointAdapter = allAcupointAdapter;
+        if (selectedAcupointAdapter == null)
+          selectedAcupointAdapter = allAcupointAdapter;
         acupointText.setText("");
         acupointText.setAdapter(selectedAcupointAdapter);
         acupointText.showDropDown();
@@ -177,4 +185,37 @@ public class WelcomeAA extends Activity
     pop.setCanceledOnTouchOutside(true);
     pop.show();
   }
+
+
+  private boolean isDataInstalled()
+  {
+    File dataDir = Environment.getExternalStorageDirectory();
+    dataDir = new File(dataDir, DATA_DIR_BASE);
+    if (dataDir.exists())
+      return true;       // Data installed. Perfect!
+    else
+    return false;
+  }
+
+  private void promptInstallAAData()
+  {
+    StringBuilder msg = new StringBuilder();
+    msg.append(getResources().getText(R.string.prompt_install_aa_data)).append("\n");
+    AlertDialog dialog = new AlertDialog.Builder(this).create();
+    dialog.setMessage(msg);
+    String btnLabel = getResources().getString(R.string.btn_label_install_aa_data);
+    dialog.setButton(DialogInterface.BUTTON_POSITIVE, btnLabel, 
+      new DialogInterface.OnClickListener()
+      {
+        public void onClick(DialogInterface dialog, int which)
+        {
+          AAUtil.searchMarket(WelcomeAA.this, "pub", "efansoftware");
+        }
+      });
+    dialog.setCancelable(false);
+    dialog.setCanceledOnTouchOutside(false);
+    dialog.show();
+  }
+
+  private static final String   DATA_DIR_BASE = "data/efan.zz/aa/data/";
 }

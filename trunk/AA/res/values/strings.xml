@@ -87,6 +87,14 @@
     <string name="alert_dialog_cancel">Not Sure</string>
 
 
+    <!-- Others -->
+    <string name="prompt_install_aa_data">
+        Please install [Adora AA Data] application first so that I can serve you with required data.
+	    (To save main device space, version 1.1.0 and above is designed as data seperated in the data application.) 
+    </string>
+    <string name="btn_label_install_aa_data">Go Install AA Data</string>
+    
+    
     <!-- Support -->
     <string name="efan_support">Support: Ask EFAN Question: http://code.google.com/p/adora4acupuncture/issues/entry</string>
     <string name="efan_logo">EFANSOFTWARE(2009~~2010)</string>

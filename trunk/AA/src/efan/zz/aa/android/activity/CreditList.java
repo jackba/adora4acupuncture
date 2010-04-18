@@ -42,9 +42,10 @@ public class CreditList extends Activity
   private String[] mStrings = 
   { 
           "WHO.ORG", 
+          "中医e百 TCM100.COM",
           "ACUPUNCTURE.COM", 
           "TCMADVISORY.COM", 
-          "TCM888.COM/tupu/jingluo/",
+          // "TCM888.COM/tupu/jingluo/",
           "ROOTDOWN.US : AcuMapper",
 
           "images.google.com" 

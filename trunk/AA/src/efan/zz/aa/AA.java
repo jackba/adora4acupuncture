@@ -15,11 +15,11 @@
  */
 package efan.zz.aa;
 
-import efan.zz.aa.android.DbHelper;
 import android.app.Application;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
+import efan.zz.aa.android.DbHelper;
 
 public class AA extends Application
 {
@@ -63,4 +63,5 @@ public class AA extends Application
     
     ctx = null;
   }
+  
 }
