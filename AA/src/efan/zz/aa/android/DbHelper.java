@@ -24,12 +24,11 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-
 import efan.zz.aa.R;
 
 public class DbHelper extends SQLiteOpenHelper
 {
-  private static final String VERSION = "0.01";
+  private static final String VERSION = "0.11";
   private static final int DB_VERSION = (int) (Float.parseFloat(VERSION)*100);
   private static final String DB_PATH = "AA.db";
   
@@ -106,6 +105,26 @@ public class DbHelper extends SQLiteOpenHelper
   @Override
   public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
   {
-    /*** NO upgrade before 1.0.0 ***/
+    updateDb(db, oldVersion, newVersion);
   }
+  
+  private void updateDb(SQLiteDatabase db, int oldVersion, int newVersion)
+  {
+    try
+    {
+      db.beginTransaction();
+      applySQLs(db, R.raw.db_update);
+      db.setTransactionSuccessful();
+    }
+    catch(Exception e)
+    {
+      Log.e(this.getClass().getName(), "", e);
+      throw new RuntimeException("Database update error! Please contact the support or developer.", e);
+    }
+    finally
+    {
+      db.endTransaction();
+    }
+  }
+
 }
