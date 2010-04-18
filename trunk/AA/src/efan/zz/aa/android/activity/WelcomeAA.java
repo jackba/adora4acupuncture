@@ -151,37 +151,28 @@ public class WelcomeAA extends Activity
 
   private void showAbout()
   {
+    String[] aboutMsgs = getResources().getStringArray(R.array.about_msg);
     StringBuilder about = new StringBuilder();
-    about.append("Adora AA=>\nAcupuncture Assistant 1.0.0\n")
-         .append("\n") 
-         .append("【Function】: Quick & easy query from hundreds of acupoints standardized by WHO. \n") 
-         .append("\n") 
-         .append("【Notes】: Contents come from internet (including WHO), for education / reference only, no commercial usage please. \n") 
-         .append("\n") 
-         .append("1/1/2010"); 
+    for (String msg : aboutMsgs)
+      about.append(msg).append("\n");
     final AlertDialog pop = new AlertDialog.Builder(this).create();
     pop.setMessage(about);
-    pop.setButton(DialogInterface.BUTTON_POSITIVE, "Market", new DialogInterface.OnClickListener()
-    {
-      public void onClick(DialogInterface dialog, int which)
-      {
-        try
-        {
-          AAUtil.searchMarket(WelcomeAA.this, "pub", "efansoftware");
-        } catch (Exception e)
-        {
-          Log.w(WelcomeAA.this.getClass().getName(), "", e);
-          AAUtil.toastMessage("Sorry but Market application exception. Please check network or try again later...", true);
-        }
-      }
-    });
-    pop.setButton(DialogInterface.BUTTON_NEGATIVE, "OK", new DialogInterface.OnClickListener()
-    {
-      public void onClick(DialogInterface dialog, int which)
-      {
-        pop.dismiss();
-      }
-    });
+    pop.setButton(DialogInterface.BUTTON_POSITIVE, getResources().getString(R.string.button_market), 
+            new DialogInterface.OnClickListener()
+            {
+              public void onClick(DialogInterface dialog, int which)
+              {
+                  AAUtil.searchMarket(WelcomeAA.this, "pub", "efansoftware");
+              }
+            });
+    pop.setButton(DialogInterface.BUTTON_NEGATIVE, getResources().getString(R.string.button_ok), 
+            new DialogInterface.OnClickListener()
+            {
+              public void onClick(DialogInterface dialog, int which)
+              {
+                pop.dismiss();
+              }
+            });
     pop.setCancelable(true);
     pop.setCanceledOnTouchOutside(true);
     pop.show();

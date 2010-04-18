@@ -411,7 +411,7 @@ Clears Heat, cools Blood, resolves dampness, expels, exterior Wind, regulates Qi
 <<rootdown.us>>
 [Location]: 
 When the elbow is flexed, the point is in the depression at the lateral end of the transverse cubital crease, midway between Chize (LU-5) and the lateral epicondyle of the humerus.'
-union select '2', '23', 'LI12', 'acupoint_li12', '肘髎', 'Zhouliao', 'Elbow bone, Chow-Liao', '<<WHO>>
+union select '2', '23', 'LI12', 'acupoint_li12', '肘豂', 'Zhouliao', 'Elbow bone, Chow-Liao', '<<WHO>>
 Zhou: elbow; liao: foramen.
 The point is at the elbow and close to the foramen.
 
@@ -524,7 +524,7 @@ Benefits throat and voice, relieves cough.
 <<rootdown.us>>
 [Location]: 
 On the lateral side of the neck, level with the tip of Adam`s apple, between the sternal head and the clavicular head of m.'
-union select '2', '30', 'LI19', 'acupoint_li19', '口禾髎', 'Kouheliao', 'Stalk bone', '<<WHO>>
+union select '2', '30', 'LI19', 'acupoint_li19', '口禾豂', 'Kouheliao', 'Stalk bone', '<<WHO>>
 Kou: mouth; he: grain; liao: foramen.
 The grain enters the stomach through the mouth. The point is in the foramen beside the mouth.
 
@@ -591,7 +591,7 @@ Dispels Wind, benefits the eyes, clears Heat.
 <<rootdown.us>>
 [Location]: 
 Directly below the pupil, in the depression at the infraorbital foramen.'
-union select '3', '34', 'ST3', 'acupoint_st3', '巨髎', 'Juliao', 'Big bone', '<<WHO>>
+union select '3', '34', 'ST3', 'acupoint_st3', '巨豂', 'Juliao', 'Big bone', '<<WHO>>
 Ju: huge; liao: foramen.
 The point is in the big foramen at the junction of the superior maxillary bone and the zygomatic bone.
 
@@ -2062,7 +2062,7 @@ Benefits the throat and ears, resolves Damp-Heat and swellings.
 <<rootdown.us>>
 [Location]: 
 Posterior to the angle of mandible, in the depression on the anterior border m. sternocleidomastoideus.'
-union select '6', '124', 'SI18', 'acupoint_si18', '颧髎', 'Quanliao', 'Cheek bone, 顴髎', '<<WHO>>
+union select '6', '124', 'SI18', 'acupoint_si18', '颧豂', 'Quanliao', 'Cheek bone, 顴豂', '<<WHO>>
 Quan: zygoma; liao: foramen.
 The point is on the raphe of the zygomatic bone.
 
@@ -2596,7 +2596,7 @@ Benefits the lower back, regulates menstruation.
 <<rootdown.us>>
 [Location]: 
 1.5 cun lateral to the Governor Vessel, at the level of the fourth posterior sacral foramen.'
-union select '7', '156', 'BL31', 'acupoint_bl31', '上髎', 'Shangliao', 'Superior bone', '<<WHO>>
+union select '7', '156', 'BL31', 'acupoint_bl31', '上豂', 'Shangliao', 'Superior bone', '<<WHO>>
 Shang: upper; liao: foramen.
 This point is at the first dorsal sacral foramen.
 
@@ -2613,7 +2613,7 @@ Regulates the Lower Jiao, regulates menstruation, benefits urination, benefits t
 <<rootdown.us>>
 [Location]: 
 On the sacrum, at the midpoint between the posteriosuperior iliac spine and the posterior midline, just at the first posterior sacral foramen.'
-union select '7', '157', 'BL32', 'acupoint_bl32', '次髎', 'Ciliao', 'Secondary bone', '<<WHO>>
+union select '7', '157', 'BL32', 'acupoint_bl32', '次豂', 'Ciliao', 'Secondary bone', '<<WHO>>
 Ci: second; liao: foramen.
 This point is at the second posterior sacral foramen.
 
@@ -2630,7 +2630,7 @@ Regulates the Lower Jiao, regulates menstruation, benefits urination, benefits t
 <<rootdown.us>>
 [Location]: 
 On the sacrum, medial and inferior to the posteriosuperior iliac spine, just at the second posterior sacral foramen.'
-union select '7', '158', 'BL33', 'acupoint_bl33', '中髎', 'Zhongliao', 'Middle bone', '<<WHO>>
+union select '7', '158', 'BL33', 'acupoint_bl33', '中豂', 'Zhongliao', 'Middle bone', '<<WHO>>
 Zhong: middle; liao: foramen.
 This point is at the third posterior sacral foramen, approximately at the middle part.
 
@@ -2647,7 +2647,7 @@ Regulates the Lower Jiao, regulates menstruation, benefits urination, benefits t
 <<rootdown.us>>
 [Location]: 
 On the sacrum, medial and inferior to Ciliao (BL-32), just at the third posterior sacral foramen.'
-union select '7', '159', 'BL34', 'acupoint_bl34', '下髎', 'Xialiao', 'Inferior bone', '<<WHO>>
+union select '7', '159', 'BL34', 'acupoint_bl34', '下豂', 'Xialiao', 'Inferior bone', '<<WHO>>
 Xia: lower; liao: foramen.
 This point is at the fourth posterior sacral foramen.
 
@@ -4021,7 +4021,7 @@ Activates the meridian, alleviates pain, transforms phlegm.
 <<rootdown.us>>
 [Location]: 
 On the line joining Jianliao (SJ-14) and the olecranon, on the posterior border of m. deltoideus.'
-union select '10', '242', 'TE14', 'acupoint_te14', '肩髎', 'Jianliao', 'Shoulder bone', '<<WHO>>
+union select '10', '242', 'TE14', 'acupoint_te14', '肩豂', 'Jianliao', 'Shoulder bone', '<<WHO>>
 Jian: shoulder; liao: foramen.
 The point is in a foramen on the shoulder.
 
@@ -4036,7 +4036,7 @@ Activates the meridian, alleviates pain, benefits the shoulder, dispels Wind-Dam
 <<rootdown.us>>
 [Location]: 
 On the shoulder, posterior to Jianyu (LI-15), in the depression inferior and posterior to the acromion when the arm is abducted.'
-union select '10', '243', 'TE15', 'acupoint_te15', '天髎', 'Tianliao', 'Celestial bone', '<<WHO>>
+union select '10', '243', 'TE15', 'acupoint_te15', '天豂', 'Tianliao', 'Celestial bone', '<<WHO>>
 Tian: heaven; liao: foramen.
 `Heaven` here means `upper`. The point is in a foramen above the shoulder blade.
 
@@ -4152,7 +4152,7 @@ Benefits the ears, clears Heat, alleviates pain.
 <<rootdown.us>>
 [Location]: 
 In the depression anterior to the supratragic notch and behind the posterior border of the condyloid process of the mandible. The point is located with the mouth open.'
-union select '10', '250', 'TE22', 'acupoint_te22', '耳和髎', 'Erheliao', 'Harmonious bone', '<<WHO>>
+union select '10', '250', 'TE22', 'acupoint_te22', '耳和豂', 'Erheliao', 'Harmonious bone', '<<WHO>>
 Er: ear; he: harmony; liao: foramen.
 This point is in the depression in front of the tragicus and is used to improve the hearing.
 
@@ -4184,7 +4184,7 @@ Dispels Wind, benefits the eyes, alleviates pain.
 <<rootdown.us>>
 [Location]: 
 In the depression at the lateral end of the eyebrow.'
-union select '11', '252', 'GB1', 'acupoint_gb1', '瞳子髎', 'Tongziliao', 'Bone of the pupil', '<<WHO>>
+union select '11', '252', 'GB1', 'acupoint_gb1', '瞳子豂', 'Tongziliao', 'Bone of the pupil', '<<WHO>>
 Tongzi: pupil; liao: foramen. 
 The point is in a foramen lateral to the outer canthus and on a level with the pupil.
 
@@ -4652,7 +4652,7 @@ Regulates the Dai Mai Vessel, regulates the Lower Jiao, resolves Dampness, moves
 <<rootdown.us>>
 [Location]: 
 Anterior and inferior to the anterior superior iliac spine, 0.5 cun anterior and inferior to Wushu (GB-27).'
-union select '11', '280', 'GB29', 'acupoint_gb29', '居髎', 'Juliao', 'Dwelling bone', '<<WHO>>
+union select '11', '280', 'GB29', 'acupoint_gb29', '居豂', 'Juliao', 'Dwelling bone', '<<WHO>>
 Ju: reside; liao: foramen.
 The point is in the depression on the hip-bone.
 
@@ -5567,7 +5567,7 @@ Dispels Wind, opens the nose, calms the Shen.
 <<rootdown.us>>
 [Location]: 
 0.5 cun directly above the midpoint of the anterior hairline.'
-union select '13', '334', 'GV25', 'acupoint_gv25', '素髎', 'Suliao', 'Simple bone', '<<WHO>>
+union select '13', '334', 'GV25', 'acupoint_gv25', '素豂', 'Suliao', 'Simple bone', '<<WHO>>
 Su: nasal cartilage; liao: foramen.
 This point is in a foramen at the lower end of the nasal cartilage.
 

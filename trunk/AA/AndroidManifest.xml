@@ -31,7 +31,9 @@
                 <category android:name="android.intent.category.PREFERENCE" />
             </intent-filter>
         </activity>
-        <activity android:name=".android.activity.AcupointDetailEdit">
+        <activity android:name=".android.activity.AcupointDetailEdit"
+            android:windowSoftInputMode="stateHidden"
+        >
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
                 <category android:name="android.intent.category.PREFERENCE" />

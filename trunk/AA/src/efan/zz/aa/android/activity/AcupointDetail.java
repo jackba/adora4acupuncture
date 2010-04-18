@@ -108,7 +108,7 @@ public class AcupointDetail extends TabActivity
     ImageView imgViewChannel = (ImageView) findViewById(R.id.acupoint_image_tab_view_channel);
     Drawable d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileId + ".jpg");
     imgView.setImageDrawable(d);
-    d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileIdChannel);
+    d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileIdChannel + ".jpg");
     imgViewChannel.setImageDrawable(d);
     
     final TextView nameView = (TextView) findViewById(R.id.acupoint_name);
