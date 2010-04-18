@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Adora AA 针灸助理数据</string>
+    <string name="app_name">愛心神針AA 數據</string>
 
-    <string name="progress_msg">AA数据 1.1.0 正安装到SD存储卡上, 请稍候...</string>
-    <string name="finished_msg">AA数据1.1.0 已成功安装到SD存储卡上. 你可以卸载此数据应用以节省主设备空间.</string>
+    <string name="progress_msg">AA 數據 1.1.0 正安裝到SD存儲卡上, 請稍候...</string>
+    <string name="finished_msg">AA 數據 1.1.0 已成功安裝到SD存儲卡上. 你可以卸載此數據應用軟件以節省主設備空間.</string>
 
-    <string name="btn_label0">启动 AA</string>
-    <string name="btn_label1">去安装 AA</string>
+    <string name="btn_label0">啟動 AA</string>
+    <string name="btn_label1">去安裝 AA</string>
 </resources>
