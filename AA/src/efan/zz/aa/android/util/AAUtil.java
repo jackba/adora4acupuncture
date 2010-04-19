@@ -15,6 +15,8 @@
  */
 package efan.zz.aa.android.util;
 
+import java.util.Locale;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -25,6 +27,11 @@ import efan.zz.aa.android.activity.WelcomeAA;
 
 public class AAUtil
 {
+  public static boolean isChinese()
+  {
+    return Locale.getDefault().getLanguage().startsWith(Locale.CHINESE.getLanguage());
+  }
+  
   public static void doWait(Object syncObj)
   {
     synchronized(syncObj)

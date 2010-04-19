@@ -90,8 +90,11 @@ public class AcupointDetail extends TabActivity
       cnName = cursor.getString(2);
       code = cursor.getString(3);
       alias = cursor.getString(4);
-      desc = cursor.getString(5);
-      imgFileIdChannel = cursor.getString(6);
+      imgFileIdChannel = cursor.getString(5);
+      int descIdx = 6;
+      if (AAUtil.isChinese())
+        descIdx = 7;
+      desc = cursor.getString(descIdx);
       
       if (imgFileId == null)
         imgFileId = "";
