@@ -18,6 +18,7 @@ create table ACUPOINT
 	ALIAS		    text,
     PICTURE         text,
     DESCRIPTION     text,
+    DESCRIPTION_ZH  text,
 	CHANNEL_ID      integer
 	                references MERIDIAN_CHANNEL(PK_ID) on delete restrict
 );

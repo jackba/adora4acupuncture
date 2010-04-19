@@ -113,7 +113,15 @@ public class DbHelper extends SQLiteOpenHelper
     try
     {
       db.beginTransaction();
-      applySQLs(db, R.raw.db_update);
+      
+      switch(oldVersion)
+      {
+      case 1:   // 1.0
+        applySQLs(db, R.raw.db_update_1_1_0);
+      case 110: // 1.1.0*100
+        // TODO
+      }
+      
       db.setTransactionSuccessful();
     }
     catch(Exception e)

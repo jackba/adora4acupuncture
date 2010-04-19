@@ -15,6 +15,8 @@
  */
 package efan.zz.aa.android.activity;
 
+import java.util.Locale;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentValues;
@@ -77,7 +79,10 @@ public class AcupointDetailEdit extends Activity
       name = cursor.getString(1);
       cnName = cursor.getString(2);
       code = cursor.getString(3);
-      desc = cursor.getString(5);
+      int descIdx = 6;
+      if (AAUtil.isChinese())
+        descIdx = 7;
+      desc = cursor.getString(descIdx);
     }
     finally
     {
@@ -143,7 +148,10 @@ public class AcupointDetailEdit extends Activity
       final String desc = descView.getText().toString().trim();
       
       ContentValues recipeValues = new ContentValues();
-      recipeValues.put("DESCRIPTION", desc);
+      if (AAUtil.isChinese())
+        recipeValues.put("DESCRIPTION_ZH", desc);
+      else
+        recipeValues.put("DESCRIPTION", desc);
       AA.db.update("ACUPOINT", recipeValues, "PK_ID=?", new String[]{acupointId0});
       
       AA.db.setTransactionSuccessful();
