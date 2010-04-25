@@ -90,7 +90,7 @@
     <!-- Others -->
     <string name="prompt_install_aa_data">
         Please install [Adora AA Data] application first so that I can serve you with required data.
-	    (To save main device space, version 1.1.0 and above is designed as data seperated in the data application.) 
+	    (To save main device space, version 1.1.0 and above is designed as data seperated to the data application.) 
     </string>
     <string name="btn_label_install_aa_data">Go Install AA Data</string>
     

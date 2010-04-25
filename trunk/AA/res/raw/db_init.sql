@@ -5084,7 +5084,7 @@ On the lateral side of the ring finger, about 0.1 cun from the corner of the nai
 [操作]  浅刺0.1寸，或有三棱针点刺出血。
 [配伍]  配内关、人中治中暑、昏厥。
 [附注]  手少阳经所出为“井”。'
-union select '10', '221', 'TE2', 'acupoint_te2', '液门', 'Yemen', 'Secretion door, 液門', '<<WHO>>
+union select '10', '230', 'TE2', 'acupoint_te2', '液门', 'Yemen', 'Secretion door, 液門', '<<WHO>>
 Ye: water; men: door.
 This is a Ying-spring point of this meridian, pertaining to water. It has a function of regulating the passage of water like a door for entry and exit of water.
 
