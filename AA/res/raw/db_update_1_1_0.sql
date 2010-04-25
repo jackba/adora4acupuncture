@@ -4,7 +4,7 @@ update ACUPOINT set ALIAS = replace(ALIAS, '髎', '豂') where ALIAS like '%髎%
 update ACUPOINT set CHINESE_NAME = '胃俞' where CHINESE_NAME = '喂俞';
 
 ------------------------------------------------------------------------------
-alert table ACUPOINT add column DESCRIPTION_ZH  text;
+alter table ACUPOINT add column DESCRIPTION_ZH  text;
 update ACUPOINT set DESCRIPTION_ZH = '<<针灸学>>@TCM100.COM: 
 [定位]  胸前壁外上方，前正中线旁开6寸，平第一肋间隙处。
 [解剖]  当胸大肌、胸小肌处，内侧深层为第一肋间内、外肌；上外侧有腋动、静脉，胸肩峰动、静脉；布有锁骨上神经中间支，胸前神经分支及第一肋间神经外侧皮支。

@@ -12,9 +12,7 @@
 
     <application android:name="AA" 
                  android:icon="@drawable/aa_icon" 
-                 android:label="@string/app_name"
-                 android:debuggable="true"
-    >
+                 android:label="@string/app_name" android:debuggable="false">
                  
         <activity android:name=".android.activity.WelcomeAA"
             android:windowSoftInputMode="stateHidden"
