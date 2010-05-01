@@ -38,7 +38,8 @@ public class AADataProcess extends Activity
 {
   private static final String   DATA_DIR_BASE = "data/efan.zz/aa/data/";
   private static final String[] DATA_DIRS     = { "drawable" };
-  
+  private static final String   DATA_VERSION_FILE = "AADATAVERSION";
+
   private static final String   PROGRESS_KEY = "progress";
   private static final String   PROGRESS_MAX_KEY = "MAX";
 
@@ -156,10 +157,15 @@ public class AADataProcess extends Activity
 
       try
       {
+        // Create data directory
         File dataDirBase = Environment.getExternalStorageDirectory();
         dataDirBase = new File(dataDirBase, DATA_DIR_BASE);
         dataDirBase.mkdirs();
 
+        // Copy version file first
+        copyFileToSD(DATA_VERSION_FILE);
+
+        // Copy data files
         for (int i = 0; i < DATA_DIRS.length; i++)
         {
           new File(dataDirBase, DATA_DIRS[i]).mkdir();
