@@ -190,7 +190,7 @@ public class WelcomeAA extends Activity
   private boolean isDataInstalled()
   {
     File dataDir = Environment.getExternalStorageDirectory();
-    dataDir = new File(dataDir, DATA_DIR_BASE);
+    dataDir = new File(dataDir, AA_DATA_DIR);
     if (dataDir.exists())
       return true;       // Data installed. Perfect!
     else
@@ -217,5 +217,5 @@ public class WelcomeAA extends Activity
     dialog.show();
   }
 
-  private static final String   DATA_DIR_BASE = "data/efan.zz/aa/data/";
+  private static final String   AA_DATA_DIR = "data/efan.zz/aa/data/drawable";
 }

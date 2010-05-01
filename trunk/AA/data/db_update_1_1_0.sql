@@ -3,5 +3,7 @@ update ACUPOINT set ALIAS = replace(ALIAS, '髎', '豂') where ALIAS like '%髎%
 
 update ACUPOINT set CHINESE_NAME = '胃俞' where CHINESE_NAME = '喂俞';
 
+update ACUPOINT set ORDER_NUM = '230' where CODE = 'TE2';
+
 ------------------------------------------------------------------------------
 alter table ACUPOINT add column DESCRIPTION_ZH  text;
