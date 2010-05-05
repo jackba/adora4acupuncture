@@ -207,7 +207,11 @@ public class AADataProcess extends Activity
     private void copyFileToSD(String srcFile) throws IOException
     {
       BufferedInputStream input = new BufferedInputStream(getResources().getAssets().open(srcFile), BUF_SIZE);
+
       String destFile = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + DATA_DIR_BASE + srcFile;
+      int n = destFile.indexOf(".", destFile.lastIndexOf("/"));
+      n = (n > 0) ? n : destFile.length();
+      destFile = destFile.substring(0, n);     // Tricky to hide the image files from Gallery app.
       BufferedOutputStream output = new BufferedOutputStream(new FileOutputStream(new File(destFile)), BUF_SIZE);
       try
       {
