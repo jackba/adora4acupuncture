@@ -18,6 +18,7 @@ package efan.zz.aa.android.activity;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -109,10 +110,12 @@ public class AcupointDetail extends TabActivity
     // Apply DB data to view
     ImageView imgView = (ImageView) findViewById(R.id.acupoint_image_tab_view);
     ImageView imgViewChannel = (ImageView) findViewById(R.id.acupoint_image_tab_view_channel);
-    Drawable d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileId + ".jpg");
-    imgView.setImageDrawable(d);
-    d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileIdChannel + ".jpg");
-    imgViewChannel.setImageDrawable(d);
+    // Drawable d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileId + ".jpg");
+    BitmapDrawable d = new BitmapDrawable(DATA_DRAWABLE_DIR + imgFileId);   // Tricky to hide the image files from Gallery app.
+    imgView.setImageBitmap(d.getBitmap());
+    // d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileIdChannel + ".jpg");
+    d = new BitmapDrawable(DATA_DRAWABLE_DIR + imgFileIdChannel);           // Tricky to hide the image files from Gallery app.
+    imgViewChannel.setImageBitmap(d.getBitmap());
     
     final TextView nameView = (TextView) findViewById(R.id.acupoint_name);
     nameView.setText(code + ": " + name + " = " + cnName);
