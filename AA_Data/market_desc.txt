@@ -1,2 +1,10 @@
-This is the seperated Data application for Adora AA==> Acupuncture Assistant application. It will install the massive data to SD card and itself can be uninstalled to save main device space.
-IMPORTANT: Open to run it after download & installation! Otherwise the data won't be ready.
+### RECOMMEND DOWNLOAD BY WiFi ###
+
+Separated Data app for Adora AA so to save main device space.
+
+IMPORTANT: Open to run it to install data after downloaded & installed the app!
+
+1.1.1: Auto check SD card status before installing data. 
+No need update if 1.1.0 works for you.
+
+[efan]

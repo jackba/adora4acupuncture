@@ -32,11 +32,12 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.widget.Toast;
 import efan.zz.aa.data.R;
 
 public class AADataProcess extends Activity
 {
-  private static final String   DATA_DIR_BASE = "data/efan.zz/aa/data/";
+  private static final String   DATA_DIR_BASE = "/data/efan.zz/aa/data/";
   private static final String[] DATA_DIRS     = { "drawable" };
   private static final String   DATA_VERSION_FILE = "AADATAVERSION";
 
@@ -53,7 +54,38 @@ public class AADataProcess extends Activity
   {
     super.onCreate(savedInstanceState);
 
+    if (! isExternalStorageReady())
+    {
+      StringBuilder errMsg = new StringBuilder();
+      errMsg.append(getResources().getText(R.string.err_external_storage)).append("\n");
+      AlertDialog errDialog = new AlertDialog.Builder(this).create();
+      errDialog.setMessage(errMsg);
+      String btnLabel = getResources().getString(R.string.btn_label_Confirm);
+      errDialog.setButton(DialogInterface.BUTTON_POSITIVE, btnLabel, 
+        new DialogInterface.OnClickListener()
+        {
+          public void onClick(DialogInterface dialog, int which)
+          {
+            dialog.dismiss();
+            AADataProcess.this.finish();
+          }
+        });
+      errDialog.setCancelable(false);
+      errDialog.setCanceledOnTouchOutside(false);
+      errDialog.show();
+      
+      return;
+    }
+    
     init();
+  }
+  
+  boolean isExternalStorageReady()
+  {
+    if ( Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState()) )
+      return true;
+    else
+      return false;
   }
 
   void init()
