@@ -2,9 +2,14 @@
 <resources>
     <string name="app_name">愛心神針AA 數據</string>
 
-    <string name="progress_msg">AA 數據 1.1.0 正安裝到SD存儲卡上, 請稍候...</string>
-    <string name="finished_msg">AA 數據 1.1.0 已成功安裝到SD存儲卡上. 你可以卸載此數據應用軟件以節省主設備空間.</string>
+    <string name="progress_msg">AA 數據 1.1.1 正安裝到外圍存儲體(如SD卡)上, 請稍候...</string>
+    <string name="finished_msg">AA 數據 1.1.1 已成功安裝到外圍存儲體(如SD卡)上. 你可以卸載此數據應用軟件以節省主設備空間.</string>
 
     <string name="btn_label0">啟動 AA</string>
     <string name="btn_label1">去安裝 AA</string>
+
+    <string name="btn_label_Confirm">Ok</string>
+
+    <string name="err_external_storage">抱歉但是您的外圍存儲體(如SD卡) 或者未安裝好或者不可寫. 請檢查解決后, 再重新啟動此數據應用程式.</string>
+
 </resources>
