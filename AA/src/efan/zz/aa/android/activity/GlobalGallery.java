@@ -23,6 +23,7 @@ import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -38,14 +39,14 @@ import android.widget.AdapterView.OnItemClickListener;
 
 public class GlobalGallery extends Activity
 {
-  private Integer[] mImageIds = 
+  private String[] mImageIds = 
   { 
-//      R.drawable.global1_woman_front,
-//      R.drawable.global2_woman_back, 
-//      R.drawable.global3_woman_side,
-//      R.drawable.global4_man_front,
-//      R.drawable.global5_man_back,
-//      R.drawable.global6_man_side
+      "global1_woman_front",
+      "global2_woman_back", 
+      "global3_woman_side",
+      "global4_man_front",
+      "global5_man_back",
+      "global6_man_side"
   };
   
   private Bitmap[] drawableImg = new Bitmap[mImageIds.length];
@@ -89,7 +90,7 @@ public class GlobalGallery extends Activity
           drawableImg[selectedPos] = null;
         }
         
-        drawableImg[position] = BitmapFactory.decodeResource(getResources(), mImageIds[position]);
+        drawableImg[position] = new BitmapDrawable(AA.DATA_DRAWABLE_DIR + mImageIds[position]).getBitmap();
         img0.setImageBitmap(drawableImg[position]);
         img.setImageBitmap(drawableImg[position]);
         img.setLongClickable(false);
@@ -139,7 +140,7 @@ public class GlobalGallery extends Activity
     if (selectedPos == -1)
       selectedPos = 0;
     
-    drawableImg[selectedPos] = BitmapFactory.decodeResource(getResources(), mImageIds[selectedPos]);
+    drawableImg[selectedPos] = new BitmapDrawable(AA.DATA_DRAWABLE_DIR + mImageIds[selectedPos]).getBitmap();
     img0.setImageBitmap(drawableImg[selectedPos]);
     img.setImageBitmap(drawableImg[selectedPos]);
   }

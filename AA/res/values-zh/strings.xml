@@ -18,13 +18,13 @@
     <string name="app_name">愛心神針AA => 針灸助理</string>
 
     <array name="about_msg">
-        <item>愛心神針AA => 針灸助理  1.1.0</item>
+        <item>愛心神針AA => 針灸助理  1.1.2</item>
         <item></item>
         <item>【功能】: 輕松快捷地查詢由國際衛生組織WHO所標準化的上百個穴位. 精準定位及實用說明.</item> 
         <item></item>
         <item>【備注】: 內容均來自互聯網(包括WHO), 僅供教育或參考使用.</item>
         <item></item>
-        <item>2010-5-5 (立夏)</item> 
+        <item>2010-6-12 (仲夏五月初一)</item> 
     </array>
 
     <string name="button_market">市場</string>
@@ -36,6 +36,7 @@
     <string name="menu_item_acupoint">穴位</string>
     <string name="menu_item_relax">休閑</string>
     <string name="menu_item_credits">鳴謝</string>
+    <string name="menu_item_wallcharts">掛圖</string>
     <!-- TODO: Advanced features -->
     <string name="menu_item_patient">病歷</string>
     <string name="menu_item_statistics">統計</string>

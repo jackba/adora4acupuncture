@@ -13,7 +13,6 @@ public class AcupointSQLBuilder
   private static final String FILE_NAME = "aa_data";
   private static final String INPUT_FILE = SQLBuilder.DATA_DIR_INPUT + FILE_NAME;
   private static final String OUTPUT_FILE = SQLBuilder.TARGET_FILE;
-  private static final String UPDATE_OUTPUT_FILE = SQLBuilder.TARGET_FILE_UPDATE;
   
   private static final int BASE_COLUMN_NUM = 7;
   private static final int COLUMN_NUM = 11;
@@ -29,7 +28,7 @@ public class AcupointSQLBuilder
   public static void build() throws IOException
   {
     BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(OUTPUT_FILE, true), SQLBuilder.ENCODING));
-    BufferedWriter update_out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(UPDATE_OUTPUT_FILE, true), SQLBuilder.ENCODING));
+    BufferedWriter update_out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(SQLBuilder.TARGET_FILE_UPDATE_ZH_DESC_1_1_0, true), SQLBuilder.ENCODING));
     boolean isFirstRow = true;
     String initSQL = SQL_INIT0;
 

@@ -8,16 +8,14 @@ import java.io.IOException;
 
 public class SQLBuilder
 {
-  public static final String VERSION = "1_1_0";
-  
   public static final String DATA_DIR_BASE = "./data/";
   public static final String DATA_DIR_INPUT = DATA_DIR_BASE + "tmp/";
   public static final String DATA_DIR_OUTPUT = "./res/raw/";
 
   public static final String DATA_FILE_INIT = "db_init.sql";
-  public static final String DATA_FILE_UPDATE = "db_update_" + VERSION + ".sql";
+  public static final String DATA_FILE_UPDATE_ZH_DESC_1_1_0 = "db_update_1_1_0.sql";
   public static final String TARGET_FILE = DATA_DIR_OUTPUT + DATA_FILE_INIT;
-  public static final String TARGET_FILE_UPDATE = DATA_DIR_OUTPUT + DATA_FILE_UPDATE;
+  public static final String TARGET_FILE_UPDATE_ZH_DESC_1_1_0 = DATA_DIR_OUTPUT + DATA_FILE_UPDATE_ZH_DESC_1_1_0;
   
   public static final String DECODING = "UTF-16";
   public static final String ENCODING = "UTF-8";
@@ -25,7 +23,7 @@ public class SQLBuilder
   public static void main(String[] args) throws IOException
   {
     copy(DATA_DIR_BASE + DATA_FILE_INIT, TARGET_FILE);
-    copy(DATA_DIR_BASE + DATA_FILE_UPDATE, TARGET_FILE_UPDATE);
+    copy(DATA_DIR_BASE + DATA_FILE_UPDATE_ZH_DESC_1_1_0, TARGET_FILE_UPDATE_ZH_DESC_1_1_0);
 
     AcupointSQLBuilder.build();
   }
