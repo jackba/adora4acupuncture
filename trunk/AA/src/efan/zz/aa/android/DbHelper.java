@@ -28,8 +28,8 @@ import efan.zz.aa.R;
 
 public class DbHelper extends SQLiteOpenHelper
 {
-  private static final String VERSION = "0.11";
-  private static final int DB_VERSION = (int) (Float.parseFloat(VERSION)*100);
+  private static final float VERSION = 1.12f;
+  private static final int DB_VERSION = (int) (VERSION*100);
   private static final String DB_PATH = "AA.db";
   
   private static DbHelper dbHelper;
@@ -118,7 +118,9 @@ public class DbHelper extends SQLiteOpenHelper
       {
       case 1:   // 1.0
         applySQLs(db, R.raw.db_update_1_1_0);
-      case 110: // 1.1.0*100
+      case 11:  // 0.11*100
+        applySQLs(db, R.raw.db_update_1_1_2);
+      case 112: // 1.12*100
         // TODO
       }
       

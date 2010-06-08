@@ -18,11 +18,15 @@ package efan.zz.aa;
 import android.app.Application;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Environment;
 import android.util.Log;
 import efan.zz.aa.android.DbHelper;
 
 public class AA extends Application
 {
+  public static final String   DATA_DRAWABLE_DIR = 
+    Environment.getExternalStorageDirectory().getAbsolutePath() + "/data/efan.zz/aa/data/drawable/";
+
   public static SQLiteDatabase db;
   public static DbHelper dbHelper;
   

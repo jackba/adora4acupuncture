@@ -7464,7 +7464,7 @@ At the junction of the upper third and middle third of the philtrum.', '<<针灸
 [操作]  向上斜刺0.3~0.5寸，不灸。
 [配伍]  配百会、十宣、涌泉治昏迷急救。中暑加委中、尺泽，溺水窒息加会阴，癫狂加内关，癔病发作加合谷透劳宫；配上星、风府治鼻流清涕；配委中（泻法） 治急性腰扭伤；配三阴交、血海治月经不调、崩漏。
 [附注]  督脉与手足阳明经交会穴。'
-union select '13', '336', 'GV27', 'acupoint_GV27', '兑端', 'Duiduan', 'Exchange extreme', '<<WHO>>
+union select '13', '336', 'GV27', 'acupoint_gv27', '兑端', 'Duiduan', 'Exchange extreme', '<<WHO>>
 Dui: mouth; duan: tip.
 This point is at the tip of the upper lip.
 
@@ -7761,7 +7761,7 @@ On the anterior midline, 3 cun above the umbilicus.', '<<针灸学>>@TCM100.COM:
 [主治]  胃脘疼痛，腹胀，呕吐，食欲不振，水肿。
 [操作]  直刺0.5~2寸。
 [配伍]  配内关治胸中苦闷；配水分治肚腹浮肿。'
-union select '14', '349', 'CV12', 'Zhongwan', '中脘', 'Zhongwan', 'Middle epigastrium', '<<WHO>>
+union select '14', '349', 'CV12', 'acupoint_cv12', '中脘', 'Zhongwan', 'Middle epigastrium', '<<WHO>>
 Zhong: middle; wan: stomach.
 This point is over the middle of the stomach.
 

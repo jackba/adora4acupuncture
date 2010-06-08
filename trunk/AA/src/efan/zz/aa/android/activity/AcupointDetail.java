@@ -37,9 +37,6 @@ import efan.zz.aa.android.util.AAUtil;
 
 public class AcupointDetail extends TabActivity
 {
-  private static final String   DATA_DRAWABLE_DIR = 
-    Environment.getExternalStorageDirectory().getAbsolutePath() + "/data/efan.zz/aa/data/drawable/";
-
   private String acupointId;
   
   private TabHost mTabHost;
@@ -111,10 +108,10 @@ public class AcupointDetail extends TabActivity
     ImageView imgView = (ImageView) findViewById(R.id.acupoint_image_tab_view);
     ImageView imgViewChannel = (ImageView) findViewById(R.id.acupoint_image_tab_view_channel);
     // Drawable d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileId + ".jpg");
-    BitmapDrawable d = new BitmapDrawable(DATA_DRAWABLE_DIR + imgFileId);   // Tricky to hide the image files from Gallery app.
+    BitmapDrawable d = new BitmapDrawable(AA.DATA_DRAWABLE_DIR + imgFileId);   // Tricky to hide the image files from Gallery app.
     imgView.setImageBitmap(d.getBitmap());
     // d = Drawable.createFromPath(DATA_DRAWABLE_DIR + imgFileIdChannel + ".jpg");
-    d = new BitmapDrawable(DATA_DRAWABLE_DIR + imgFileIdChannel);           // Tricky to hide the image files from Gallery app.
+    d = new BitmapDrawable(AA.DATA_DRAWABLE_DIR + imgFileIdChannel);           // Tricky to hide the image files from Gallery app.
     imgViewChannel.setImageBitmap(d.getBitmap());
     
     final TextView nameView = (TextView) findViewById(R.id.acupoint_name);

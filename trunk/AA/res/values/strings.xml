@@ -19,13 +19,13 @@
 
     <array name="about_msg">
         <item>Adora AA =></item>
-        <item>Acupuncture Assistant 1.1.0</item>
+        <item>Acupuncture Assistant 1.1.2</item>
         <item></item>
         <item><![CDATA[【Function】: Quick & easy query from hundreds of acupoints standardized by WHO.]]></item> 
         <item></item>
         <item>【Notes】: Contents come from internet (including WHO), for education / reference only.</item>
         <item></item>
-        <item>5/5/2010</item> 
+        <item>6/12/2010</item>
     </array>
     <string name="button_market">Market</string>
     <string name="button_ok">OK</string>
@@ -36,6 +36,7 @@
     <string name="menu_item_acupoint">Acupoint</string>
     <string name="menu_item_relax">Relax</string>
     <string name="menu_item_credits">Credits</string>
+    <string name="menu_item_wallcharts">Wall Charts</string>
     <!-- TODO: Advanced features -->
     <string name="menu_item_patient">Patient</string>
     <string name="menu_item_statistics">Statistics</string>
@@ -90,7 +91,7 @@
     <!-- Others -->
     <string name="prompt_install_aa_data">
         Please install [Adora AA Data] application first so that I can serve you with required data.
-	    (To save main device space, version 1.1.0 and above is designed as data seperated to the data application.) 
+	    (To save main device space, version 1.1.0 and above is designed as data separated to the data application.) 
     </string>
     <string name="btn_label_install_aa_data">Go Install AA Data</string>
     

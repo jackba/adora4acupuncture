@@ -149,6 +149,10 @@ public class WelcomeAA extends Activity
       showAbout();
       break;
 
+    case R.id.menu_item_wallcharts:
+      AAUtil.showActivity(null, WelcomeAA.this, GlobalGallery.class);
+      break;
+
     default:
       AAUtil.youngGirlWarning(null);
       break;
@@ -189,8 +193,7 @@ public class WelcomeAA extends Activity
 
   private boolean isDataInstalled()
   {
-    File dataDir = Environment.getExternalStorageDirectory();
-    dataDir = new File(dataDir, AA_DATA_DIR);
+    File dataDir = new File(AA.DATA_DRAWABLE_DIR);
     if (dataDir.exists())
       return true;       // Data installed. Perfect!
     else
@@ -217,5 +220,4 @@ public class WelcomeAA extends Activity
     dialog.show();
   }
 
-  private static final String   AA_DATA_DIR = "data/efan.zz/aa/data/drawable";
 }
