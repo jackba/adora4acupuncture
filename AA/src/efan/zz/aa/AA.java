@@ -25,7 +25,7 @@ import efan.zz.aa.android.DbHelper;
 public class AA extends Application
 {
   public static final String   DATA_DRAWABLE_DIR = 
-    Environment.getExternalStorageDirectory().getAbsolutePath() + "/data/efan.zz/aa/data/drawable/";
+    Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/data/efan.zz.aa/drawable/";
 
   public static SQLiteDatabase db;
   public static DbHelper dbHelper;

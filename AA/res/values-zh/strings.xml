@@ -90,7 +90,7 @@
 
     <!-- Others -->
     <string name="prompt_install_aa_data">
-                    請先安裝[愛心神針AA 數據]應用程式, 我才可以有必需的數據為你效勞. 
+                    請先安裝[愛心神針AA 數據]1.1.2或以上版本應用程式, 我才可以有必需的數據為你效勞. 
         (為節省主設備空間, 1.1.0及以上版本之設計將數據分離到該數據程式中.)
     </string>
     <string name="btn_label_install_aa_data">去安裝 AA 數據</string>
