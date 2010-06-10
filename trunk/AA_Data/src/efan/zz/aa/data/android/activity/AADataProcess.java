@@ -32,12 +32,11 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
-import android.widget.Toast;
 import efan.zz.aa.data.R;
 
 public class AADataProcess extends Activity
 {
-  private static final String   DATA_DIR_BASE = "/data/efan.zz/aa/data/";
+  private static final String   DATA_DIR_BASE = "/Android/data/efan.zz.aa/";
   private static final String[] DATA_DIRS     = { "drawable" };
   private static final String   DATA_VERSION_FILE = "AADATAVERSION";
 
