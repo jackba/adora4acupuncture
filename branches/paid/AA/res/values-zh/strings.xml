@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009, 2010 eFANsoftware
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">愛心神針AA => 針灸助理</string>
+
+    <array name="about_msg">
+        <item>愛心神針AA => 針灸助理  1.1.2</item>
+        <item></item>
+        <item>【功能】: 輕松快捷地查詢由國際衛生組織WHO所標準化的上百個穴位. 精準定位及實用說明.</item> 
+        <item></item>
+        <item>【備注】: 內容均來自互聯網(包括WHO), 僅供教育或參考使用.</item>
+        <item></item>
+        <item>2010-6-12 (仲夏五月初一)</item> 
+    </array>
+
+    <string name="button_market">市場</string>
+    <string name="button_ok">返回</string>
+
+    <!-- Menus -->    
+    <string name="menu_item_home">首頁</string>
+    <string name="menu_item_about">關于...</string>
+    <string name="menu_item_acupoint">穴位</string>
+    <string name="menu_item_relax">休閑</string>
+    <string name="menu_item_credits">鳴謝</string>
+    <string name="menu_item_wallcharts">掛圖</string>
+    <!-- TODO: Advanced features -->
+    <string name="menu_item_patient">病歷</string>
+    <string name="menu_item_statistics">統計</string>
+    <string name="menu_item_full_web">穴位圖</string> 
+    
+    
+    <!-- Acupoint Query -->
+    <string name="acupoint_query_title">穴位查詢</string>
+    <string name="acupoint_name_label">穴位: </string>
+    <string name="acupoint_selection_reminder">請選擇穴位</string>
+
+    <string name="meridian_type_label">經絡: </string>
+    <string name="meridian_type_prompt">請選擇經絡: </string>
+    
+    
+    <!-- Acupoint Detail -->
+    <string name="acupoint_detail_tab_desc_indicator">說明</string>
+    <string name="acupoint_detail_tab_img_indicator">穴位圖</string>
+    <string name="acupoint_detail_tab_img_indicator_channel">經絡圖</string>
+
+    <string name="notes_title_alias">[別名]: </string>
+
+    <!-- Acupoint Detail Edit -->
+    <string name="acupoint_detail_edit_confirm_update">確認保存?</string>
+
+
+    <!-- Global Wall Chart -->
+    <string name="global_image_tip0">點觸你想放大之處...</string>
+    <string name="global_image_tip">
+                請勿滾屏! 
+                如需切換放大點, 請先點觸頂部之圖庫, 再重選放大處...
+    </string>
+
+
+    <!-- Credit List -->
+    <string name="credits_tip">本軟件大部份內容來自以下網站, 其詳情在通用的PC屏幕上瀏覽更佳.</string>
+    
+    
+    <!-- Common Shareble -->
+    <string name="name_code_hint">(名稱或代碼)</string>
+
+    <string name="button_query">查詢清單</string>
+    <string name="button_edit">編輯</string>
+    <string name="button_save">保存</string>
+    <string name="button_cancel">取消</string>
+
+    <string name="alert_dialog_confirm_title">請確認: </string>
+    <string name="alert_dialog_ok">確定</string>
+    <string name="alert_dialog_cancel">不確定</string>
+
+
+    <!-- Others -->
+    <string name="prompt_install_aa_data">
+                    請先安裝[愛心神針AA 數據]1.1.2或以上版本應用程式, 我才可以有必需的數據為你效勞. 
+        (為節省主設備空間, 1.1.0及以上版本之設計將數據分離到該數據程式中.)
+    </string>
+    <string name="btn_label_install_aa_data">去安裝 AA 數據</string>
+    
+    
+    <!-- Support -->
+    <string name="efan_support">支持: 問一凡: http://code.google.com/p/adora4acupuncture/issues/entry</string>
+    <string name="efan_logo">一凡軟件(2009~~2010)</string>
+    <string name="efan_copy_right">許可證: ASL2.0 http://zh.wikipedia.org/zh-hant/Apache%E8%AE%B8%E5%8F%AF%E8%AF%81</string>
+</resources>
