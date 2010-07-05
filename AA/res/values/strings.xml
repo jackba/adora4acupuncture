@@ -19,13 +19,13 @@
 
     <array name="about_msg">
         <item>Adora AA =></item>
-        <item>Acupuncture Assistant 1.1.2</item>
+        <item>Acupuncture Assistant 1.2.0_ad</item>
         <item></item>
         <item><![CDATA[【Function】: Quick & easy query from hundreds of acupoints standardized by WHO.]]></item> 
         <item></item>
         <item>【Notes】: Contents come from internet (including WHO), for education / reference only.</item>
         <item></item>
-        <item>6/12/2010</item>
+        <item>7/4/2010</item>
     </array>
     <string name="button_market">Market</string>
     <string name="button_ok">OK</string>
@@ -95,6 +95,7 @@
     </string>
     <string name="btn_label_install_aa_data">Go Install AA Data</string>
     
+    <string name="ad_keywords">Acupuncture TCM Android Health Reference WHO</string>
     
     <!-- Support -->
     <string name="efan_support">Support: Ask EFAN Question: http://code.google.com/p/adora4acupuncture/issues/entry</string>

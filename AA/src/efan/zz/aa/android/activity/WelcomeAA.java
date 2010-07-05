@@ -48,11 +48,13 @@ public class WelcomeAA extends Activity
     if (isDataInstalled())
     {
       init();
+      
+      AAUtil.addAd(this, R.id.ad_layout);
     }
     else
       promptInstallAAData();
   }
-
+  
   private void init()
   {
     setContentView(R.layout.welcome_aa);
@@ -150,6 +152,10 @@ public class WelcomeAA extends Activity
 
     case R.id.menu_item_wallcharts:
       AAUtil.showActivity(null, WelcomeAA.this, GlobalGallery.class);
+      break;
+
+    case R.id.menu_item_credits:
+      AAUtil.showActivity(null, WelcomeAA.this, CreditList.class);
       break;
 
     default:

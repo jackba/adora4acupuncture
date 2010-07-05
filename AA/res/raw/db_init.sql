@@ -21,8 +21,9 @@ union select '14', 'Conception Vessel', '任脉', 'CV', 'meridian_cv', null
 insert into ACUPOINT 
             (CHANNEL_ID, ORDER_NUM, CODE, PICTURE, CHINESE_NAME, NAME, ALIAS, DESCRIPTION, DESCRIPTION_ZH) 
 select '1', '1', 'LU1', 'acupoint_lu1', '中府', 'Zhongfu', 'Central prefecture', '<<WHO>>
-Zhong: middle; fu: place.
-Zhong refers to the Middle Jiao. The lung meridian originates from the Middle Jiao. The point is in the place where the Qi of the spleen and stomach in the Middle Jiao is gathered into the lung meridian.
+On the anterior thoracic region, at the same level as the first intercostal space, lateral to the infraclavicular fossa, 6 B-cun lateral to the anterior median line.
+Note 1: After locating LU2, LU1 is located 1 B-cun inferior to LU2.
+Note 2: ST14, KI26, CV20 and LU1 are located on the transverse line along the first intercostal space.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -44,8 +45,8 @@ Laterosuperior to the sternum, 1 cun below Yunmen (LU 2), at the level of the 1s
 [配伍]  配尺泽治咳嗽；配肩豂治肩痛。
 [附注]  肺的募穴，手、足太阴经交会穴。'
 union select '1', '2', 'LU2', 'acupoint_lu2', '云门', 'Yunmen', 'Cloud gate, 雲門', '<<WHO>>
-Yun: cloud; men: door. 
-Yun refers to the Qi of the lung. The point is on the upper part of the chest and serves as a door for the Qi of the lung.
+On the anterior thoracic region, in the depression of the infraclavicular fossa, medial to the coracoid process of the scapula, 6 B-cun lateral to the anterior median line.                                                                                                                                                                                                                                                                                                                                 Note 1: After identifying the deltopectoral triangle when the arm is flexed and slightly abducted against resistance, LU2 is in the centre of the deltopectoral triangle.
+Note 2: ST13, KI27, CV21 and LU2 are located on the transverse line along the inferior border of the clavicle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -66,8 +67,8 @@ In the superior lateral part of the anterior thoracic wall, superior to the cora
 [操作]  向外斜刺0.5~0.8寸，不可向内侧深刺，以免伤及肺脏。
 [配伍]  云门、中府、隐白、期门、肺俞、魂门、大陵，主胸中痛。'
 union select '1', '3', 'LU3', 'acupoint_lu3', '天府', 'Tianfu', 'Heaven prefecture', '<<WHO>>
-Tian: heaven; fu: place.
-Tian here means `upper`. The point is on the upper arm, which is a confluence of the Qi of the lung.
+On the anterolateral aspect of the arm, just lateral to the border of the biceps brachii muscle, 3 B-cun inferior to the anterior axillary fold. 
+Note: Longitudinally, LU3 is located at the same level as the junction of the upper one third and lower two thirds of the line connecting the level with anterior axillary fold to LU5.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -89,8 +90,7 @@ On the medial aspect of the upper arm, 3 cun below the end of axillary fold, on 
 [操作]  直刺0.5~1寸。
 [配伍]  配曲池治疗臂痛。'
 union select '1', '4', 'LU4', 'acupoint_lu4', '侠白', 'Xiabai', 'Chivalry white, 俠白', '<<WHO>>
-Xia: to press from both sides; bai: white.
-White colour refers to the lung. When both arms are hanging freely, this point is precisely on both sides of the lung.
+On the anterolateral aspect of the arm, just lateral to the border of the biceps brachii muscle, 4 B-cun inferior to the anterior axillary fold.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -111,8 +111,8 @@ On the medial aspect of the upper arm, 4 cun below the anterior end of the axill
 [操作]  直刺0.5~1寸。
 [配伍]  配曲池，肩豂治肩臂痛。'
 union select '1', '5', 'LU5', 'acupoint_lu5', '尺泽', 'Chize', 'Short narrow marsh, 尺沢', '<<WHO>>
-Chi: ruler, or ulnar; ze: marsh.
-Chi refers to the ulnar aspect of the arm (from the wrist to the elbow). The point is in the depression of the elbow fossa at the ulnar aspect. The Qi of the meridian is infused here, like water flowing into a marsh.
+On the anterior aspect of the elbow, at the cubital crease, in the depression lateral to the biceps brachii tendon. 
+Note: With the elbow flexed, LU5 is lo-cated at the cubital crease, between LI11 and PC3, separated from PC3 by the biceps brachii tendon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -137,8 +137,8 @@ On the cubital crease, in the depression of the radial side of the tendon of m. 
 [配伍]  配太渊，经渠治咳嗽，气喘；配孔最治咳血，潮热；配曲池治肘臂挛痛。
 [附注]  手太阴经所入为“合”。'
 union select '1', '6', 'LU6', 'acupoint_lu6', '孔最', 'Kongzui', 'Supreme cave', '<<WHO>>
-Kong: hole; zui: the most.
-The hole of this point is the deepest of all.
+On the anterolateral aspect of the forearm, on the line connecting LU5 with LU9, 7 B-cun superior to the palmar wrist crease. 
+Note: LU6 is 5 B-cun inferior to LU5, 1 B-cun superior to the midpoint of the line connecting LU5 with LU9.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -161,8 +161,7 @@ On the palmar aspect of the forearm, on the line joining Taiyuan (LU-9) and Chiz
 [配伍]  配肺俞尺泽治咳嗽，气喘；配鱼际治咳血。
 [附注]  手太阴经郄穴。'
 union select '1', '7', 'LU7', 'acupoint_lu7', '列缺', 'Lieque', 'Extreme shortcoming', '<<WHO>>
-Lie: arrangement; que: depression.
-Lighting and the rift in the sky were called Lieque in ancient times. The Hand-Taiyin meridian branches from this point to connect the Hand-Yangming meridian. The point is in the depression superior to the styloid process of the radius.
+On the radial aspect of the forearm, between the tendons of the abductor pollicis longus and the extensor pollicis brevis muscles, in the groove for the abductor pollicis longus tendon, 1.5 B-cun superior to the palmar wrist crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -186,8 +185,8 @@ Superior to the styloid process of the radius, 1.5 cun above the transverse crea
 [配伍]  配合谷治伤风头痛项强； 配肺俞治咳嗽气喘。
 [附注]  手太阴经络穴。八脉交会穴之一，通于任脉。'
 union select '1', '8', 'LU8', 'acupoint_lu8', '经渠', 'Jingqu', 'Meridian gutter, 經渠, 経渠', '<<WHO>>
-Jing: to pass; qu: ditch.
-A ditch where the meridian passes.
+On the anterolateral aspect of the forearm, between the radial styloid process and the radial artery, 1 B-cun superior to the palmar wrist crease. 
+Note: 1 B-cun superior to LU9.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -208,8 +207,8 @@ Descends Lung Qi and stops wheezing and cough.
 [配伍]  配肺俞，尺泽治咳嗽。
 [附注]  手太阴经所行为“经”；《甲乙经》：不可灸。'
 union select '1', '9', 'LU9', 'acupoint_lu9', '太渊', 'Taiyuan', 'Great gulf, 太淵', '<<WHO>>
-Tai: great; yuan: deep pool.
-Tai means abundance. The Qi of the meridian in the local part of the point is abundant as water in a deep pool.
+On the anterolateral aspect of the wrist, between the radial styloid process and the scaphoid bone, in the depression ulnar to the abductor pollicis longus tendon. 
+Note: On the radial side of the palmar wrist crease, over the radial artery.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -232,8 +231,7 @@ At the radial end of the transverse crease of the wrist, in the depression on th
 [配伍]  配尺泽，鱼际，肺俞治咳嗽，咳血，胸痛；配人迎治无脉症。
 [附注]  手太阴经所注为“输”；肺经原穴；脉会太渊'
 union select '1', '10', 'LU10', 'acupoint_lu10', '鱼际', 'Yuji', 'Fish seam, Yu-Chi, 魚際', '<<WHO>>
-Yu: fish; ji: border.
-The musculi flexor pollicis in the palm are prominent like a fish; the point is located just on its border. Yuji is now used as an anatomical word.
+On the palm, radial to the midpoint of the first metacarpal bone, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -255,8 +253,7 @@ On the radial aspect of the midpoint of the first metacarpal bone, on the juncti
 [配伍]  配孔最，尺泽治咳嗽，咳血；配少商治咽喉肿痛。
 [附注]  手太阴经所溜为“荥”。'
 union select '1', '11', 'LU11', 'acupoint_lu11', '少商', 'Shaoshang', 'Young tradesman', '<<WHO>>
-Shao: immaturity; shang: one of the five sounds, pertaining to metal.
-Shao here means less. The lung pertains to metal in the Five Elements and to the shang sound in the Five Sounds. This is the last point of the lung meridian, where the Qi is less.
+On the thumb, radial to the distal phalanx,0.1 F-cun proximal-lateral to the radial corner of the thumb nail, at the intersection of the vertical line of the radial rder and the horizontal line of the base of the thumb nail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -279,8 +276,7 @@ On the radial side of the thumb, about 0.1 cun posterior to the corner of the na
 [配伍]  三棱针点刺出血，配合谷治咽喉肿痛；配中冲治昏迷，发热。
 [附注]  手太阴经所出为“井”。'
 union select '2', '12', 'LI1', 'acupoint_li1', '商阳', 'Shangyang', 'Tradesman Yang, 商陽', '<<WHO>>
-Shang: one of the Five Sounds, pertaining to metal; yang: Yang of Yin-Yang. 
-The large intestine pertains to metal and is ascribed to the shang sound. Yang refers to the Yang meridian.
+On the index finger, radial to the distal phalanx, 0.1 F-cun proximal-lateral to the radial corner of the index fingernail, at the intersection of the vertical line of the radial border of the fingernail and the horizontal line of the base of the index fingernail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -303,8 +299,7 @@ On the radial side of the index finger, about 0.1 cun posterior to the corner of
 [配伍]  配少商点刺出血治热病，昏迷。
 [附注]  手阳明经所出为“井”。'
 union select '2', '13', 'LI2', 'acupoint_li2', '二间', 'Erjian', 'Two intervals, 二間', '<<WHO>>
-Er: two, second; jian: clearance. 
-Jian here means point. This is the second point of the large intestine meridian.
+On the index finger, in the depression distal to the radial side of the second metacarpophalangeal joint, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -326,8 +321,7 @@ In the depression of the radial side of the index finger, distal to the 2nd meta
 [配伍]  配合谷治齿痛。
 [附注]  手阳明经所溜为“荥”。'
 union select '2', '14', 'LI3', 'acupoint_li3', '三间', 'Sanjian', 'Three intervals, 三間', '<<WHO>>
-San: three; jian: chearance.
-Jian here means `point`. This is the third point of the large intestine meridian.
+On the dorsum of the hand, in the depression radial and proximal to the second metacarpophalangeal joint.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -348,8 +342,7 @@ When a loose fist is made, the point is on the radial side of the index finger, 
 [配伍]  目中漠漠，即寻攒竹、三间。
 [附注]  手阳明经所注为“输”。'
 union select '2', '15', 'LI4', 'acupoint_li4', '合谷', 'Hegu', 'Connecting valleys', '<<WHO>>
-He: junction; gu: valley.
-This point lies between the 1st and the 2nd metacarpal bones. The location of the point is depressed as a valley.
+On the dorsum of the hand, radial to the midpoint of the second metacarpal bone.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -376,8 +369,8 @@ On the dosum of the hand, between the 1st and 2nd metacarpal bones, approximatel
 [配伍]  配太阳治头痛；配太冲治目赤肿痛；配迎香治鼻疾；配少商治咽喉肿痛； 配三阴交治经闭，滞产； 配地仓颊车治眼歪斜。
 [附注]  （l）手阳明经所过为“原”。（2）《神应经》：孕妇不宜针。别名：虎口。'
 union select '2', '16', 'LI5', 'acupoint_li5', '阳溪', 'Yangxi', 'Sunny stream, 陽谿', '<<WHO>>
-Yang: Yang of Yin-Yang; xi: brook.
-Yang refers to the Yang meridian. The local depression is like a brook in the mountains.
+On the posterolateral aspect of the wrist,at the radial side of the dorsal wrist crease, distal to the radial styloid process, in the depression of the anatomical snuffbox. 
+Note : The depression of the anatomical snuffbox is formed when the thumb is fully abducted and extended between the ten-dons of the extensor pollicis longus and the extensor pollicis brevis.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -399,8 +392,8 @@ On the radial side of the wrist. When the thumb is tilted upward, it is in the d
 [配伍]  配合谷治头痛。
 [附注]  手阳明经所行为“经”。'
 union select '2', '17', 'LI6', 'acupoint_li6', '偏历', 'Pianli', 'Isolated hashness, 偏歷', '<<WHO>>
-Pian: divergence; li: passway.
-A collateral of the large intestine meridian separates from here and diverges to the lung meridian.
+On the posterolateral aspect of the forearm, on the line connecting LI5 with LI11, 3 B-cun superior to the dorsal wrist crease. 
+Note: LI6 is located at the junction of the upper three fourths and the lower one fourth of the line connecting LI5 with LI11.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -423,8 +416,7 @@ With the elbow flexed and the radial side of arm upward, the point is on the lin
 [配伍]  配曲池治手臂疼痛。
 [附注]  手阳明经络穴。'
 union select '2', '18', 'LI7', 'acupoint_li7', '温溜', 'Wenliu', 'Warm stagnant, 溫溜', '<<WHO>>
-Wen: to warm; liu: circulation.
-This point is able to warm the meridian and promote its circulation, and is good for treating cold pain of the elbow and arm.
+On the posterolateral aspect of the forearm, on the line connecting LI5 with LI11, 5 B-cun superior to the dorsal wrist crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -446,8 +438,8 @@ With the elbow flexed and the radial side of arm upward, the point is on the lin
 [配伍]  配合谷治头痛。
 [附注]  手阳明经郄穴。'
 union select '2', '19', 'LI8', 'acupoint_li8', '下廉', 'Xialian', 'Lower screen', '<<WHO>>
-Xia: inferior; lian: edge.
-The point is inferior to Shanglian (LI9) at the dorsal side of the forearm, close to the radial aspect.
+On the posterolateral aspect of the forearm, on the line connecting LI5 with LI11, 4 B-cun inferior to the cubital crease. 
+Note: LI8 is located at the junction of the upper one third and lower two thirds of the line connecting LI5 with LI11, 1 B-cun inferior to LI9.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -467,8 +459,7 @@ On the line joining Yangxi (LI 5) and Quchi (LI 11), 4 cun below the cubital cre
 [操作]  直刺0.5~1寸。
 [配伍]  配足三里治腹胀，腹痛。'
 union select '2', '20', 'LI9', 'acupoint_li9', '上廉', 'Shanglian', 'Upper screen', '<<WHO>>
-Shang: superior; lian: edge.
-The point is superior to Xialian (LI8) at the dorsal side of the forearm, close to the radial aspect.
+On the posterolateral aspect of the forearm, on the line connecting LI5 with LI11, 3 B-cun inferior to the cubital crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -489,8 +480,7 @@ On the line joining Yangxi (LI-5) and Quchi (LI-11), 3 cun below the cubital cre
 [操作]  直刺0.5~1寸。
 [配伍]  配曲池治手臂麻木；'
 union select '2', '21', 'LI10', 'acupoint_li10', '手三里', 'Shousanli', 'Three Li', '<<WHO>>
-Shou: arm; san: three; li: taken as cun in ancient times.
-The point is on the forearm. With the arm stretched, the point is 3 cun below Quchi (LI11).
+On the posterolateral aspect of the forearm, on the line connecting LI5 with LI11, 2 B-cun inferior to the cubital crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -511,8 +501,8 @@ On the line joining Yangxi (L.I.-5) and Quchi (L.I.-11), 2 cun below the cubital
 [操作]  直刺0.8~1.2寸。
 [配伍]  配曲池治上肢不遂。'
 union select '2', '22', 'LI11', 'acupoint_li11', '曲池', 'Quchi', 'Bent pond', '<<WHO>>
-Qu: crooked; chi: pond.
-When the arm is bent, the depression at the elbow is like a pool and this point is inside it.
+On the lateral aspect of the elbow, at the midpoint of the line connecting LU5 with the lateral epicondyle of the humerus. 
+Note: When the elbow is fully flexed, LI11 is located in the depression on the lateral end of the cubital crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -538,8 +528,7 @@ When the elbow is flexed, the point is in the depression at the lateral end of t
 [配伍]  配血海，足三里治瘾疹；配手三里治上肢不遂；配太冲、大椎治高血压。
 [附注]  手阳明经所入为“合”。'
 union select '2', '23', 'LI12', 'acupoint_li12', '肘豂', 'Zhouliao', 'Elbow bone, Chow-Liao', '<<WHO>>
-Zhou: elbow; liao: foramen.
-The point is at the elbow and close to the foramen.
+On the posterolateral aspect of the elbow, superior to the lateral epicondyle of the humerus, anterior to the lateral supraepicondylar ridge.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -558,8 +547,7 @@ When the elbow is flexed, the point is on the lateral side of the upper arm, 1 c
 [操作]  直刺0.5~1寸。
 [配伍]  配曲池治肘臂疾病。'
 union select '2', '24', 'LI13', 'acupoint_li13', '手五里', 'Shouwuli', 'Five Li', '<<WHO>>
-Shou: arm; wu: five; li: taken as cun in ancient times.
-The point is on the upper arm, 5 cun below Tianfu (LU3).
+On the lateral aspect of the arm, on the line connecting LI11 with LI15, 3 B-cun superior to the cubital crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -579,8 +567,7 @@ On the lateral side of the upper arm, on the line connecting Quchi (Ll 11) and J
 [操作]  避开动脉，直刺0.5~1寸。
 [配伍]  配曲池治肘臂挛痛。'
 union select '2', '25', 'LI14', 'acupoint_li14', '臂臑', 'Binao', 'Elbow joint', '<<WHO>>
-Bi: arm; nao: muscle prominence of the arm.
-This point is at the muscle prominence of the arm.
+On the lateral aspect of the arm, just anterior to the border of the deltoid muscle, 7 B-cun superior to LI11.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -601,8 +588,8 @@ On the lateral side of the upper arm, on the line joining Quchi (LI 11) and Jian
 [操作]  直刺或向上斜刺0.8~1.5寸。
 [配伍]  配光明治目疾。'
 union select '2', '26', 'LI15', 'acupoint_li15', '肩髃', 'Jianyu', 'Shoulder bone', '<<WHO>>
-Jian: shoulder; yu: corner.
-The point is at the corner of the shoulder.
+On the shoulder girdle, in the depression between the anterior end of lateral border of the acromion and the greater tubercle of the humerus. 
+Note: When the arm is abducted, two depressions appear, anterior and posterior to the acromion. LI15 is located in the deeper depression anterior to the acromion. TE14 is located in the posterior depression.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -623,8 +610,8 @@ Antero-inferior to the acromion, on the upper portion of m. deltoideus. When the
 [配伍]  配肩豂治肩臂疼痛。
 [附注]  手阳明经与阳跷脉交会穴。'
 union select '2', '27', 'LI16', 'acupoint_li16', '巨骨', 'Jugu', 'Huge bone', '<<WHO>>
-Ju: huge; gu: bone.
-The clavicle was called Jugu in ancient times. The point is close to its acromial end.
+On the shoulder girdle, in the depression between the acromial end of the clavicle and the spine of the scapula. 
+Note: In the depression between the two bones lateral to the suprascapular fossa.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -645,8 +632,8 @@ In the upper aspect of the shoulder, in the depression between the acromial extr
 [配伍]  配肩髃，肩豂治肩痛。
 [附注]  手阳明经与阳跷脉交会穴。'
 union select '2', '28', 'LI17', 'acupoint_li17', '天鼎', 'Tianding', 'Heavenly vessel', '<<WHO>>
-Tian: heaven; ding: an ancient cooking vessel with two loop handles.
-Tian means upper. The head looks like a Ding. The point is below the ear at the neck.
+On the anterior aspect of the neck, at the same level as the cricoid cartilage, just posterior to the border of the sternocleido mastoid muscle. 
+Note: Directly inferior to LI18, at the same level as ST10.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -666,8 +653,7 @@ On the lateral side of the neck, at the posterior border of sternocleidomastoid 
 [操作]  直刺0.5~0.8寸。
 [配伍]  配少商治咽喉肿痛。配合谷治瘿气。'
 union select '2', '29', 'LI18', 'acupoint_li18', '扶突', 'Futu', 'Supporting prominence', '<<WHO>>
-Fu: side; tu: prominence.
-Tu refers to the laryngeal prominence. The point is beside the Adam`s apple.
+On the anterior aspect of the neck, at the same level as the superior border of the thyroid cartilage, between the anterior and posterior borders of the sternocleidomastoid muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -688,8 +674,9 @@ On the lateral side of the neck, level with the tip of Adam`s apple, between the
 [操作]  直刺0.5~0.8寸。
 [配伍]  配合谷治瘿气。'
 union select '2', '30', 'LI19', 'acupoint_li19', '口禾豂', 'Kouheliao', 'Stalk bone', '<<WHO>>
-Kou: mouth; he: grain; liao: foramen.
-The grain enters the stomach through the mouth. The point is in the foramen beside the mouth.
+On the face, at the same level as the midpoint of the philtrum, inferior to the lateral margin of the nostril. 
+Note: 0.5 B-cun laterals to GV 26. 
+Remarks: Alternative location for LI19 - On the face, at the same level as the junction of the upper one third and lower two thirds of the philtrum, inferior to the lateral margin of the nostril.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -708,8 +695,8 @@ Right below the lateral margin of the nostril, level with Renzhong (Shuigou, DU 
 [主治]  鼻塞，鼽衄，口喎，口噤。
 [操作]  直刺或斜刺0.3~0.5寸。'
 union select '2', '31', 'LI20', 'acupoint_li20', '迎香', 'Yingxiang', 'Welcome fragrance', '<<WHO>>
-Ying: to meet; xiang: fragrance.
-This point is on either side of the nose and is used to treat disorders of the nose, to improve the sense of smell and enable the nose to sense fragrance.
+On the face, in the nasolabial sulcus, at the same level as the midpoint of lateral border of the ala of the nose. 
+Remarks: Alternative location for LI20 - On the face, in the nasolabial sulcus, at the level of the inferior border of the ala of the nose.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -730,8 +717,7 @@ In the nasolabial groove, at the level of the midpoint of the lateral border of 
 [操作]  斜刺或平刺0.3~0.5寸。
 [附注]  （l）手、足阳明经交会穴。（2）《外台》：不宜灸。'
 union select '3', '32', 'ST1', 'acupoint_st1', '承泣', 'Chengqi', 'Lacrimation receiver', '<<WHO>>
-Cheng: to receive; qi: tears. 
-The point is below the eyes, a place for receiving tears.
+On the face, between the eyeball and the infraorbital margin, directly inferior to the pupil.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -753,8 +739,7 @@ When the eyes looking straight forward, the point is directly below the pupil, b
 [配伍]  配太阳治目赫肿痛，配阳白治口眼歪斜。
 [附注]  足阳明经、阳跷、任脉交会穴。'
 union select '3', '33', 'ST2', 'acupoint_st2', '四白', 'Sibai', 'Four white', '<<WHO>>
-Si: four directions; bai: brightness.
-This point is below the eye and is indicated in treating diseases of the eyes. It is said to improve the vision and give one sharp eyes in all four directions.
+On the face, in the infraorbital foramen.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -775,8 +760,8 @@ Directly below the pupil, in the depression at the infraorbital foramen.', '<<�
 [操作]  直刺或斜刺0.3~0.5寸不可深刺。
 [配伍]  配阳白，地仓，颊车，合谷治口眼歪斜；配攒竹治眼睑瞤动。'
 union select '3', '34', 'ST3', 'acupoint_st3', '巨豂', 'Juliao', 'Big bone', '<<WHO>>
-Ju: huge; liao: foramen.
-The point is in the big foramen at the junction of the superior maxillary bone and the zygomatic bone.
+On the face, directly inferior to the pupil, at the same level as the inferior border of the ala of the nose. 
+Note: When looking straight ahead, ST3 is located at the intersection of the vertical line of the pupil and the horizontal line of the inferior border of the ala of the nose.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -798,8 +783,9 @@ Directly below the pupil, at the level of the lower border of ala nasi on the la
 [配伍]  配合谷治齿痛；配地仓，颊车治口歪。
 [附注]  足阳明胃经与阳跷脉交会穴。'
 union select '3', '35', 'ST4', 'acupoint_st4', '地仓', 'Dicang', 'Terrestrial granary, 地倉', '<<WHO>>
-Di: earth; cang: granary.
-The five grains grow on the earth. The grain enters the stomach through the mouth, as if going into a granary. The point is at the corner of the mouth.
+On the face, 0.4 f-cun lateral to the angle of the mouth. 
+Note: Lateral to the angle of the mouth, the point is located in the nasolabial sulcus or on the continuation of the nasolabial 
+sulcus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -820,8 +806,7 @@ Lateral to the corner of the mouth, directly below the pupil.', '<<针灸学>>@T
 [配伍]  配颊车、合谷、治口歪、流涎。
 [附注]  手足阳明经，阳跷脉交会穴。'
 union select '3', '36', 'ST5', 'acupoint_st5', '大迎', 'Daying', 'The great welcome', '<<WHO>>
-Da: large; ying: to receive.
-The point lies beside the Daying artery (the extramaxillary artery).
+On the face, anterior to the angle of the mandible, in the depression anterior to the masseter attachment, over the facial artery.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -841,8 +826,8 @@ Anterior to the angle of mandible, on the anterior border of the attached portio
 [操作]  避开动脉，斜刺或平刺0.3~0.5寸。
 [配伍]  配颊车治齿痛。'
 union select '3', '37', 'ST6', 'acupoint_st6', '颊车', 'Jiache', 'Cheek chariot, 頰車', '<<WHO>>
-Jia: cheek; che: vehicle.
-Che refers to the mandible. The point is on the cheek, close to the angle of the mandible.
+On the face, one fingerbreadth (middle finger) anterosuperior to the angle of the mandible. 
+Note: On the bisector of the angle of the mandible. When the mouth is closed and the teeth are clenched, this point is located at the prominence of the masseter and in the depression felt when the clenched teeth are released.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -863,8 +848,8 @@ One finger-breadth (middle finger) anterior and superior to the lower angle of t
 [操作]  直刺0.3~0.5寸，平刺0.5~1寸。
 [配伍]  配地仓治口眼歪斜。'
 union select '3', '38', 'ST7', 'acupoint_st7', '下关', 'Xiaguan', 'Lower pass,下關', '<<WHO>>
-Xia: lower; guan: pass.
-Guan indicates the zygomatic arch; the point is below it.
+On the face, in the depression between the midpoint of the inferior border of the zygomatic arch and the mandibular notch. 
+Note: When the mouth is closed, ST7 is located at the depression inferior to the zygomatic arch, directly inferior to GB3.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -887,8 +872,7 @@ On the face, anterior to the ear, in the depression between the zygomatic arch a
 [配伍]  配翳风治耳疾。
 [附注]  足阳明、足少阳经交会穴。'
 union select '3', '39', 'ST8', 'acupoint_st8', '头维', 'Touwei', 'Head support, 頭維', '<<WHO>>
-Tou: head; wei: corner.
-The point is at the corner between two hairlines at the forehead.
+On the head, 0.5 B-cun directly superior to the anterior hairline at the corner of the forehead, 4.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -909,8 +893,9 @@ On the lateral side of the head, 0.5 cun above the anterior hairline at the corn
 [配伍]  配合谷治头痛；配太冲治目眩。
 [附注]  （l）足阳明、足少阳经与阳维脉交会穴。（2）《甲乙》禁不可灸。'
 union select '3', '40', 'ST9', 'acupoint_st9', '人迎', 'Renying', 'Welcomed by man', '<<WHO>>
-Ren: mankind; ying: to receive.
-The point lies beside Renying artery (common carotid artery).
+In the anterior region of the neck, at the same level as the superior border of the thyroid cartilage, anterior to the sternocleidomastoid muscle, over the common carotid artery. 
+Note 1: The sternocleidomastoid muscle is more distinct when the head is turned to the opposite side against resistance. 
+Note 2: ST9 is located at the same level as LI18, SI16 and the superior border of the thyroid cartilage. St9 is located anterior to the sternocleidomastoid muscle, and SI16, posterior to the sternocleidomastoid muscle and LI18, between the anterior and posterior borders of the sternocleidomastoid muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -933,8 +918,7 @@ Level with the tip of Adam`s apple where the pulsation of common carotid artery 
 [配伍]  配大椎、太冲治高血压。
 [附注]  （l）足阳明、足少阳经交会穴。（2）《甲乙》：禁不可灸。'
 union select '3', '41', 'ST10', 'acupoint_st10', '水突', 'Shuitu', 'Rushing water', '<<WHO>>
-Shui: water; tu: passing through.
-The point is at the neck, close to the esophagus, where water and food pass.
+In the anterior region of the neck, at the same level as the cricoid cartilage, just anterior to the border of the sternocleidomastoid muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -954,8 +938,9 @@ At the midpoint of the line joining Renying (ST 9) and Qishe (ST 11), on the ant
 [操作]  直刺0.3~0.8寸。
 [配伍]  配天突治咳嗽、气喘。'
 union select '3', '42', 'ST11', 'acupoint_st11', '气舍', 'Qishe', 'Energy house, 氣舍', '<<WHO>>
-Qi: vital energy; she: residence.
-Qi refers to the vital energy of the lung and stomach. The point is beside the trachea, like a residence for the Qi.
+In the anterior region of the neck, in the lesser supraclavicular fossa, superior to the sternal end of the clavicle, in the depression between the sternal and clavicular heads of the sternocleidomastoid muscle. 
+Note 1: The sternocleidomastoid muscle is more distinct when the head is turned to the opposite side against resistance. 
+Note 2: ST11 is located superior to the clavicle, inferior to ST9.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -977,8 +962,7 @@ At the superior border of the sternal extremity of the clavicle, between the ste
 [配伍]  配水突治瘿瘤。
 [附注]  本经气舍至乳根诸穴，深部有大动脉及肺、肝等重要脏器。不可深刺。'
 union select '3', '43', 'ST12', 'acupoint_st12', '缺盆', 'Quepen', 'Broken basin', '<<WHO>>
-Que: depression; pen: basin.
-Quepen refers to the supraclavicular fossa, where the point is located.
+In the anterior region of the neck, in the greater supraclavicular fossa, 4 B-cun lateral to the anterior median line, in the depression superior to the clavicle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -999,8 +983,7 @@ In the midpoint of the supraclavicular fossa, 4 cun lateral to the anterior midl
 [配伍]  配肺俞治咳嗽。
 [附注]  《图翼》：孕妇禁针。'
 union select '3', '44', 'ST13', 'acupoint_st13', '气户', 'Qihu', 'Energy window, 氣戶, 気戶', '<<WHO>>
-Qi: vital energy; hu: door.
-The point is on the upper part of the chest, like a door for the Qi, the vital energy of the lung and stomach.
+In the anterior thoracic region, inferior to the clavicle, 4 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1019,8 +1002,7 @@ Descends rebellious Qi and frees the chest.
 [操作]  斜刺或平刺0.5~0.8寸。
 [配伍]  配肺俞治咳喘。'
 union select '3', '45', 'ST14', 'acupoint_st14', '库房', 'Kufang', 'Storage house, 庫房', '<<WHO>>
-Ku: storehouse; fang: side room.
-Inhaled air is stored in the lungs as if in a storehouse, going downwards as if from a door into a side room.
+In the anterior thoracic region, in the first intercostal space, 4 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1039,8 +1021,8 @@ Descends rebellious Qi and frees the chest.
 [操作]  斜刺或平刺0.5~0.8寸。
 [配伍]  配屋翳治胸肋胀痛。'
 union select '3', '46', 'ST15', 'acupoint_st15', '屋翳', 'Wuyi', 'Chamber screen', '<<WHO>>
-Wu: room; yi: concealment.
-The point is in the middle of the chest; when the inhaled air reaches this point, it `conceals` itself in the underlying room.
+In the anterior thoracic region, in the second intercostal space, 4 B-cun lateral to the anterior median line. 
+Note: The second intercostal space is inferior to the second rib which is located at the same level as the sternal angle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1060,8 +1042,7 @@ Descends rebellious Qi, frees the chest, benefits the breasts.
 [操作]  斜刺或平刺0.5~0.8寸。
 [配伍]  配天宗治乳痈。'
 union select '3', '47', 'ST16', 'acupoint_st16', '膺窗', 'Yingchuang', 'Window ornament, 膺窓', '<<WHO>>
-Ying: chest; chuang: window.
-The point is on the chest, like a window into it.
+In the anterior thoracic region, in the third intercostal space, 4 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1081,8 +1062,8 @@ Descends rebellious Qi, alleviates cough, benefits the breasts.
 [操作]  斜刺或平刺0.5~0.8寸。
 [配伍]  配屋翳治乳痈。'
 union select '3', '48', 'ST17', 'acupoint_st17', '乳中', 'Ruzhong', 'Center of breast', '<<WHO>>
-Ru: breast; zhong: centre.
-The point is in the centre of the nipple.
+In the anterior thoracic region, at the centre of the nipple. 
+Note: In males, the centre of the nipple is located in the fourth intercostal space.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1096,8 +1077,8 @@ In the fourth intercostal space, in the centre of the nipple, 4 cun lateral to t
 [定位]  乳头中央。
 [附注]  本穴不针不灸，只作胸腹部腧穴的定位标志。'
 union select '3', '49', 'ST18', 'acupoint_st18', '乳根', 'Rugen', 'Breast base', '<<WHO>>
-Ru: breast; gen: root.
-The point is at the root of the breast.
+In the anterior thoracic region, in the fifth intercostal space, 4 B-cun lateral to the anterior median line. 
+Note: In males, ST18 is located at the intersection of nipple line and the fifth intercostal space. In females, St18 is located at the midpoint of the inferior crease of the breast.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1117,8 +1098,9 @@ On the chest, directly below the nipple, on the lower border of breast, in the 5
 [操作]  斜刺或平刺0.5~0.8寸。
 [配伍]  配少泽、膻中治乳痈；配少泽、足三里治乳少。'
 union select '3', '50', 'ST19', 'acupoint_st19', '不容', 'Burong', 'No containment', '<<WHO>>
-Bu: not; rong: to contain.
-The point is on the upper abdomen, it indicates that the level of the point is the limit of where the stomach receives water and food.
+On the upper abdomen, 6 B-cun superior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note 1: ST 19 is 2 B-cun lateral to CV14. 
+Note 2: If the infrasternal angle is too sharp and the rib is located inferior to ST19, ST19 can be reached by oblique needling.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1138,8 +1120,8 @@ Harmonizes the Middle Jiao, descends rebellious Qi.
 [操作]  直刺0.5~0.8寸。
 [配伍]  配中脘治胃病。'
 union select '3', '51', 'ST20', 'acupoint_st20', '承满', 'Chengman', 'Full receiving, 承滿', '<<WHO>>
-Cheng: to receive; man: fullness.
-The point is on the upper abdomen. The stomach is full when the water and food it takes in have reached this level.
+On the upper abdomen, 5 B-cun superior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note: ST20 is 5 B-cun superior to ST25, 1 B-cun inferior to St19, 2 B-cun lateral to CV13.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1159,8 +1141,8 @@ Harmonizes the Middle Jiao, descends rebellious Qi.
 [操作]  直刺0.8~1寸。
 [配伍]  配足三里治胃痛。'
 union select '3', '52', 'ST21', 'acupoint_st21', '梁门', 'Liangmen', 'Beam gate, 梁門', '<<WHO>>
-Liang: grain or food; men: door.
-The point is on the upper epigastric region and is the door for passage of food to stomach.
+On the upper abdomen, 4 B-cun superior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note: ST21 is 4 B-cun superior to ST25, 1 B-cun inferior to St20, 2 B-cun lateral to CV12.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1180,8 +1162,8 @@ Harmonizes the Middle Jiao, harmonizes and descends rebellious Qi, stops diarrhe
 [操作]  直刺0.8~1.2寸。
 [配伍]  配梁丘、中脘、足三里治胃痛。'
 union select '3', '53', 'ST22', 'acupoint_st22', '关门', 'Guanmen', 'Pass gate, 關門', '<<WHO>>
-Guan: pass; men: door.
-The point is close to the lower stomach and correspond to the junction between the stomach and the intestines,closings and opening like a door.
+On the upper abdomen, 3 B-cun superior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note: ST22 is located at the same level and lateral to KI18 and CV11.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1201,8 +1183,8 @@ Regulates the intestines, regulates qi, benefits urination.
 [操作]  直刺0.8~1.2寸。
 [配伍]  配足三里、水分治肠鸣腹泻。'
 union select '3', '54', 'ST23', 'acupoint_st23', '太乙', 'Taiyi', 'Great Yi', '<<WHO>>
-Tai: great; yi: one of the Ten Heavenly Stems.
-The centre is considered Taiyi in ancient times. Taiyi is the Central Palace of Hetu (the Eight Diagrams). The spleen is at the centre, of the abdomen and is likened to Taiyi. The point is on the stomach, corresponding to the centre of the abdomen.
+On the upper abdomen, 2 B-cun superior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note: ST23 is located at the same level and lateral to KI17 and CV10.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1222,8 +1204,8 @@ Transforms phlegm, calms the shen, harmonizes the middle jiao. * Point known to 
 [操作]  直刺0.8~1.2寸。
 [配伍]  配中脘治胃痛。'
 union select '3', '55', 'ST24', 'acupoint_st24', '滑肉门', 'Huaroumen', 'Slippery flesh gate, 滑肉門', '<<WHO>>
-Hua: good; rou: muscle; men: door.
-Huarou refers to preliminarily digested fine food. The point is on the level 1 cun above the navel; the stomach contents are clear above and turbid below it. This is like a door through which the fine food passes.
+On the upper abdomen, 1 B-cun superior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note: ST24 is at the same level and lateral to CV9.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1243,8 +1225,7 @@ Transforms phlegm, calms the shen, harmonizes the middle jiao. * Point known to 
 [操作]  直刺0.8~1.2寸。
 [配伍]  配足三里治胃痛。'
 union select '3', '56', 'ST25', 'acupoint_st25', '天枢', 'Tianshu', 'Celestial pivot, 天樞', '<<WHO>>
-Tian: heaven; shu: pivot.
-The region above the navel is considered as the heaven, pertaining to Yang, and the region below it as the earth, pertaining to Yin. The point is on the level with the navel, like a pivot between heaven and earth.
+On the upper abdomen, 2 B-cun lateral to the centre of the umbilicus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1265,8 +1246,8 @@ Regulates the Spleen, Stomach, and intestines, dispels Dampness and Damp-Heat, r
 [配伍]  配足三里治腹胀肠鸣；配气海治绕脐痛；配上巨虚，下巨虚治便秘、泄泻。
 [附注]  （l）大肠的募穴；（2）《千金》孕妇不可灸。'
 union select '3', '57', 'ST26', 'acupoint_st26', '外陵', 'Wailing', 'Outer mound', '<<WHO>>
-Wai: exterior; ling: hill.
-The local prominence of the point is like a hill.
+On the lower abdomen, 1 B-cun inferior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note: ST26 is at the same level and lateral to KI15 and CV7.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1286,8 +1267,8 @@ Regulates Qi and relieves pain.
 [操作]  直刺 1~1.5寸。
 [配伍]  配子宫、三阴交治痛经。'
 union select '3', '58', 'ST27', 'acupoint_st27', '大巨', 'Daju', 'Super great', '<<WHO>>
-Da: large; ju: huge.
-The point is on the greatest prominence of the abdominal wall.
+On the lower abdomen, 2 B-cun inferior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note: ST27 is at the same level and lateral to KI14 and CV5.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1309,8 +1290,8 @@ Strengthens the Kidneys and Essence, regulates Stomach Qi, promotes urination.
 [操作]  直刺1~1.5寸。
 [配伍]  配中极、次豂治小便不利。'
 union select '3', '59', 'ST28', 'acupoint_st28', '水道', 'Shuidao', 'Water pathway', '<<WHO>>
-Shui: water; dao: passage.
-The deep region of the point corresponds to the small intestines and is close to the bladder, pertaining to the lower Jiao, where waterway passes.
+On the lower abdomen, 3 B-cun inferior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note: ST28 is 3 B-cun inferior to ST25, 1 B-cun inferior to St27, 2 B-cun lateral to CV4.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1331,8 +1312,8 @@ Opens up the water passages, benefits urination, regulates the Lower Jiao and re
 [操作]  直刺1~1.5寸。
 [配伍]  配三阴交、中极治痛经、不孕。'
 union select '3', '60', 'ST29', 'acupoint_st29', '归来', 'Guilai', 'Return, 歸來', '<<WHO>>
-Gui: return; lai: arrival.
-This point is indicated in prolapse of the uterus and hernia for returning them to their original places.
+On the lower abdomen, 4 B-cun inferior to the centre of the umbilicus, 2 B-cun lateral to the anterior median line. 
+Note: ST29 is 4 B-cun inferior to ST25, 1 B-cun inferior to St28, 2 B-cun lateral to CV3.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1353,8 +1334,8 @@ Regulates menstruation, removes Blood stagnation in Lower Jiao.
 [操作]  直刺1~1.5寸。
 [配伍]  配大敦治疝气；配三阴交、中极治月经不调。'
 union select '3', '61', 'ST30', 'acupoint_st30', '气冲', 'Qichong', 'Rushing energy, 氣沖', '<<WHO>>
-Qi: Qi of the meridian; Chong: gushing.
-The point is located in a Qi `street` and is a passageway for the Qi of the meridian to circulate.
+In the groin region, at the same level as the superior border of the pubic symphysis, 2 B-cun lateral to the anterior median line, over the femoral artery. 
+Note: ST30 is 5 B-cun inferior to ST25, 2 B-cun lateral to CV2.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1376,8 +1357,9 @@ Regulates the Lower Jiao and the Chong Mai Vessel, subdues running piglet Qi.
 [配伍]  配气海治肠鸣腹痛。
 [附注]  冲脉所起。'
 union select '3', '62', 'ST31', 'acupoint_st31', '髀关', 'Biguan', 'Thigh pass, 髀關', '<<WHO>>
-Bi: thigh; guan: joint.
-The point is at the femoral joint.
+On the anterior aspect of the thigh, in the depression among three muscles: the proximal portion of the rectus femoris muscle, the sartorius muscle and the tensor fasciae latae muscle. 
+Note 1: With the hip and the knee in slight flexion, and the thigh slightly abducted when resistance is placed against the anteromedial aspect of the thigh,a triangular depression appears. the proximal portion of the rectus femoris muscle is found in the depression between the sartorius muscle medially and the tensor fascia latae muscle laterally. St31 is located at the deepest point in the depression inferior to the apex of this triangle. 
+Note 2: ST31 is located at the intersection of the line connecting the lateral end of the base of the patella with the anterior superior iliac spine, and the horizontal line of the inferior border of the pubic symphysis.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1397,8 +1379,7 @@ On the anterior side of the thigh and on the line connecting the anterosuperior 
 [操作]  直刺1~2寸。
 [配伍]  配伏免治痿痹。'
 union select '3', '63', 'ST32', 'acupoint_st32', '伏兔', 'Futu', 'Conquered rabbit', '<<WHO>>
-Fu: lying porstrate; tu: rabbit.
-The prominence of the local muscle of the point looks like a prostrate rabbit.
+On the anterolateral aspect of the thigh, on the line connecting the lateral end of the base of the patella with the anterior superior iliac spine, 6 B-cun superior to the base of the patella.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1418,8 +1399,8 @@ On the line connecting the anterior superior iliac spine and lateral border of t
 [操作]  直刺1~2寸。
 [配伍]  配髀关、阳陵泉治下肢痿痹。'
 union select '3', '64', 'ST33', 'acupoint_st33', '阴市', 'Yinshi', 'Fair in shade, 陰市', '<<WHO>>
-Yin: Yin of Yin-Yang; shi: market.
-Yin refers to pathogenic cold, and shi means dispersion. The point is used to disperse pathogenic cold from the knee.
+On the anterolateral aspect of the thigh, lateral to the rectus femoris tendon, 3 B-cun superior to the base of the patella. 
+Note: ST33 is at the midpoint of the line connecting St32 with the lateral end of the base of the patella.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1439,8 +1420,8 @@ When the knee is flexed, the point is 3 cun above the laterosuperior border of t
 [操作]  直刺1~1.5寸。
 [配伍]  配足三里、阳陵泉治腿膝痿痹。'
 union select '3', '65', 'ST34', 'acupoint_st34', '梁丘', 'Liangqiu', 'Beam mound', '<<WHO>>
-Liang: ridge; qiu: hills.
-The prominent muscle above the knee where this point is located, looks like a ridge and hill.
+On the anterolateral aspect of the thigh, between the vastus lateralis muscle and the lateral border of the rectus femoris tendon, 2 B-cun superior to the base of the patella. 
+Note: Putting the thigh muscle under tension, the rectus femoris tendon and the vastus lateralis muscle are more distinct. St34 is located between the muscle and the tendon, 1 B-cun directly inferior to ST33.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1462,8 +1443,8 @@ When the knee is flexed, the point is 2 cun above the laterosuperior border of t
 [配伍]  配足三里、中脘治胃痛。
 [附注]  足阳明经郄穴。'
 union select '3', '66', 'ST35', 'acupoint_st35', '犊鼻', 'Dubi', 'Nose of calf, 犢鼻', '<<WHO>>
-Du: calf; bi: nose.
-The depressions on both sides below the kneecap look like the nostrils of a calf and the point is at the external foramen.
+On the anterior aspect of the knee, in the depression lateral to the patellar ligament. 
+Note: When the knee is flexed, ST35 is located in the depression lateral and inferior to the patella.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1483,8 +1464,8 @@ When the knee is flexed, the point is at the lower border of the patella, in the
 [操作]  向后内斜刺0.5~1寸。
 [配伍]  配阳陵泉、足三里治膝痛。'
 union select '3', '67', 'ST36', 'acupoint_st36', '足三里', 'Zusanli', 'Walking three miles', '<<WHO>>
-Zu: lower limbs; san: three; li: taken as cun in ancient times.
-The point is on the legs, 3 cun below the knee.
+On the anterior aspect of the leg, on the line connecting ST35 with ST41, 3 B-cun inferior to ST35. 
+Note: ST36 is located on the tibialis anterior muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1508,8 +1489,8 @@ Tonifies Qi and Blood, harmonizes and strengthens the Spleen and Stomach, streng
 [配伍]  配中脘、梁丘治胃痛；配内关治呕吐；配气海治腹胀；配膻中、乳根治乳痛；配阳陵泉、悬钟治下肢痹痛；常灸天里可养志保健。
 [附注]  （l） 足阳明经所入为“合”。（2）本穴有强壮作用，为保健要穴。'
 union select '3', '68', 'ST37', 'acupoint_st37', '上巨虚', 'Shangjuxu', 'Super great void', '<<WHO>>
-Shang: upper; ju: great; xu: void.
-A large void lies between the tibia and fibula. The point is in the upper part of the void.
+On the anterior aspect of the leg, on the line connecting ST35 with ST41, 6 B-cun inferior to ST35. 
+Note: ST37 is located on the tibialis anterior muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1530,8 +1511,8 @@ Regulates the intestines and the Stomach and Spleen, resolves Damp-Heat (allevia
 [配伍]  配足三里、气海治便秘、泄泻。
 [附注]  大肠经下合穴。'
 union select '3', '69', 'ST38', 'acupoint_st38', '条口', 'Tiaokou', 'Strip mouth, 條口', '<<WHO>>
-Tiao: strip; kou: space.
-The point is in the strip space between the fibula and tibia.
+On the anterior aspect of the leg, on the line connecting ST35 with ST41, 8 B-cun inferior to ST35. 
+Note: ST38 is located on the tibialis anterior muscle, at the same level as ST40.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1551,8 +1532,8 @@ Activates the meridians, removes meridian obstructions, relieves pain.
 [操作]  直刺1~1.5寸。
 [配伍]  配肩髃、肩豂、治肩臂痛。'
 union select '3', '70', 'ST39', 'acupoint_st39', '下巨虚', 'Xiajuxu', 'Inferior great void', '<<WHO>>
-Xia: lower; ju: great; xu: void.
-A large void is formed between the tibia and the fibula. The point lies in the lower part of the void.
+On the anterior aspect of the leg, on the line connecting ST35 with ST41, 9 B-cun inferior to ST35. 
+Note: ST39 is located on the tibialis anterior muscle, at the same level as GB35 and GB36.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1574,8 +1555,8 @@ Regulates Small Intestine Qi, resolves Damp-Heat, activates the meridians, remov
 [配伍]  配天枢、气海治腹痛。
 [附注]  小肠经下合穴。'
 union select '3', '71', 'ST40', 'acupoint_st40', '丰隆', 'Fenglong', 'Rich and prosperous, 豐隆', '<<WHO>>
-Feng: plentiful; long: abundance.
-The plentiful grain Qi of the stomach meridian is abundant; at this point it overflows into its major collateral.
+On the anterolateral aspect of the leg, lateral border of the tibialis anterior muscle, 8 B-cun superior to the prominence of the lateral malleolus. 
+Note: ST40 is one fingerbreadth (middle finger) lateral to ST38.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1598,8 +1579,8 @@ Transforms phlegm and dampness, stops cough and wheezing, calms the shen and cle
 [配伍]  配风池治眩晕；配膻中、肺俞治痰多咳嗽。
 [附注]  足阳明经络穴。'
 union select '3', '72', 'ST41', 'acupoint_st41', '解溪', 'Jiexi', 'Dissolving brook, 解谿', '<<WHO>>
-Jie: separation; xi: stream.
-Xi refers to a minor depression on the body surface. The point is in the anterior articular depression of the ankle joint.
+On the anterior aspect of the ankle, in the depression at the centre of the front surface of the ankle joint, between the tendons of extensor hallucis longus and extensor digitorum longus. 
+Note: ST41 is located between two tendons on the dorsum of the foot which are more distinct when the ankle is in dorsiflexion, and is at the midpoint of the line connecting the prominences of the lateral malleolus and the medial malleolus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1621,8 +1602,7 @@ On the dorsum of the foot, at the midpoint of the transverse crease of the ankle
 [配伍]  配阳陵泉、悬钟治下肢痿痹。
 [附注]  足阳明经所行为“经”。'
 union select '3', '73', 'ST42', 'acupoint_st42', '冲阳', 'Chongyang', 'Flushing Yang, 沖陽', '<<WHO>>
-Chong: important place; yang: Yang of Yin-Yang.
-The point is where the Chongyang pulse is located (arteria dorsalis pedis).
+On the dorsum of the foot, at the joint of the base of the second metatarsal bone and the intermediate cuneiform bone, over the dorsalis pedis artery.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1644,8 +1624,7 @@ On the dome of the instep of the foot, between the tendons of long extensor musc
 [配伍]  配大椎、丰隆治癫狂痫。
 [附注]  足阳明经所过为“原”。'
 union select '3', '74', 'ST43', 'acupoint_st43', '陷谷', 'Xiangu', 'Sinking valley', '<<WHO>>
-Xian: depression; gu: valley.
-Gu refers to a depression on the body surface. The point is in the depression between the second and third metatarsals.
+On the dorsum of the foot, between the second and third metatarsal bones, in the depression proximal to the second metatarsophalangeal joint.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1666,8 +1645,7 @@ In the depression distal to the junction of the 2nd and 3rd metatarsal bones.', 
 [配伍]  陷谷、上星、囟会、前顶、公孙、治卒面肿。
 [附注]  足阳明经所注为“输”。'
 union select '3', '75', 'ST44', 'acupoint_st44', '內庭', 'Neiting', 'Inner court', '<<WHO>>
-Nei: interior; ting: courtyard.
-This point lies next to Lidui (ST45), as if it were a courtyard to it.
+On the dorsum of the foot, between the second and third toes, posterior to the web margin, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1689,8 +1667,7 @@ Proximal to the web margin between the 2nd and 3rd toes, in the depression dista
 [配伍]  配合谷治齿痛；配地仓颊车治口歪。
 [附注]  足阳明经所溜为“荥”。'
 union select '3', '76', 'ST45', 'acupoint_st45', '厉兑', 'Lidui', 'Strict exchange, 厲兌', '<<WHO>>
-Li: stomach; dui: door.
-This point is at the end of the second toe, like a door of the stomach meridian.
+On the second toe, lateral to the distal phalanx, 0.1 f-cun proximal-lateral to the lateral corner of the second toenail, at the intersection of the vertical line of the lateral border and the horizontal line of the base of the second toenail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1711,8 +1688,7 @@ On the lateral side of the 2nd toe, 0.1 cun posterior to the corner of the nail.
 [配伍]  配内关、神门治多梦。
 [附注]  足阳明经所出为“井”。'
 union select '4', '77', 'SP1', 'acupoint_sp1', '隐白', 'Yinbai', 'Hidden white', '<<WHO>>
-Yin: hidden; bai: white. 
-The point is in a hidden region, where the colour is white.
+On the great toe, medial to the distal phalanx, 0.1 f-cun proximal-medial to the medial corner of the toenail, at the intersection of the vertical line of the medial border and horizontal line of the base of the toenail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1734,8 +1710,7 @@ On the medial side of the great toe, 0.1 cun posterior to the corner of the nail
 [配伍]  配地机、三阴交治疗出血症。
 [附注]  足太阴经所出为“井”。'
 union select '4', '78', 'SP2', 'acupoint_sp2', '大都', 'Dadu', 'Great metropolis', '<<WHO>>
-Da: big; du: assembling.
-The point is at the big toe, where the Qi of the meridian gathers.
+On the great toe, in the depression distal to the first metatarsophalangeal joint, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1756,8 +1731,7 @@ On the medial side of the great toe, distal and inferior to the first metatarsod
 [配伍]  配足三理治腹胀。
 [附注]  足太阴经所溜为“荥”。'
 union select '4', '79', 'SP3', 'acupoint_sp3', '太白', 'Taibai', 'Too white', '<<WHO>>
-Tai: great; bai: white.
-The point is in the white skin of the big toe, where the white skin is the widest.
+On the medial aspect of the foot, in the depression proximal to the first metatarsophalangeal joint, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1779,8 +1753,8 @@ Proximal and inferior to the 1st metatarsophalangeal joint, in the depression of
 [配伍]  配中脘、足三里治胃痛。
 [附注]  足太阴经所注为“输”；脾经原穴。'
 union select '4', '80', 'SP4', 'acupoint_sp4', '公孙', 'Gongsun', 'Generation gap, 公孫', '<<WHO>>
-Gong: connection; sun: reticular collateral.
-Sun here means `collateral`; from this point the collateral of the spleen meridian connects with the stomach meridian.
+On the medial aspect of the foot, antero inferior to the base of the first metatarsal bone, at the border between the red and white flesh. 
+Note: A depression can be felt when moving proximally from SP3. SP4 is located in the depression distal to the base of the first metatarsal bone.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1802,8 +1776,9 @@ In the depression distal and inferior to the base of the 1st metatarsal bone, at
 [配伍]  配中脘、内关治胃酸过多、胃痛。
 [附注]  足太阴经络穴。八脉交会穴之一，通于冲脉。'
 union select '4', '81', 'SP5', 'acupoint_sp5', '商丘', 'Shangqiu', 'Trades hill', '<<WHO>>
-Shang: one of the Five Sounds, pertaining to metal; qiu: hills.
-This is the Jing-River point of the spleen meridian and pertains to metal. The point is below the medial malleolus, which looks like a hill.
+On the medial aspect of the foot, anteroinferior to the medial malleolus, in the depression midway between the tuberosity of the navicular bone and the prominence of the medial malleolus. 
+Note 1: SP5 is located at the intersection of two imaginary lines: the vertical line of the anterior border of the medial malleolus and the horizontal line of the inferior border of the medial malleolus. 
+Note 2: SP5 is located posterior to LR4 and anterior to KI6.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1825,8 +1800,8 @@ In the depression distal and inferior to the medial malleolus, midway between th
 [配伍]  配气海、足三里治腹胀肠鸣。
 [附注]  足太阴经所行为“经”。'
 union select '4', '82', 'SP6', 'acupoint_sp6', '三阴交', 'Sanyinjiao', 'Crossroad of 3 Yin, 三陰交', '<<WHO>>
-Sanyin: three Yin meridian; jiao: crossing.
-This is an intersecting point of the spleen meridian, the liver meridian and the kidney meridian.
+On the tibial aspect of the leg, posterior to the medial border of the tibia, 3 B-cun superior to the prominence of the medial malleolus. 
+Note: 1 B-cun superior to KI8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1850,8 +1825,8 @@ Strengthens the Spleen and Stomach, resolves dampness, harmonizes the Liver, str
 [配伍]  配足三理治肠鸣泄泻；配中极治月经不调；配子宫治疗阴挺；配大敦治疝气；配内关、神门治失眠。
 [附注]  （1）足太阴、少阴、厥阴经交会穴。（2）孕妇禁针。'
 union select '4', '83', 'SP7', 'acupoint_sp7', '漏谷', 'Lougu', 'Leaking valley', '<<WHO>>
-Lou: aperture; gu: valley.
-The point is located in the depression posterior to the tibia, like in a valley.
+On the tibial aspect of the leg, posterior to the medial border of the tibia, 6 B-cun superior to the prominence of the medial malleolus. 
+Note: 3 B-cun superior to SP6.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1871,8 +1846,8 @@ Tonifies the Spleen, resolves Dampness.
 [操作]  直刺1~1.5寸。
 [配伍]  配足三里治腹胀肠鸣。'
 union select '4', '84', 'SP8', 'acupoint_sp8', '地机', 'Diji', 'Terrestrial machine, 地機', '<<WHO>>
-Di: earth; ji: importance.
-Di refers to the lower limbs where the point is located. The local muscle is very thick and is an important region for leg movement.
+On the tibial aspect of the leg, posterior to the medial border of the tibia, 3 B-cun inferior to SP9. 
+Note: SP8 is located at the junction of the upper one third and lower two thirds of the line connecting the apex of the patella with the prominence of the medial malleolus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1894,8 +1869,8 @@ Harmonizes the Spleen, regulates menstruation and the uterus, moves Blood, regul
 [配伍]  配三阴交治痛经；配隐白治崩漏。
 [附注]  足太阴经郄穴。'
 union select '4', '85', 'SP9', 'acupoint_sp9', '阴陵泉', 'Yinlingquan', 'Spring in shady mound, 陰陵泉', '<<WHO>>
-Yin: Yin of Yin-Yang; ling: hill; quan: spring.
-Yin here means `interior`. The point lies in the depression at the interior border of the medial epicondyle of the tibia, like a spring at the foot of a hill.
+On the tibial aspect of the leg, in the depression between the inferior border of the medial condyle of the tibia and the medial border of the tibia. 
+Note: A depression can be felt inferior to the knee joint when moving proximally along the medial border of the tibia. SP9 is located in a depression at the angle formed by the inferior border of the medial condyle of the tibia and the posterior border of the tibia.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1918,8 +1893,7 @@ On the lower border of the medial condyle of the tibia, in the depression poster
 [配伍]  配肝俞、至阳治黄疸；阴陵泉透阳陵泉治膝痛。
 [附注]  足太阴经所人为“合”。'
 union select '4', '86', 'SP10', 'acupoint_sp10', '血海', 'Xuehai', 'Sea of blood', '<<WHO>>
-Xue: blood; hai: sea.
-This point is indicated in blood diseases, in the sense of ruturning overflowed blood into the sea.
+On the anteromedial aspect of the thigh, on the bulge of the vastus medialis muscle, 2 B-cun superior to the medial end of the base of the patella.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1939,8 +1913,7 @@ When the knee is flexed, the point is 2 cun above the mediosuperior border of th
 [操作]  直刺1~1.5寸。
 [配伍]  配三阴交治月经不调；配曲池治瘾疹。'
 union select '4', '87', 'SP11', 'acupoint_sp11', '箕门', 'Jimen', 'Windowing gate, 箕門', '<<WHO>>
-Ji: dustpan; men: door.
-A man sitting with both legs outstretched is reminiscent of the dustpan in shape. The point is on the medial aspect of both thighs, just like the opening of the dustpan.
+On the medial aspect of the thigh, at the junction of the upper one third and lower two thirds of the line connecting the medial end of the base of the patella with SP12, between the sartorius muscle and the adductor longus muscle, over the femoral artery.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1960,8 +1933,8 @@ Resolves Dampness, benefits urination.
 [操作]  避开动脉，直刺0.5~1寸。
 [配伍]  配太冲腹股沟疼痛。'
 union select '4', '88', 'SP12', 'acupoint_sp12', '冲门', 'Chongmen', 'Flushing gate, 沖門', '<<WHO>>
-Chong: pass; men: door.
-The point is in Qi `street` and is an important door for the passage of the Qi of the meridian.
+In the groin region, at the inguinal crease, lateral to the femoral artery. 
+Note: At the same level as CV2, medial and inferior to SP13.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -1982,8 +1955,7 @@ Superior to the lateral end of the inguinal groove, lateral to the pulsating ext
 [配伍]  配大敦治疝气。
 [附注]  足太阴、厥阴经交会穴。'
 union select '4', '89', 'SP13', 'acupoint_sp13', '府舍', 'Fushe', 'Prefecture house', '<<WHO>>
-Fu: Zang-fu organs; she: dwelling.
-The deep region of this point is the abdominal cavity, which is the dwelling place of the Zang-fu organs.
+On the lower abdomen, 4.3 B-cun inferior to the centre of the umbilicus, 4 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2003,8 +1975,7 @@ Regulates Qi, relieves pain.
 [配伍]  配气海治腹痛。
 [附注]  足太阴、厥阴经与阴维脉交会穴。'
 union select '4', '90', 'SP14', 'acupoint_sp14', '腹结', 'Fujie', 'Knot of belly, 腹結', '<<WHO>>
-Fu: abdomen; jie: stagnation.
-This point is indicated in treating abdominal stagnation.
+On the lower abdomen, 1.3 B-cun inferior to the centre of the umbilicus, 4 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2024,8 +1995,8 @@ Regulates Qi and the Lower Jiao.
 [操作]  直刺1~2寸。
 [配伍]  配气海、天枢治腹痛。'
 union select '4', '91', 'SP15', 'acupoint_sp15', '大横', 'Daheng', 'Great cross, 大橫', '<<WHO>>
-Da: large; heng: horizontal.
-This point is on the large part of the abdomen horizontal to the navel.
+On the upper abdomen, 4 B-cun lateral to the centre of the umbilicus. 
+Note: At the same level and lateral to ST25, KI16 and CV8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2045,8 +2016,8 @@ Regulates the intestines, regulates Qi, tonifies the Spleen.
 [配伍]  配天枢、足三里治腹痛。
 [附注]  足太阴与阴维脉交会穴。'
 union select '4', '92', 'SP16', 'acupoint_sp16', '腹哀', 'Fuai', 'Sorrow belly', '<<WHO>>
-Fu: abdomen; ai: pain.
-This point is good for treating abdominal pain.
+On the upper abdomen, 3 B-cun superior to the centre of the umbilicus, 4 B-cun lateral to the anterior median line. 
+Note: 3 B-cun superior to SP15, at the same level as CV11.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2066,8 +2037,8 @@ Regulates the intestines, regulates Qi.
 [配伍]  配气海治肠鸣。
 [附注]  足太阴与阴维脉交会穴。'
 union select '4', '93', 'SP17', 'acupoint_sp17', '食窦', 'Shidou', 'Food cave, 食竇', '<<WHO>>
-Shi: food; dou: sinus.
-The point is infero-lateral to the nipple and in its deep region there is a sinus in which milk is stored. This point is used to promote absorption of food and for tonification.
+In the anterior thoracic region, in the fifth intercostal space, 6 B-cun lateral to the anterior median line. 
+Note: SP17, ST18 and KI22 are located along the curve of the fifth intercostal space.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2089,8 +2060,8 @@ In the 5th intercostal space, 6 cun lateral to the anterior midline.', '<<针灸
 [配伍]  配膻中治胸肋胀痛。
 [附注]  本经食窦至大包诸穴，深部为肺脏，不可深刺。'
 union select '4', '94', 'SP18', 'acupoint_sp18', '天溪', 'Tianxi', 'Celestrial stream, 天谿', '<<WHO>>
-Tian: heaven; xi: valley.
-Tian here means `upper`. The point is in the stream-like intercoastal space.
+In the anterior thoracic region, in the fourth intercostal space, 6 B-cun lateral to the anterior median line. 
+Note: SP18, ST17 and KI23 are located along the curve of the fourth intercostal space.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2110,8 +2081,8 @@ In the 4th intercostal space, 6 cun lateral to the anterior midline.', '<<针灸
 [操作]  斜刺或向外平刺0.5~0.8寸。
 [配伍]  配膻中治胸肋疼痛。'
 union select '4', '95', 'SP19', 'acupoint_sp19', '胸乡', 'Xiongxiang', 'Chest country, 胸鄉', '<<WHO>>
-Xiong: chest; xiang: vast place.
-This point is located on the vast part of the upper chest.
+In the anterior thoracic region, in the third intercostal space, 6 B-cun lateral to the anterior median line. 
+Note: SP19, ST6 and KI24 are located along the curve of the third intercostal space.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2130,8 +2101,8 @@ In the 3rd intercostal space, 6 cun lateral to the anterior midline.', '<<针灸
 [操作]  斜刺或向外平刺0.5~0.8寸。
 [配伍]  配膻中治胸肋胀痛。'
 union select '4', '96', 'SP20', 'acupoint_sp20', '周荣', 'Zhourong', 'Full glory, 周榮', '<<WHO>>
-Zhou: general; rong: nourishment.
-The point functions to harmonize the nutrient Qi and to nourish the whole body.
+In the anterior thoracic region, in the second intercostal space, 6 B-cun lateral to the anterior median line. 
+Note: SP20, ST15 and KI25 are located along the curve of the second intercostal space.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2150,8 +2121,8 @@ In the 2nd intercostal space, 6 cun lateral to the anterior midline.', '<<针灸
 [操作]  斜刺或向外平刺0.5~0.8寸。
 [配伍]  配膻中治胸肋胀满。'
 union select '4', '97', 'SP21', 'acupoint_sp21', '大包', 'Dabao', 'Great bundle', '<<WHO>>
-Da: large; bao: containing.
-The point pertains to the major collateral of the spleen meridian. The spleen (earth) lies in the center and is related to all the Zang-Fu organs.
+In the lateral thoracic region, in the sixth intercostal space, on the midaxillary line. 
+Note: With the subject lying on the side and the arm abducted, SP21 is located at the intersection of the midaxillary line and the sixth intercostal space.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2172,8 +2143,7 @@ On the lateral side of the chest and on the middle axillary line, in the 6th int
 [配伍]  配足三里治四肢无力。
 [附注]  脾之大络。'
 union select '5', '98', 'HT1', 'acupoint_ht1', '极泉', 'Jiquan', 'Extreme spring, 極泉', '<<WHO>>
-Ji: summit; quan: spring. 
-The point is in the center of the armpit; the local depression is like a spring.
+In the axilla, in the centre of the axillary fossa, over the axillary artery.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2193,8 +2163,8 @@ When the upper arm is abducted, the point is in the centre of the axilla, on the
 [操作]  避开腋动脉，直刺或斜刺0.3~0.5寸。
 [配伍]  配肩髃、曲池治肩臂痛。'
 union select '5', '99', 'HT2', 'acupoint_ht2', '青灵', 'Qingling', 'Green ghost, 青靈', '<<WHO>>
-Qing: the colour signifying origination; ling: mind.
-The heart is an official monarch with the functions of resuscitation, and housing the mind. This point is the source of the Qi of the meridian.
+On the medial aspect of the arm, just medial to the biceps brachii muscle, 3 B-cun superior to the cubital crease. 
+Note: With the elbow flexed and the arm abducted, Ht2 is located at the junction of the upper two thirds and lower one third of the line connecting Ht1 with Ht3.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2214,8 +2184,8 @@ When the elbow is flexed, the point is 3 cun above the medial end of the transve
 [操作]  直刺0.5~1寸。
 [配伍]  配肩髃、曲池治肩臂痛。'
 union select '5', '100', 'HT3', 'acupoint_ht3', '少海', 'Shaohai', 'Young sea', '<<WHO>>
-Shao: young; hai: sea.
-Shao refers to the Hand-Shaoyin meridian. This is the He-sea point of the heart meridian. The Qi of the meridian circulates to this point, like water flowing into the sea.
+On the anteromedial aspect of the elbow, just anterior to the medial epicondyle of the humerus, at the same level as the cubital crease. 
+Note: With the elbow is flexed, HT3 is located at the midpoint of the line connecting cubital crease the medial end of the cubital crease and the medial epicondyle of the humerus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2236,8 +2206,9 @@ With the elbow flexed, at the midpoint of the line connecting the medial end of 
 [配伍]  配曲池治肘臂挛痛。
 [附注]  手少阴经所人为“合”。'
 union select '5', '101', 'HT4', 'acupoint_ht4', '灵道', 'Lingdao', 'Ghost path, 靈道', '<<WHO>>
-Ling: mind; dao: pathway.
-The heart dominates the mind. This point is in the depression on the radial side of the tendon of m. flexor carpi ulnaris; it is like a pathway leading toward the mind.
+On the anteromedial aspect of the forearm, just radial to the flexor carpi ulnaris tendon, 1.5 B-cun proximal to the palmar wrist crease. 
+Note 1: 1.5 B-cun proximal to HT7, at the same level as the superior border of the head of the ulna. 
+Note 2: 1.5 B-cun proximal to the radial side of the superior border of the pisiform bone.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2257,8 +2228,9 @@ When the palm faces upward, the point is on the radial side of the tendon of m. 
 [配伍]  配心俞治心痛。
 [附注]  手少阴经所行为“经”。'
 union select '5', '102', 'HT5', 'acupoint_ht5', '通里', 'Tongli', 'Inner communication', '<<WHO>>
-Tong: leading to; li: interior.
-From this point the collateral of this meridian branches to the small intestine meridian.
+On the anteromedial aspect of the forearm, radial to the flexor carpi ulnaris tendon, 1 B-cun proximal to the palmar wrist crease. 
+Note 1: 1 B-cun proximal to HT7. HT 4 is located at the level with the root of the head of the ulna, HT 5, the body of the head of the ulna and Ht 6, the base of the head of the ulna. 
+Note 2: 1 B-cun proximal to the radial side of the proximal border of the pisiform bone.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2280,8 +2252,9 @@ When the palm faces upward, the point is on the radial side of the tendon of m. 
 [配伍]  配廉泉、哑门治不语。
 [附注]  手少阴经络穴。'
 union select '5', '103', 'HT6', 'acupoint_ht6', '阴郗', 'Yinxi', 'Yin tortuosity, 陰郗', '<<WHO>>
-Yin: Yin of Yin-Yang; xi: cleft.
-This is the Xi-cleft point of the Hand-Shaoyin Meridian.
+On the anteromedial aspect of the forearm, radial to the flexor carpi ulnaris tendon, 0.5 B-cun proximal to the palmar wrist crease. 
+Note 1: 0.5 B-cun proximal to HT7, at the same level as the distal border of the head of the ulna. 
+Note 2: 0.5 B-cun proximal to the radial side of the proximal border of the pisiform bone.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2303,8 +2276,8 @@ When the palm faces upward, the point is on the radial side of the tendon of m. 
 [配伍]  配心俞、巨阙治心痛；配大椎治阴虚盗汗。
 [附注]  手少阴经郄穴。'
 union select '5', '104', 'HT7', 'acupoint_ht7', '神门', 'Shenmen', 'God`s door, 神門', '<<WHO>>
-Shen: mind; men: door.
-The heart houses the mind. This point is a door for the mind.
+On the anteromedial aspect of the wrist, radial to the flexor carpi ulnaris tendon, on the palmar wrist crease. 
+Note: In the depression radial to the proximal border of the pisiform bone, on the palmar wrist crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2326,8 +2299,8 @@ At the ulnar end of the transverse crease of the wrist, in the depression on the
 [配伍]  配内关、心俞治心痛；配内关、三阳交治健忘、失眠。
 [附注]  手少阴经所注为“输”，心经原穴。参考资料： 1、据报道，给狗注射垂体素造成垂体性高血压，针刺“神门’穴有明显的降压作用；2、据报道，针刺癫痫病人的神门、阴郄、通里、百会、大陵等穴，可使部分癫痫大发作患者脑电图趋向规则或使病理性脑电波电位降低。'
 union select '5', '105', 'HT8', 'acupoint_ht8', '少府', 'Shaofu', 'Young prefecture', '<<WHO>>
-Shao: young; fu: place.
-The point belongs to the Hand-Shaoyin Meridian and is where the Qi of the meridian flows in.
+On the palm of the hand, in the depression between the fourth and fifth metacarpal bones, proximal to the fifth metacarpophalangeal joint. 
+Note: Between the fourth and fifth metacarpal bones, where the tip of the little finger rests when a fist is made, at the same level as PC8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2349,8 +2322,7 @@ When the palm faces upward, the point is between the 4th and 5th metacarpal bone
 [配伍]  配内关治心悸。
 [附注]  手少阴经所溜为“荥”。'
 union select '5', '106', 'HT9', 'acupoint_ht9', '少冲', 'Shaochong', 'Little flush, 少沖', '<<WHO>>
-Shao: young; chong: gushing.
-The point is on the little finger on the Hand-Shaoyin Meridian, where the Qi of the meridian originates and gushes upwards along the meridian.
+On the little finger, radial to the distal phalanx, 0.1 f-cun proximal-lateral to the radial corner of the little fingernail, at the intersection of the vertical line of the radial border of the nail and horizontal line of the base of the little fingernail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2371,8 +2343,7 @@ On the radial side of the little finger, about 0.1 cun from the corner of the na
 [配伍]  配太冲、中冲、大椎治热病、昏迷。
 [附注]  手少阴经所出为“井”。'
 union select '6', '107', 'SI1', 'acupoint_si1', '少泽', 'Shaoze', 'Young marsh, 少澤', '<<WHO>>
-Shao: young; ze: marsh. 
-The point is located on the little finger, just where the Qi of the meridian originates; it is like a small marsh.
+On the little finger, ulnar to the distal phalanx, 0.1 f-cun proximal-medial to the ulnar corner of the little fingernail, at the intersection of the vertical line of ulnar border of the nail and horizontal line of the base of the little fingernail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2394,8 +2365,8 @@ On the ulnar side of the little finger, about 0.1 cun from the corner of the nai
 [配伍]  配膻中、乳根治乳汁少、乳痈。
 [附注]  手太阳经所出为“井”。'
 union select '6', '108', 'SI2', 'acupoint_si2', '前谷', 'Qiangu', 'Front Valley', '<<WHO>>
-Qian: front; gu: valley.
-This point lies in the depression in front of the 5th metacarpophalangeal joint, which is like a valley.
+On the little finger, in the depression distal to the ulnar side of the fifth metacarpophalangeal joint, at the border between the red and white flesh. 
+Note: When the hand is slightly flexed, the point is located at the ulnar end of the palmar metacarpophalangeal crease of the little finger.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2417,8 +2388,8 @@ When a loose fist is made, the point is on the ulnar end of the crease in front 
 [配伍]  配耳门、翳风治耳鸣。
 [附注]  手太阳经所溜为“荥”。'
 union select '6', '109', 'SI3', 'acupoint_si3', '后溪', 'Houxi', 'Back stream, 後谿', '<<WHO>>
-Hou: back; xi: brook.
-This point lies in the brook-like depression at the back of the 5th metacarpophalangeal joint.
+On the dorsum of the hand, in the depression proximal to the ulnar side of the fifth metacarpophalangeal joint, at the border between the red and white flesh. 
+Note: When the hand is slightly flexed, the point is located at the ulnar end of the distal transverse skin crease of the palm, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2440,8 +2411,8 @@ When a loose fist is made, the point is on the ulrlar end of the distal palmar c
 [配伍]  配列缺、悬钟治项强痛；配人中治急性腰扭伤。
 [附注]  手太阳经所注为“输”；八脉交会穴之一，通督脉。'
 union select '6', '110', 'SI4', 'acupoint_si4', '腕骨', 'Wangu', 'Wrist bone', '<<WHO>>
-Wan: wrist; gu: bone.
-The point is between the bones of the wrist.
+On the posteromedial aspect of the wrist, in the depression between the base of the fifth metacarpal bone and the triquetrum bone, at the border between the red and white flesh. 
+Note: With one finger placed on SI3, push and slide proximally along the fifth metacarpal bone to the bony projection, SI4 is located in the depression between these two bones.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2464,7 +2435,7 @@ On the ulnar side of the palm, in the depression between the base of the 5th met
 [附注]  手太阳经所过为“原”。'
 union select '6', '111', 'SI5', 'acupoint_si5', '阳谷', 'Yanggu', 'Yang: Yang of Yin-Yang; gu: valley.
 Yang means the `exterior`. The seam on the exterior aspect of the wrist, where the point is located, is like a valley.', '<<WHO>>
-
+On the posteromedial aspect of the wrist, in the depression between the triquetrum bone and the ulnar styloid process.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2485,8 +2456,8 @@ At the ulnar end of the transverse crease on the dorsal aspect of the wrist, in 
 [配伍]  配阳池治腕痛。
 [附注]  手太阳经所行为“经”。'
 union select '6', '112', 'SI6', 'acupoint_si6', '养老', 'Yanglao', 'Nourishing the old, 養老', '<<WHO>>
-Yang: to support; lao: old people.
-This point is good for treating geriatric diseases such as blurring of vision, deafness, lumbago, shoulder pain, etc.
+On the posteromedial aspect of the forearm, in the depression radial to the head of the ulnar bone, 1 B-cun proximal to the dorsal wrist crease. 
+Note: With the palm facing downwards, press the highest point of the head of ulnar bone with a finger, and then turn the palm towards the chest; SI6 is located at the cleft between the bones where the finger slides.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2507,8 +2478,8 @@ Dorsal to the head of the ulna. When tile palm face the chest, the point is in t
 [配伍]  配太冲、足三里治目视不明。
 [附注]  手太阳经郄穴。'
 union select '6', '113', 'SI7', 'acupoint_si7', '支正', 'Zhizheng', 'Supporting the upright', '<<WHO>>
-Zhi: divergence; zheng: rugular meridian.
-The collateral of the small intestine meridian diverges from this point to the heart meridian.
+On the posteromedial aspect of the forearm, between the medial border of the ulnar bone and the flexor carpi ulnaris muscle, 5 B-cun proximal to the dorsal wrist crease. 
+Note: 1 B-cun distal to the midpoint of the line connecting  SI5 with SI8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2529,8 +2500,8 @@ On the line joining Yanggu (SI-5) and Xiaohai (SI-8), 5 cun proximal to the dors
 [配伍]  配合谷治头痛。
 [附注]  手太阳经络穴。'
 union select '6', '114', 'SI8', 'acupoint_si8', '小海', 'Xiaohai', 'Small sea', '<<WHO>>
-Xiao: small; hai: sea.
-Xiao refers to the small intestine meridian, and this is the He-sea point of the meridian. When the Qi and blood arrive at this point, it is just like water flowing into the sea.
+On the posteromedial aspect of the elbow, in the depression between the olecranon and the medial epicondyle of the humerus bone. 
+Note: When the elbow is slightly flexed, SI 8 is located in the groove for the ulnar nerve.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2551,8 +2522,8 @@ When the elbow is flexed, the point is located in the depression between the ole
 [配伍]  配手三里治肘臂疼痛。
 [附注]  手太阳经所入为“合”。'
 union select '6', '115', 'SI9', 'acupoint_si9', '肩贞', 'Jianzhen', 'Shoulder chastity, 肩貞', '<<WHO>>
-Jian: shoulder; zhen: upright.
-This is the point where the small intestine meridian goes on to the shoulder.
+On the shoulder girdle, posteroinferior to the shoulder joint, 1 B-cun superior to the posterior axillary fold. 
+Note: When the arm is adducted, SI 9 is located 1 B-cun superior to the posterior axillary fold, posterior to the deltoid muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2572,8 +2543,7 @@ Posterior and inferior to the shoulder joint. When the arm is adducted, the poin
 [操作]  直刺1~1.5寸。
 [配伍]  肩髃、肩豂治疗肩周炎。配肩豂、曲池、肩井、手三里、合谷治疗上肢不遂。'
 union select '6', '116', 'SI10', 'acupoint_si10', '臑俞', 'Naoshu', 'Nao lucus', '<<WHO>>
-Nao: muscle prominence of the upper arm; shu: point.
-The point is on the upper arm, where the Qi of the meridian is infused in.
+On the shoulder girdle, superior to the posterior axillary fold, in the depression inferior to the spine of the scapula.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2594,8 +2564,7 @@ When the arm is adducted, the point is directly above the posterior end of the a
 [配伍]  配肩髃、曲池治肩臂疼痛。
 [附注]  手、足太阳，阳维脉与阳跷脉交会穴。'
 union select '6', '117', 'SI11', 'acupoint_si11', '天宗', 'Tianzong', 'Celestial ancestor', '<<WHO>>
-Tian: upper part; zong: respect.
-Tianzong means an important point on the upper part of the body.
+In the scapular region, in the depression between the upper one third and lower two thirds of the line connecting the midpoint of the spine of the scapula with the inferior angle of the scapula.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2615,8 +2584,7 @@ On the scapula, in the depression of the center of the subscapular fossa, and at
 [操作]  直刺或斜刺0.5~1寸。
 [配伍]  配肩外俞治肩胛痛；配膻中、足三里治乳痈。'
 union select '6', '118', 'SI12', 'acupoint_si12', '秉风', 'Bingfeng', 'Straight wind, 秉風', '<<WHO>>
-Bing: to receive; feng: pathogenic wind.
-The point is located at a place where it is easily invaded by the pathogenic wind.
+In the scapular region, in the supraspinatous fossa, superior to the midpoint of the spine of the scapula.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2637,8 +2605,8 @@ In the centre of the suprascapular fossa, directly above Tianzong (SI-11). When 
 [配伍]  配天宗治肩胛疼痛。
 [附注]  手三阳与足少阳经交会穴。'
 union select '6', '119', 'SI13', 'acupoint_si13', '曲垣', 'Quyuan', 'Tortuous wall', '<<WHO>>
-Qu: curved; yuan: wall.
-The spine of the scapula is like a curved wall, and this point is located on it.
+In the scapular region, in the depression superior to the medial end of the spine of the scapula. 
+Note: SI13 is located at the midpoint of the line connecting SI10 with the spinous process of the second thoracic vertebra (T2).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2657,8 +2625,9 @@ On the medial extremity of the suprascapular fossa, about midway between Naoshu 
 [操作]  直刺或斜刺0.5~1寸。
 [配伍]  配天宗、秉风治肩胛疼痛。'
 union select '6', '120', 'SI14', 'acupoint_si14', '肩外俞', 'Jianwaishu', 'Outside of shoulder', '<<WHO>>
-Jian: shoulder; wai: lateral aspect; shu: point.
-The point is on the shoulder, slightly lateral to the vertebral border of the scapula.
+In the upper back region, at the same level as the inferior border of the spinous process of the first thoracic vertebra (T1), 3 B-cun lateral to the posterior median line. 
+Note 1: SI14 is located at the intersection of two imaginary lines: the vertical line of the medial extremity of the spine of the scapula and the horizontal line inferior to the spinous process of the first thoracic vertebra (T1). 
+Note 2: SI14 is located at the same level as BL11, gV13, and the inferior border of the spinous process of the first thoracic vertebra (T1).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2678,8 +2647,8 @@ Activates the meridian, benefits the shoulder and scapula, alleviates pain.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配肩中俞、大椎、列缺治肩背疼痛。'
 union select '6', '121', 'SI15', 'acupoint_si15', '肩中俞', 'Jianzhongshu', 'Middle of shoulder', '<<WHO>>
-Jian: shoulder; zhong: central; shu: point.
-The point is on the shoulder and is in the centre of the vertebral border of the scapula.
+In the upper back region, at the same level as the inferior border of the spinous process of the seventh cervical vertebra (C7), 2 B-cun lateral to the posterior median line. 
+Note: SI15 is located at the intersection of two imaginary lines: the vertical line of the junction of the lateral one third and the medial two thirds of the line connecting the posterior median line with the medial border of the scapula and the horizontal line inferior to the spinous process of the seventh cervical vertebra (C7).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2699,8 +2668,9 @@ Descends Lung Qi, activates the meridian, alleviates pain.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配肩外俞，大椎治肩背疼痛。'
 union select '6', '122', 'SI16', 'acupoint_si16', '天窗', 'Tianchuang', 'Celestial window, 天窓', '<<WHO>>
-Tian: upper part; chuang: window.
-This point is on the neck and indicated in treating otological diseases. Its function is to restore hearing loss, as if a window were being opened.
+In the anterior region of the neck, posterior to the sternocleidomastoid muscle, at the same level as the superior border of the thyroid cartilage. 
+Note 1: The sternocleidomastoid muscle is more distinct when the head is turned to the opposite side against resistance. 
+Note 2: SI16 is located at the same level as St9, LI18 and the superior border of the thyroid cartilage. St9 is located anterior to the sternocleidomastoid muscle, SI16, posterior to the sternocleidomastoid muscle and LI18, midway between the anterior and posterior borders of the sternocleidomastoid muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2721,8 +2691,8 @@ In the lateral aspect of the neck, posterior to m. sternocleidomastoideus and Fu
 [操作]  直刺0.5~1寸。
 [配伍]  配列缺治颈项强痛。'
 union select '6', '123', 'SI17', 'acupoint_si17', '天容', 'Tianrong', 'celestial acceptance', '<<WHO>>
-Tian: upper part; rong: abundance.
-The point is on the head, where the Qi of the meridian is abundant.
+In the anterior region of the neck, posterior to the angle of the mandible, in the depression anterior to the sternocleidomastoid muscle. 
+Note: The sternocleidomastoid muscle is more distinct when the head is turned to the opposite side against resistance.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2743,8 +2713,7 @@ Posterior to the angle of mandible, in the depression on the anterior border m. 
 [操作]  直刺0.5~1寸。
 [配伍]  配列缺治颈项强痛。'
 union select '6', '124', 'SI18', 'acupoint_si18', '颧豂', 'Quanliao', 'Cheek bone, 顴豂', '<<WHO>>
-Quan: zygoma; liao: foramen.
-The point is on the raphe of the zygomatic bone.
+On the face, inferior to the zygomatic bone, in the depression directly inferior to the outer canthus of the eye.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2765,8 +2734,8 @@ Directly below the outer canthus, in the depression on the lower border of zygor
 [配伍]  配地仓、颊车治口歪；配合谷治齿痛。
 [附注]  （l）手少阳，太阳经交会穴；（2）《图翼》：禁灸。'
 union select '6', '125', 'SI19', 'acupoint_si19', '听宫', 'Tinggong', 'Listening palace, 聽宮', '<<WHO>>
-Ting: hearing; gong: palace.
-Tinggong refers to the ear. The point is located in front of the ear and is indicated in treating otological diseases.
+On the face, in the depression between the anterior border of the centre of the tragus and the posterior border of the condylar process of the mandible. 
+Note: When the mouth is slightly opened, SI19 is located in the depression anterior to the centre of the tragus, between TE21 and GB2.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2787,8 +2756,8 @@ Anterior to the tragus and posterior to the condyloid process of the mandible, i
 [配伍]  配翳风、中渚治耳鸣、耳聋。
 [附注]  手、足少阳与手太阳经交会穴。'
 union select '7', '126', 'BL1', 'acupoint_bl1', '睛明', 'Jingming', 'Eye bright', '<<WHO>>
-Jing: eye; ming: brightness. 
-The point is located near the eye and its function is to clear the eye.
+On the face, in the depression between the superomedial parts of the inner canthus of the eye and the medial wall of the orbit. 
+Note: When the eye is closed, BL1 is located in the depression 0.1 B-cun superior and medial to the inner canthus of the eye.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2810,8 +2779,8 @@ In the depression slightly above the inner canthus.', '<<针灸学>>@TCM100.COM:
 [配伍]  配球后、光明治视目不明。
 [附注]  手足太阳、足阳明、阴跷、阳跷五脉交会穴。（《素问·气府论·注》）'
 union select '7', '127', 'BL2', 'acupoint_bl2', '攒竹', 'Cuanzhu', 'Drilling bamboo, Zanzhu, 攢竹', '<<WHO>>
-Cuan: to assemble; zhu: bamboo.
-The point is at the end of the eyebrow, which looks like a luxuriant bamboo plant.
+On the head, in the depression at the medial end of the eyebrow. 
+Note: A depression, the frontal notch, can often be palpated on the medial end of the eyebrow directly superior to BL1.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2832,8 +2801,8 @@ On the medial extremity of the eyebrow, or on the Supraorbital notch.', '<<针�
 [操作]  平刺0.5~0.8寸。禁灸。
 [配伍]  配阳白治口眼歪斜、眼睑下垂。'
 union select '7', '128', 'BL3', 'acupoint_bl3', '眉冲', 'Meichong', 'Eyebrow flush, 眉沖', '<<WHO>>
-Mei: eyebrow; chong: upward.
-The point is at the anterior hairline, directly above the eyebrow.
+On the head, superior to the frontal notch, 0.5 B-cun superior to the anterior hairline. 
+Note: Midway between GV24 and BL4.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2853,8 +2822,8 @@ Directly above Zanzhu (BL-2), 0.5 cun within the anterior hairline, between Shen
 [操作]  平刺0.3~0.5寸。
 [配伍]  配太阳治头痛。'
 union select '7', '129', 'BL4', 'acupoint_bl4', '曲差', 'Qucha', 'Crooked and inferior', '<<WHO>>
-Qu: crooked; cha: unevenness.
-The meridian runs crooked laterally from Meichong (BL3) and then runs posteriorly from this point. It is marked by unevenness.
+On the head, 0.5 B-cun superior to the anterior hairline, 1.5 B-cun lateral to the anterior median line. 
+Note: At the junction of the medial one third and lateral two thirds of the line connecting GV24 with ST8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2874,8 +2843,8 @@ Expels Wind, benefits the eyes and nose, clears the head region.
 [操作]  平刺0.5~0.8寸。
 [配伍]  配合谷治头痛、鼻塞。'
 union select '7', '130', 'BL5', 'acupoint_bl5', '五处', 'Wuchu', 'Five locations, 五處', '<<WHO>>
-Wu: fifth; chu: place.
-This is the fifth point of the bladder meridian of Foot-Taiyang.
+On the head, 1 B-cun superior to the anterior hairline, 1.5 B-cun lateral to the anterior median line. 
+Note: 0.5 B-cun superior to BL4, at the same level as GV23.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2896,8 +2865,8 @@ Expels Wind, clears the head region and nose, resuscitates.
 [操作]  平刺0.5~0.8寸。
 [配伍]  配合谷、太冲治头痛、目眩。'
 union select '7', '131', 'BL6', 'acupoint_bl6', '承光', 'Chengguang', 'Receiving light', '<<WHO>>
-Cheng: to receive; guang: brightness.
-The point is at the vertex of the head, where brightness is easily perceived.
+On the head, 2.5 B-cun superior to the anterior hairline, 1.5 B-cun lateral to the anterior median line. 
+Note: 1.5 B-cun superior to BL5. 2 B-cun superior to BL4
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2918,8 +2887,8 @@ Expels Wind, clears Heat, clears the head region, benefits the nose and eyes.
 [操作]  平刺0.3~0.5寸。
 [配伍]  配百会治头痛。'
 union select '7', '132', 'BL7', 'acupoint_bl7', '通天', 'Tongtian', 'Reaching heaven', '<<WHO>>
-Tong: reaching; tian: heaven.
-The upper part of the head is likened as the heaven. The point is at the head and connects upwards with vertex.
+On the head, 4 B-cun superior to the anterior hairline, 1.5 B-cun lateral to the anterior median line. 
+Note: Midway between BL6 and BL8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2940,8 +2909,8 @@ Benefits the nose, expels Wind, clears the head.
 [操作]  平刺0.3~0.5寸。
 [配伍]  配迎香、合谷治鼻疾。'
 union select '7', '133', 'BL8', 'acupoint_bl8', '络却', 'Luoque', 'Discard refute, 絡卻', '<<WHO>>
-Lou: linking; que: return.
-The collateral of the bladder meridian returns to the body surface from this point after linking with the brain.
+On the head, 5.5 B-cun superior to the anterior hairline, 1.5 B-cun lateral to the anterior median line. 
+Note: 0.5 B-cun posterior and 1.5 B-cun lateral to GV20.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2962,8 +2931,8 @@ Benefits the eyes, calms Wind, transforms Phlegm, clears the head.
 [操作]  平刺0.3~0.5寸。
 [配伍]  配风池治头晕。'
 union select '7', '134', 'BL9', 'acupoint_bl9', '玉枕', 'Yuzhen', 'Jade pillow', '<<WHO>>
-Yu: jade; zhen: pillow.
-The ancient name of the occipital bone is `Yuzhengu` (jade pillow bone), and the point is on it.
+On the head, at the same level as the superior border of the external occipital protuberance, and 1.3 B-cun lateral to the posterior median line. 
+Note: BL9 is located at the intersection of two imaginary lines: the vertical line of the lateral border of the trapezius muscle and the horizontal line of the superior border of the external occipital protuberance. at the same level as gV17.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -2984,8 +2953,7 @@ Expels Wind, benefits the nose and eyes, alleviates pain.
 [操作]  平刺0.3~0.5寸。
 [配伍]  配大椎治头项痛。'
 union select '7', '135', 'BL10', 'acupoint_bl10', '天柱', 'Tianzhu', 'Celestial pillar', '<<WHO>>
-Tian: heaven; zhu: pillar.
-Heaven here means upper. The cervical spine was called `Zhugu` (pillar bone) in ancient times and the point is lateral to it.
+In the posterior region of the neck, at the same level as the superior border of the spinous process of the second cervical vertebra (C2), in the depression lateral to the trapezius muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3006,8 +2974,7 @@ Expels Wind, activates the meridian, soothes the sinews, benefits the head, alle
 [操作]  直刺或斜刺0.5~0.8寸，不可向内上方深刺，以免伤及延髓。
 [配伍]  配大椎治头痛项强。'
 union select '7', '136', 'BL11', 'acupoint_bl11', '大杼', 'Dazhu', 'Great slaughter', '<<WHO>>
-Da: big; zhu: shuttle.
-The first thoracic vertebra is bigger; the spinous process is like a shuttle, and the point is lateral to it.
+In the upper back region, at the same level as the inferior border of the spinous process of the first thoracic vertebra (T1), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3028,8 +2995,7 @@ Benefits the bones and joints, releases the exterior, dispels Wind, spreads and 
 [配伍]  配肩中俞、肩外俞治肩背痛。
 [附注]  （l）八会穴之一，骨会大杼；手足太阳经交会穴。（2）本经背部诸穴，不宜深刺， 以免伤及内部重要脏器。'
 union select '7', '137', 'BL12', 'acupoint_bl12', '风门', 'Fengmen', 'Windy door, 風門', '<<WHO>>
-Feng: pathogenic wind; men: door.
-This point is located where it is easily invaded by the pathogenic wind and is good for treating the diseases caused by the wind. The point is therefore considered as the door of the pathogenic wind.
+In the upper back region, at the same level as the inferior border of the spinous process of the second thoracic vertebra (T2), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3052,7 +3018,7 @@ Releases the exterior, strengthens Wei Qi, spreads and descends Lung Qi, regulat
 [附注]  足太阳经与督脉交会穴。'
 union select '7', '138', 'BL13', 'acupoint_bl13', '肺俞', 'Feishu', 'Fei: lung; shu: point.
 This point is the place where the Qi of the lung is infused into the back.', '<<WHO>>
-
+In the upper back region, at the same level as the inferior border of the spinous process of the third thoracic vertebra (T3), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3073,8 +3039,7 @@ Strengthens Lung Qi, spreads and descends Lung Qi, regulates Lung Qi, opens the 
 [配伍]  配风门治咳嗽喘；配合谷、迎香治鼻疾。
 [附注]  肺的背俞穴。'
 union select '7', '139', 'BL14', 'acupoint_bl14', '厥阴俞', 'Jueyinshu', 'Yin in equilibrium locus, 厥陰俞', '<<WHO>>
-Jueyin: the end of Yin meridians, here referring to the Back-Shu point of pericardium.
-This point is the place where the Qi of the pericardium is infused into the back.
+In the upper back region, at the same level as the inferior border of the spinous process of the fourth thoracic vertebra (T4), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3096,8 +3061,7 @@ Regulates the Heart, smoothes Liver Qi, frees the chest.
 [配伍]  配内关治心痛、心悸。
 [附注]  心包背俞穴 。'
 union select '7', '140', 'BL15', 'acupoint_bl15', '心俞', 'Xinshu', 'Heart locus', '<<WHO>>
-Xin: heart; shu: point.
-This point is the place where the Qi of the heart is infused into the back.
+In the upper back region, at the same level as the inferior border of the spinous process of the fifth thoracic vertebra (T5), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3120,8 +3084,7 @@ Strengthens and nourishes the Heart, calms the Shen, regulates Heart Qi, opens t
 [配伍]  配巨阙、内关治心痛、惊悸；配内关、神门 治失眠、健忘。
 [附注]  心的背俞穴 。'
 union select '7', '141', 'BL16', 'acupoint_bl16', '督俞', 'Dushu', 'Governing locus', '<<WHO>>
-Du: Governor Vessel; shu: point.
-This point is the place where the Qi of the governor vessel is infused.
+In the upper back region, level with the inferior border of the spinous process of the sixth thoracic vertebra (T6), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3142,8 +3105,8 @@ Invigorates the Blood, opens the chest, regulates the Qi in chest and abdomen.
 [操作]  斜刺0.5~0.8寸 。
 [配伍]  配内关治心痛、胸闷。'
 union select '7', '142', 'BL17', 'acupoint_bl17', '膈俞', 'Geshu', 'Diaphragm locus', '<<WHO>>
-Ge: diaphragm; shu: point.
-This point is the place where the Qi of the diaphragm is infused into the back.
+In the upper back region, at the same level as the inferior border of the spinous process of the seventh thoracic vertebra (T7), 1.5 B-cun lateral to the posterior median line. 
+Note: The inferior angle of the scapula is at the same level as the spinous process of the seventh thoracic vertebra.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3164,8 +3127,7 @@ Invigorates the Blood, cools the Blood, nourishes the Blood, stops bleeding, des
 [配伍]  配内关、足三里治呕吐、呃逆；配足三 里、血海、肓膏治贫血。
 [附注]  （1） 八会穴之一，血会膈俞。（2） 参考资料：据报道，用人工放血造成家免的贫血状态（红细胞在400万／mm3以下，血红蛋白在65%以下），针刺“膈俞”、“膏盲”，结果与对照组相比，大大提前纠正了贫血状态，迅速恢复正常。'
 union select '7', '143', 'BL18', 'acupoint_bl18', '肝俞', 'Ganshu', 'Liver locus', '<<WHO>>
-Gan: liver; shu: point.
-This point is the place where the Qi of the liver is infused into the back.
+In the upper back region, at the same level as the inferior border of the spinous process of the ninth thoracic vertebra (T9), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3187,8 +3149,7 @@ Moves stagnant Liver Qi, regulates and nourishes Liver Blood, resolves Damp-Heat
 [配伍]  配支沟、阳陵泉治胁痛；配太冲治目眩。
 [附注]  肝的背俞穴。'
 union select '7', '144', 'BL19', 'acupoint_bl19', '胆俞', 'Danshu', 'Gallbladder locus, 膽俞', '<<WHO>>
-Dan: gallbladder; shu: point.
-This point is the place where the Qi of the gallbladder is infused into the back.
+In the upper back region, at the same level as the inferior border of the spinous process of the tenth thoracic vertebra (T10), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3209,8 +3170,7 @@ Regulates and strengthens Gall Bladder Qi, resolves Gall Bladder/Liver Damp-Heat
 [配伍]  配阳陵泉、太冲胆道疾病。
 [附注]  胆的背俞穴。'
 union select '7', '145', 'BL20', 'acupoint_bl20', '脾俞', 'Pishu', 'Spleen locus', '<<WHO>>
-Pi: spleen; shu: point.
-This is the place where the Qi of the spleen is infused into the back.
+In the upper back region, at the same level as the inferior border of the spinous process of the 11th thoracic vertebra (T11), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3231,8 +3191,7 @@ Tonifies Spleen/Stomach Qi and Yang, nourishes Blood, resolves Dampness, regulat
 [配伍]  配足三里治腹脱 、便秘。
 [附注]  脾的背俞穴。'
 union select '7', '146', 'BL21', 'acupoint_bl21', '胃俞', 'Weishu', 'Stomach locus', '<<WHO>>
-Wei: stomach; shu: point.
-This is the place where the Qi of the stomach is infused into the back.
+In the upper back region, at the same level as the inferior border of the spinous process of the 12th thoracic vertebra (T12), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3253,8 +3212,7 @@ Regulates and harmonizes Stomach Qi, resolves Dampness, alleviates food stagnati
 [配伍]  配中脘、梁丘治胃痛。
 [附注]  胃的背俞穴。'
 union select '7', '147', 'BL22', 'acupoint_bl22', '三焦俞', 'Sanjiaoshu', 'Triple burner locus', '<<WHO>>
-Sanjiao: three regions of the body cavity; shu: point.
-This is the place where the Qi of the Sanjiao is infused into the back.
+In the lumbar region, at the same level as the inferior border of the spinous process of the first lumbar vertebra (L1), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3276,8 +3234,7 @@ Regulates and and moves the San Jiao, opens and regulates water passages, benefi
 [配伍]  配气海、足三里治肠鸣、腹胀。
 [附注]  三焦背俞穴。'
 union select '7', '148', 'BL23', 'acupoint_bl23', '肾俞', 'Shenshu', 'Kidney locus, 腎俞', '<<WHO>>
-Shen: kidney; shu: point.
-This the place where the Qi of the kidney is infused into the back.
+In the lumbar region, at the same level as the inferior border of the spinous process of the second lumbar vertebra (L2), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3300,8 +3257,7 @@ Strengthens the Kidneys, tonifies Kidney Yang, nourishes Kidney Yin and Essence,
 [配伍]  配太溪 、三阴交治月经不调；配翳风、耳门治耳鸣、耳聋。
 [附注]  （l）肾的背俞穴。（2）据实验观察针刺对正常人水负荷后肾脏泌尿功能的影响，发现在大多数情况下，针刺肾俞或京门穴时可抑制肾脏的泌尿功能。'
 union select '7', '149', 'BL24', 'acupoint_bl24', '气海俞', 'Qihaishu', 'Energy sex locus, 氣海俞', '<<WHO>>
-Qihai: sea of the primary Qi; shu: point.
-This point is opposite to Qihai (CV6), where the primary Qi is infused into the back.
+In the lumbar region, at the same level as the inferior border of the spinous process of the third lumbar vertebra (L3), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3322,8 +3278,7 @@ Strengthens the low back, removes obstructions from the meridian.
 [操作]  直刺0.5~1寸。
 [配伍]  配足三里、天枢治腹胀、肠鸣。'
 union select '7', '150', 'BL25', 'acupoint_bl25', '大肠俞', 'Dachangshu', 'Large intestine locus, 大腸俞', '<<WHO>>
-Dachang: large intestine; shu: point.
-This point is the place where the Qi of the large intestine is infused into the back.
+In the lumbar region, at the same level as the inferior border of the spinous process of the fourth lumbar vertebra (L4), 1.5 B cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3345,8 +3300,7 @@ Regulates the large intestines, strengthens the low back, removes obstructions f
 [配伍]  配气海、足三里、支沟治便秘。
 [附注]  大肠背俞穴。'
 union select '7', '151', 'BL26', 'acupoint_bl26', '关元俞', 'Guanyuanshu', 'Kuan-yuan locus, 關元俞', '<<WHO>>
-Guan: storage; yuan: primary Qi; shu: point.
-This point is opposite to Guanyuan (CV4), where the stored Qi of primary Yin and primary Yang is infused into the back.
+In the lumbar region, at the same level as the inferior border of the spinous process of the fifth lumbar vertebra (L5), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3367,8 +3321,8 @@ Strengthens the low back, removes obstructions from the meridian.
 [操作]  直刺0.8~l.2寸。
 [配伍]  配气海治腹胀。'
 union select '7', '152', 'BL27', 'acupoint_bl27', '小肠俞', 'Xiaochangshu', 'Small intestine locus, 小腸俞', '<<WHO>>
-Xiaochang: small intestine; shu: point.
-This is the place where the Qi of the small intestine is infused into the back.
+In the sacral region, at the same level as the first posterior sacral foramen, and 1.5 B-cun lateral to the median sacral crest. 
+Note: At the same level as BL31.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3389,8 +3343,8 @@ Promotes the functions of the Small Intestine, resolves Dampness and Damp-Heat, 
 [操作]  直刺或斜刺0.8~1.2寸。
 [配伍]  配天枢、足三里、上巨虚、关元治腹胀、痢疾、便秘。配肾俞、三阴交、三焦俞、关元、曲泉治泌尿系结石。'
 union select '7', '153', 'BL28', 'acupoint_bl28', '膀胱俞', 'Pangguangshu', 'Bladder locus', '<<WHO>>
-Pangguang: bladder; shu: point.
-This point is the place where the Qi of the bladder is infused into the back.
+In the sacral region, at the same level as the second posterior sacral foramen, and 1.5 B-cun lateral to the median sacral crest. 
+Note: At the same level as BL32.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3412,8 +3366,8 @@ Regulates the Bladder, resolves Dampness and Damp-Heat, removes stagnation, open
 [配伍]  配肾俞治小便不利。
 [附注]  膀胱背俞穴。'
 union select '7', '154', 'BL29', 'acupoint_bl29', '中膂俞', 'Zhonglvshu', 'Middle of spine locus', '<<WHO>>
-Zhong: centre; lv: muscles on both sides of the spine; shu: point.
-This point is in the centre of the body, where the Qi of the muscles on both sides of the spine is infused into the back.
+In the sacral region, at the same level as the third posterior sacral foramen, 1.5 B-cun lateral to the median sacral crest. 
+Note: At the same level as BL33.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3433,8 +3387,8 @@ Strengthens the lower back, dispels cold, relieves diarrhea.
 [操作]  直刺 l~1.5寸。
 [配伍]  配大敦治疝气。'
 union select '7', '155', 'BL30', 'acupoint_bl30', '百环俞', 'Baihuanshu', 'White circle locus, 百環俞', '<<WHO>>
-Bai: white; huan: ring; shu: point.
-This point is indicated in leukorrhoea.
+In the sacral region, at the same level as the fourth posterior sacral foramen, 1.5 B-cun lateral to the median sacral crest. 
+Note: 1.5 B-cun lateral to the sacral hiatus, at the same level as BL34.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3454,8 +3408,8 @@ Benefits the lower back, regulates menstruation.
 [操作]  直刺1~1.5寸。
 [配伍]  配三阴交、肾俞、治遗尿、月经不调。'
 union select '7', '156', 'BL31', 'acupoint_bl31', '上豂', 'Shangliao', 'Superior bone', '<<WHO>>
-Shang: upper; liao: foramen.
-This point is at the first dorsal sacral foramen.
+In the sacral region, in the first posterior sacral foramen. 
+Note: The first posterior sacral foramen is palpated in the depression, moving superiorly from BL32.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3476,8 +3430,8 @@ On the sacrum, at the midpoint between the posteriosuperior iliac spine and the 
 [操作]  直刺1~1.5寸。
 [配伍]  配三阴交、中极、治小便不利。'
 union select '7', '157', 'BL32', 'acupoint_bl32', '次豂', 'Ciliao', 'Secondary bone', '<<WHO>>
-Ci: second; liao: foramen.
-This point is at the second posterior sacral foramen.
+In the sacral region, in the second posterior sacral foramen. 
+Note: The second posterior sacral foramen is located in the depression, midway between the posterior superior iliac spine and the spinous process of the second sacral vertebra.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3498,8 +3452,8 @@ On the sacrum, medial and inferior to the posteriosuperior iliac spine, just at 
 [操作]  直刺1~1.5寸。
 [配伍]  配三阴交、中极、肾俞治遗尿；配血海治 痛经。'
 union select '7', '158', 'BL33', 'acupoint_bl33', '中豂', 'Zhongliao', 'Middle bone', '<<WHO>>
-Zhong: middle; liao: foramen.
-This point is at the third posterior sacral foramen, approximately at the middle part.
+In the sacral region, in the third posterior sacral foramen. 
+Note: The third posterior sacral foramen is located in the first depression, moving downward from BL32.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3520,8 +3474,8 @@ On the sacrum, medial and inferior to Ciliao (BL-32), just at the third posterio
 [操作]  直刺1~1.5寸。
 [配伍]  配足三里治便秘。'
 union select '7', '159', 'BL34', 'acupoint_bl34', '下豂', 'Xialiao', 'Inferior bone', '<<WHO>>
-Xia: lower; liao: foramen.
-This point is at the fourth posterior sacral foramen.
+In the sacral region, in the fourth posterior sacral foramen. 
+Note: The fourth posterior sacral foramen is located in the second depression, moving downward from BL32, at the same level as the sacral hiatus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3541,8 +3495,8 @@ On the sacrum, medial and inferior to Zhongliao (BL-33), just at the fourth post
 [操作]  直刺1~1.5寸。
 [配伍]  配气海治腹痛。'
 union select '7', '160', 'BL35', 'acupoint_bl35', '会阳', 'Huiyang', 'Meeting of the Yang, 會陽', '<<WHO>>
-Hui: crossing; yang: Yang of Yin-Yang.
-This point pertains to the Yang meridian where it crosses the Governor Vessel (Dumai), which is considered as the sea of the Yang meridians.
+In the buttock region, 0.5 B-cun lateral to the extremity of the coccyx. 
+Note: The subject may be in prone position or knee-chest position. BL35 is located at the soft depression lateral to the extremity of the coccyx.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3563,8 +3517,7 @@ On the sacrum, 0.5 cun lateral to the tip of the coccyx.', '<<针灸学>>@TCM100
 [操作]  直刺1~1.5寸。
 [配伍]  配承山治痔疾。'
 union select '7', '161', 'BL36', 'acupoint_bl36', '承扶', 'Chengfu', 'Great support', '<<WHO>>
-Cheng: sustaining; fu: support.
-This point is on the upper part of the femur at the midpoint of the gluteofemoral crease; its function is to enable the lower limbs to sustain the body weight.
+In the buttock region, at the midpoint of the gluteal fold.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3584,8 +3537,9 @@ On the posterior side of the thigh, at the midpoint of the inferior gluteal crea
 [操作]  直刺1~2寸。
 [配伍]  配委中治腰骶疼痛。'
 union select '7', '162', 'BL37', 'acupoint_bl37', '殷门', 'Yinmen', 'Great gate, 殷門', '<<WHO>>
-Yin: thickness; men: door.
-The local muscle of the point is thick, and the point is a door where the Qi of the bladder meridian passes through.
+On the posterior aspect of the thigh, between the biceps femoris and the semitendinosus muscles, 6 B-cun inferior to the gluteal fold. 
+Note 1: In the prone position, the semitendinosus and the biceps femoris muscles are more distinct when the knee is flexed against resistance. In addition, it is easier to find the two muscles with internal and external rotation of the hip. 
+Note 2: 1 B-cun superior to the midpoint of the line connecting BL36 with BL40.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3604,8 +3558,8 @@ Activates the meridian, benefits the lumbar area, relieves pain.
 [操作]  直刺1~2寸。
 [配伍]  配大肠俞治腰痛。'
 union select '7', '163', 'BL38', 'acupoint_bl38', '浮郗', 'Fuxi', 'Superficial tortuosity', '<<WHO>>
-Fu: floating; xi: stream.
-This point is on the upper border of the popliteus.
+On the posterior aspect of the knee, just medial to the biceps femoris tendon, 1 B-cun proximal to the popliteal crease. 
+Note: With the knee in slight flexion, BL38 is located medial to the biceps femoris tendon, 1 B-cun proximal to BL39.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3624,8 +3578,8 @@ Relaxes the sinews, clears heat, relieves pain.
 [操作]  直刺1~1.5寸。
 [配伍]  配承山治下肢痿痹。'
 union select '7', '164', 'BL39', 'acupoint_bl39', '委阳', 'Weiyang', 'Delegating Yang, 委陽', '<<WHO>>
-Wei: crooked; yang: Yang of Yin-Yang.
-Yang means `exterior`. The point is lateral to Weizhong (BL40) on the transverse crease of the popliteal fossa.
+On the posterolateral aspect of the knee, just medial to the biceps femoris tendon in the popliteal crease. 
+Note: The biceps femoris tendon is more prominent when the knee is slightly flexed.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3646,8 +3600,7 @@ Lateral to Weizhong (BL-40), on the medial border of the tendon of m. biceps fem
 [配伍]  配三焦俞、肾俞、治小便不利。
 [附注]  三焦经下合穴。'
 union select '7', '165', 'BL40', 'acupoint_bl40', '委中', 'Weizhong', 'Commanding median', '<<WHO>>
-Wei: crooked; zhong: middle.
-The point is at the midpoint of the transverse crease of the popliteal fossa.
+On the posterior aspect of the knee, at the midpoint of the popliteal crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3670,8 +3623,8 @@ Midpoint of the transverse crease of the popliteal fossa, between the tendons of
 [配伍]  配大肠俞治腰痛。
 [附注]  足太阳经所入为“合”。'
 union select '7', '166', 'BL41', 'acupoint_bl41', '附分', 'Fufen', 'Small supplementation', '<<WHO>>
-Fu: attached; fen: separation.
-The bladder meridian runs downward bilaterally from the neck. This point is at the beginning of the second line and attached to the first line.
+In the upper back region, at the same level as the inferior border of the spinous process of the second thoracic vertebra (T2), 3 B-cun lateral to the posterior median line. 
+Note: BL41 and BL12 are located at the same level as the inferior border of the spinous process of the second thoracic vertebra (T2).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3693,8 +3646,8 @@ Activates the meridian, dispels cold and wind, relieves pain.
 [配伍]  配大椎治颈项强痛。
 [附注]  手、足太阳经交会穴。'
 union select '7', '167', 'BL42', 'acupoint_bl42', '魄户', 'Pohu', 'Soul shelter', '<<WHO>>
-Po: spirit; hu: door.
-The lung stores the spirit. The point is at the level of Feishu (BL13), like a door for the Qi of the lung.
+In the upper back region, at the same level as the inferior border of the spinous process of the third thoracic vertebra (T3), 3 B-cun lateral to the posterior median line. 
+Note: BL42, BL13 and GV12 are located at the same level as the inferior border of the third thoracic vertebra (T3).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3714,8 +3667,8 @@ Descends rebellious Lung Qi, relieves cough, activates the meridian, alleviates 
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配天突、膻中治咳喘。'
 union select '7', '168', 'BL43', 'acupoint_bl43', '膏肓', 'Gaohuang', 'Vital organs', '<<WHO>>
-Gao: fat; huang: membrane.
-Gaohuang refers to the fat and membrane below the heart and above the diaphragm. Since this part is close to the pericardium, it is considered as the component of the pericardium. The point is at the level of the Jueyinshu (BL14).
+In the upper back region, at the same level as the inferior border of the spinous process of the fourth thoracic vertebra (T4), 3 B-cun lateral to the posterior median line. 
+Note: BL43 and BL14 are located at the same level as the inferior border of the spinous process of the fourth thoracic vertebra (T4).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3736,8 +3689,8 @@ Nourishes Lung Yin, tonifies Qi and strengthens the body, nourishes Essence.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配尺泽、肺俞治咳喘。'
 union select '7', '169', 'BL44', 'acupoint_bl44', '神堂', 'Shentang', 'God`s temple', '<<WHO>>
-Shen: mind; tang: hall.
-The heart houses the mind. The point is at the level of Xinshu (BL15), like a hall in which the mind is housed.
+In the upper back region, at the same level as the inferior border of the spinous process of the fifth thoracic vertebra (T5), 3 B-cun lateral to the posterior median line. 
+Note: BL44, BL15 and GV11 are located at the same level as the inferior border of the spinous process of the fifth thoracic vertebra (T5).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3758,8 +3711,8 @@ Activates the meridian, frees the chest, calms the Shen.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配膻中治胸闷。'
 union select '7', '170', 'BL45', 'acupoint_bl45', '噫嘻', 'Yixi', 'Happy giggling', '<<WHO>>
-Yixi: a sighing sound.
-If the patient is asked to say `Yixi` when the point is being located, the doctor`s fingers may feel the vocal fremitus.
+In the upper back region, at the same level as the inferior border of the spinous process of the sixth thoracic vertebra (T6), 3 B-cun lateral to the posterior median line. 
+Note: BL45, BL16 and GV10 are located at the same level as the inferior border of the spinous process of the sixth thoracic vertebra (T6).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3779,8 +3732,8 @@ Descends Lung Qi, clears Heat, activates the meridian, alleviates pain.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配大椎、肩外俞治肩背痛。'
 union select '7', '171', 'BL46', 'acupoint_bl46', '隔关', 'Geguan', 'Diaphragm pass, 隔關', '<<WHO>>
-Ge: diaphragm; guan: pass.
-The point is at the level of Geshu (BL17) and is therefore likened to a pass for treating disorders of the diaphragm.
+In the upper back region, at the same level as the inferior border of the spinous process of the seventh thoracic vertebra (T7), 3 B-cun lateral to the posterior median line. 
+Note: BL 46, BL17 and GV9 are located at the same level as the inferior border of the spinous process of the seventh thoracic vertebra (T7).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3800,8 +3753,8 @@ Regulates the diaphragm, activates the meridian, alleviates pain.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配内关治嗳气。'
 union select '7', '172', 'BL47', 'acupoint_bl47', '魂门', 'Hunmen', 'Soul gate, 魂門', '<<WHO>>
-Hun: soul; men: door.
-The liver stores the soul. The point is at the level of Ganshu (BL18) like a door for the Qi of the liver.
+In the upper back region, at the same level as the inferior border of the spinous process of the ninth thoracic vertebra (T9), 3 B-cun lateral to the posterior median line. 
+Note: BL47, BL18 and GV8 are located at the same level as the inferior border of the spinous process of the ninth thoracic vertebra (T9).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3821,8 +3774,8 @@ Regulates Liver Qi, activates the meridian, alleviates pain.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配阳陵泉、支沟治胸肋痛。'
 union select '7', '173', 'BL48', 'acupoint_bl48', '阳纲', 'Yanggang', 'Yang principles, 陽綱', '<<WHO>>
-Yang: Yang of Yin-Yang; gang: key link.
-The gallbladder pertains to Yang. The point is at the level of Danshu (BL19) and is important in treating gallbladder diseases.
+In the upper back region, at the same level as the inferior border of the spinous process of the tenth thoracic vertebra (T10), 3 B-cun lateral to the posterior median line. 
+Note: BL48, BL19 and GV7 are located at the same level as the inferior border of the spinous process of the tenth thoracic vertebra (T10).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3842,8 +3795,8 @@ Regulates the Gall Bladder, clears Damp-Heat.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配气海治腹胀。'
 union select '7', '174', 'BL49', 'acupoint_bl49', '意舍', 'Yishe', 'Thought refuge', '<<WHO>>
-Yi: ideas; she: residence.
-The spleen stores ideas. The point is at the level of Pishu (BL20) like a residence for the Qi of the spleen.
+In the upper back region, at the same level as the inferior border of the spinous process of the 11th thoracic vertebra (T11), 3 B-cun lateral to the posterior median line. 
+Note: BL49, BL20 and GV6 are located at the same level as the inferior border of the spinous process of the 11th thoracic vertebra (T11).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3862,8 +3815,8 @@ Regulates the Spleen and Stomach, clears Damp-Heat.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  脾俞、胃俞治腹胀。'
 union select '7', '175', 'BL50', 'acupoint_bl50', '胃仓', 'Weicang', 'Stomach granry, 胃倉', '<<WHO>>
-Wei: stomach; cang: storehouse.
-The point is at the level of Weishu (BL21). The stomach receives food, just like a storehouse.
+In the upper back region, at the same level as the inferior border of the spinous process of the 12th thoracic vertebra (T12), 3 B-cun lateral to the posterior median line. 
+Note: BL50 and BL21 are located at the same level as the inferior border of the spinous process of the 12th thoracic vertebra (T12).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3884,8 +3837,8 @@ Regulates the Spleen and Stomach, harmonizes the Middle Jiao.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配足三里治胃痛。'
 union select '7', '176', 'BL51', 'acupoint_bl51', '肓门', 'Huangmen', 'Organ gate, 肓門', '<<WHO>>
-Huang: membrane; men: door.
-The point is at the level of Sanjiaoshu (BL22), like a door for the Qi of the Sanjiao.
+In the lumbar region, at the same level as the inferior border of the spinous process of the first lumbar vertebra (L1), 3 B-cun lateral to the posterior median line. 
+Note: BL51, BL22 and GV5 are located at the same level as the inferior border of the spinous process of the first lumbar vertebra (L1).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3905,8 +3858,8 @@ Regulates the San Jiao, removes stagnation, benefits the breasts.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配气海天、枢治便秘。'
 union select '7', '177', 'BL52', 'acupoint_bl52', '志室', 'Zhishi', 'Room of determination', '<<WHO>>
-Zhi: will; shi: chamber.
-The kidney stores the will. The point is at the level of Shenshu (BL23), like a chamber where the Qi of the Kidney gathers.
+In the lumbar region, at the same level as the inferior border of the spinous process of the second lumbar vertebra (L2), 3 B-cun lateral to the posterior median line. 
+Note: BL52, BL23 and GV4 are located at the same level as the inferior border of the spinous process of the second lumbar vertebra (L2).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3927,8 +3880,8 @@ Tonifies the kidneys, benefits urination, strengthens the low back.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配命门治遗精。'
 union select '7', '178', 'BL53', 'acupoint_bl53', '胞肓', 'Baohuang', 'Placenta & organ', '<<WHO>>
-Bao: bladder; huang: membrane.
-Bao refers to the bladder. The point is at the level of Pangguangshu (BL30).
+In the buttock region, at the same level as the second posterior sacral foramen, 3 B-cun lateral to the median sacral crest. 
+Note: BL53, BL28 and BL32 are located at the same level as the second posterior sacral foramen.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3949,8 +3902,8 @@ Regulates and benefits urination, activates the meridian, strengthens the low ba
 [操作]  直刺1~1.5寸。
 [配伍]  配委中治腰痛。'
 union select '7', '179', 'BL54', 'acupoint_bl54', '秩边', 'Zhibian', 'Orderly edge, 秩邊', '<<WHO>>
-Zhi: order; bian: edge.
-The back-Shu points of the bladder meridian are arranged in order. This point is at the lowest among them.
+In the buttock region, at the same level as the fourth posterior sacral foramen, 3 B-cun lateral to the median sacral crest. 
+Note: 3 B-cun lateral to the sacral hiatus, at the same level as BL 30.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3970,8 +3923,8 @@ On the level of the 4th posterior sacral foramen, 3 cun lateral to the median sa
 [操作]  直刺1.5~2寸。
 [配伍]  配委中、大肠俞治腰腿疼痛。'
 union select '7', '180', 'BL55', 'acupoint_bl55', '合阳', 'Heyang', 'Meeting of the Yang, 合陽', '<<WHO>>
-He: confluence; yang: Yang of Yin-Yang.
-The meridian runs downwards from the neck, where it branches out into two lines. After meeting at Weizhong (BL40) it travels downwards and gradually descends along the muscle. The higher point is considered as Yang.
+On the posterior aspect of the leg, between the lateral head and medial head of the gastrocnemius muscle, 2 B-cun distal to the popliteal crease. 
+Note: 2 B-cun distal to BL40, on the line connecting BL40 with BL57.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -3992,8 +3945,8 @@ Activates the meridian, stops uterine bleeding, relieves genital pain, alleviate
 [操作]  直刺1~2寸。
 [配伍]  配腰阳关治腰痛。'
 union select '7', '181', 'BL56', 'acupoint_bl56', '承筋', 'Chengjin', 'Supporting ligaments', '<<WHO>>
-Cheng: sustain; jin: tendon and muscle.
-The point is on the gastrocnemius muscle, which is an important leg muscle helping to sustain the upper part of the body.
+On the posterior aspect of the leg, between the two muscle bellies of the gastrocnemius muscle, 5 B-cun distal to the popliteal crease. 
+Note: Midway between BL55 and BL57.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4013,8 +3966,8 @@ On the line connecting Weizhong (BL-40) and Chengshan (BL-57), in the centre of 
 [操作]  直刺1~1.5寸。
 [配伍]  配委中治下肢挛痛。'
 union select '7', '182', 'BL57', 'acupoint_bl57', '承山', 'Chengshan', 'Supporting hill', '<<WHO>>
-Cheng: sustain; shan: mountain.
-The two bellies of the gastrocnemius muscle are so prominent as a mountain; the point is below them, as if sustaining the mountain.
+On the posterior aspect of the leg, at the connecting point of the calcaneal tendon with the two muscle bellies of the gastrocnemius muscle. 
+Note: With the leg stretched (plantar flexion) or the heel up, BL57 is located at the sharp angled depression inferior to the muscle belly of the gastrocnemius muscle. the two heads of the gastrocnemius muscle are separated to make a lambda shape (Λ).
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4035,8 +3988,8 @@ On the posterior midline of the leg, between Weizhong (BL-40) and Kunlun (BL-60)
 [操作]  直刺1~2寸。
 [配伍]  配大肠俞治痔疾。'
 union select '7', '183', 'BL58', 'acupoint_bl58', '飞扬', 'Feiyang', 'Flying and expanding, 飛揚', '<<WHO>>
-Fei: to fly; yang: lifting.
-The point is a Luo-connecting point on the lateral aspect of leg and the collateral of this meridian flies out from this point to the kidney meridian.
+On the posterolateral aspect of the leg, between the inferior border of the lateral head of the gastrocnemius muscle and the calcaneal tendon, at the same level as 7 Bcun proximal to BL60. 
+Note: BL58 is located 1 B-cun lateral and distal to BL57, proximal to BL60.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4058,8 +4011,7 @@ Expels Wind-Damp, harmonizes excess above and deficiency below, activates the me
 [配伍]  配委中治腿痛。
 [附注]  足太阳经络穴。'
 union select '7', '184', 'BL59', 'acupoint_bl59', '跗阳', 'Fuyang', 'Foot Yang, 跗陽', '<<WHO>>
-Fu: tarsus; yang: Yang of Yin-Yang.
-Yang here means `exterior and superior`. The point is on the superior aspect of the tarsus and on the lateral aspect of the leg.
+On the posterolateral aspect of the leg, between the fibula and the calcaneal tendon, at the same level as 3 B-cun proximal to BL60.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4079,8 +4031,7 @@ Activates the meridian, benefits the low back and legs, alleviates pain.
 [操作]  直刺0.8~1.2寸。
 [附注]  阳跷脉郄穴。'
 union select '7', '185', 'BL60', 'acupoint_bl60', '昆仑', 'Kunlun', 'Kun Lun mountains, 崑崙', '<<WHO>>
-Kunlun: name of a mountain in West China.
-The lateral malleolus is shaped like a mountain. The point is located next to it.
+On the posterolateral aspect of the ankle, in the depression between the prominence of the lateral malleolus and the calcaneal tendon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4103,8 +4054,7 @@ In the depression between the tip of the external malleolus and Achilles tendon.
 [配伍]  配风池治头痛、目眩。
 [附注]  （l）足太阳经所行为“经”。（2）《针灸大成》：“妊妇刺之落胎。”'
 union select '7', '186', 'BL61', 'acupoint_bl61', '仆参', 'Pucan', 'Supporting personal, 僕參', '<<WHO>>
-Pu: servant; can: paying respects.
-The point is at the lateral aspect of the heel, and is therefore exposed when a servant pays his respects.
+On the lateral aspect of the foot, distal to BL60, lateral to the calcaneus, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4124,8 +4074,8 @@ osterior and inferior to the external malleolus, directly below Kunlun (BL-60), 
 [操作]  直刺0.3~0.5寸。
 [配伍]  配太溪治足跟痛。'
 union select '7', '187', 'BL62', 'acupoint_bl62', '申脉', 'Shenmai', 'Stretching vessel, 申脈', '<<WHO>>
-Shen: to extend; mai: meridian.
-The point pertains to the bladder meridian, from where the meridian extends to the Yang Heel Vessel (Yangqiaomai).
+On the lateral aspect of the foot, directly inferior to the prominence of the lateral malleolus, in the depression between the inferior border of the lateral malleolus and the calcaneus. 
+Note: BL62 is located in the depression distal to the inferior border of the lateral malleolus. the corresponding medial acupuncture point to BL 62 is KI6.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4148,8 +4098,7 @@ In the depression directly below the external malleolus.', '<<针灸学>>@TCM100
 [配伍]  配肾俞、肝俞、百会治眩晕。
 [附注]  八脉交会穴之一，通阳跷脉。'
 union select '7', '188', 'BL63', 'acupoint_bl63', '金门', 'Jinmen', 'Golden gate, 金門', '<<WHO>>
-Jin: gold; men: door.
-The point pertains to the bladder meridian of Foot-Taiyang and is the starting point of the Yang Link Vessel (Yangweimai), like a door to enter the Yang Link Vessel.
+On the dorsum of the foot, distal to the anterior border of the lateral malleolus, posterior to the tuberosity of the fifth metatarsal bone, in the depression inferior to the cuboid bone.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4170,8 +4119,8 @@ On the lateral side of the foot, directly below the anterior border of the exter
 [配伍]  配太阳合谷治头痛。
 [附注]  足太阳经郄穴。'
 union select '7', '189', 'BL64', 'acupoint_bl64', '京骨', 'Jinggu', 'Capital bone', '<<WHO>>
-Jinggu is an ancient name for the tuberosity of the 5th metatarsal.
-The point is on the lateral aspect of the tuberosity of the 5th metatarsal.
+On the lateral aspect of the foot, distal to the tuberosity of the fifth metatarsal bone, at the border between the red and white flesh. 
+Note: The tuberosity of the fifth metatarsal bone is located approximately midway between the heel and the fifth metatarsophalangeal joint.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4192,9 +4141,7 @@ Below the tuberosity of the fifth metatarsal bone, at the junction of the red an
 [配伍]  配百会、太冲治头痛。
 [附注]  足太阳经所过为“原”。'
 union select '7', '190', 'BL65', 'acupoint_bl65', '束骨', 'Shugu', 'Restrict bone', '<<WHO>>
-Shu: bundle up; gu: bone.
-Shugu is an ancient name of the head of the 5th metatarsal.
-The point is on the lateral inferior aspect of the head of the 5th metatarsal.
+On the lateral aspect of the foot, in the depression proximal to the fifth metatarsophalangeal joint, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4216,8 +4163,7 @@ Posterior to the fifth metatarsophalangeal joint, at the junction of the red and
 [配伍]  配肾俞、太冲治目眩。
 [附注]  足太阳经所注为“输”。'
 union select '7', '191', 'BL66', 'acupoint_bl66', '足通骨', 'Zutonggu', 'Communicating the valleys', '<<WHO>>
-Zu: foot; tong: passing; gu: valley.
-The point is in the depression of the foot, which is likened to a valley through which the Qi of the meridian passes.
+On the little toe, in the depression distal and lateral to the fifth metatarsophalangeal joint, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4238,8 +4184,7 @@ Anterior to the fifth metatarsophalangeal joint, at the junction of the red and 
 [配伍]  配大椎治项强。
 [附注]  足太阳经所溜为“荥”。'
 union select '7', '192', 'BL67', 'acupoint_bl67', '至阴', 'Zhiyin', 'Extreme Yin, 至陰', '<<WHO>>
-Zhi: reaching; yin: Yin of Yin-Yang.
-Yin refers to the Foot-Shaoyin Meridian. This is the end point of the bladder meridian of Foot-Taiyang. From here it reaches to the Foot-Shaoyin meridian.
+On the little toe, lateral to the distal phalanx, 0.1 f-cun proximal to the lateral corner of the toenail; at the intersection of the vertical line of the lateral side of the nail and the horizontal line of the base of the toenail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4260,8 +4205,8 @@ On the lateral side of the small toe, about 0.1 cun from the corner of the nail.
 [配伍]  配太冲、百会治头痛。
 [附注]  足太阳经所出为“井”。'
 union select '8', '193', 'KI1', 'acupoint_ki1', '涌泉', 'Yongquan', 'Pouring spring', '<<WHO>>
-Yong: to gush; quan: spring. 
-Water welling up is called a gushing spring. The point is on the depression of the sole and the Qi of the meridian flows upwards like a gushing spring.
+On the sole of the foot, in the deepest depression of the sole when the toes are flexed. 
+Note: When the toes are flexed, KI1 is located approximately in the depression at the junction of the anterior one third and the posterior two thirds of the line connecting the heel with the web margin between the bases of the second and third toes.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4283,8 +4228,7 @@ Descends excess above, resuscitates, clears heat, calms the Shen, tonifies Yin, 
 [配伍]  配然谷治喉痹；配阴陵泉治热病挟脐急痛，胸胁满；配水沟、照海治癫痫。配太冲、百会治头项痛。
 [附注]  肾经井穴。'
 union select '8', '194', 'KI2', 'acupoint_ki2', '然谷', 'Rangu', 'Blazing valley', '<<WHO>>
-Ran: tuberosity of the navicular bone; gu: valley.
-The point is in the depression below the tuberosity of the navicular bone, as in a valley.
+On the medial aspect of the foot, inferior to the tuberosity of the navicular bone, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4306,8 +4250,7 @@ Anterior and inferior to the medial malleolus, in the depression on the lower bo
 [配伍]  配承山治转筋；配气冲、四满治石水；配太溪治热病烦心、足寒、多汗。
 [附注]  足少阴经所溜为“荥”。'
 union select '8', '195', 'KI3', 'acupoint_ki3', '太溪', 'Taixi', 'Great brook, 太谿', '<<WHO>>
-Tai: great; xi: canyon.
-The point is in the depression between the medial malleolus and the Achilles tendon, as in a vast canyon.
+On the posteromedial aspect of the ankle, in the depression between the prominence of the medial malleolus and the calcaneal tendon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4330,8 +4273,7 @@ In the depression between the tip of the medial malleolus and Achilles`', '<<针
 [配伍]  配然谷主治热病烦心，足寒清，多汗；配肾俞治肾胀；配支沟、然谷治心痛如锥刺。
 [附注]  足少阴经所注为“输”；肾经原穴'
 union select '8', '196', 'KI4', 'acupoint_ki4', '大钟', 'Dazhong', 'Big Ben, 大鐘', '<<WHO>>
-Da: big; zhong: heel.
-This point is at the heel and the calcaneous bone is big, hence the name.
+On the medial aspect of the foot, posteroinferior to the medial malleolus, superior to the calcaneus, in the depression anterior to the medial attachment of the calcaneal tendon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4353,8 +4295,7 @@ Posterior and inferior to the medial malleolus, in the depression anterior to th
 [配伍]  配太溪、神门治心肾不交之心悸、失眠；配行间治虚火上炎之易惊善怒；配鱼际治虚火上炎之咽痛。
 [附注]  足少阴经络穴。'
 union select '8', '197', 'KI5', 'acupoint_ki5', '水泉', 'Shuiquan', 'Water spring', '<<WHO>>
-Shui: water; quan: spring.
-Shuiquan means water source. The kidney dominates water clearance. This point is a Xi-cleft point of the kidney meridian and indicated in treating dribbling of the urine.
+On the medial aspect of the foot, 1 B-cun inferior to KI3, in the depression anterior to the calcaneal tuberosity.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4375,8 +4316,8 @@ Regulates menstruation, benefits urination.
 [配伍]  配中极、水道治肾气亏虚；配气海、血海、肾俞、三阴交、气海俞治肾绞痛、肾结石；配肾俞、中极、血海治血尿。
 [附注]  足少阴经郄穴。'
 union select '8', '198', 'KI6', 'acupoint_ki6', '照海', 'Zhaohai', 'Shine to sea', '<<WHO>>
-Zhao: to shine; hai: sea.
-This point pertains to the kidney meridian and the Qi here is as abundant as a sea. It means that the real Yang of the kidney may illuminate the whole body.
+On the medial aspect of the foot, 1 B-cun inferior to the prominence of the medial malleolus, in the depression inferior to the medial malleolus. 
+Note: The corresponding lateral point to KI6 is BL62.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4399,8 +4340,8 @@ In the depression below the tip of the medial malleolus.', '<<针灸学>>@TCM100
 [配伍]  配列缺、天突、太冲、廉泉治咽喉病症；配神门、风池、三阴交治阴虚火旺之失眠症。
 [附注]  （1）八脉交会穴－，通阴跷脉。（2）参考资料：据报道针刺健康人照海穴，有明显促进泌尿作用。'
 union select '8', '199', 'KI7', 'acupoint_ki7', '复溜', 'Fuliu', 'Repeating stagnant, 復溜', '<<WHO>>
-Fu: continuing; liu: flowing.
-The point is above Zhaohai (KI6) and refers to the Qi of the meridian flowing into a sea, re-emerging and continuing to flow.
+On the posteromedial aspect of the leg, anterior to the calcaneal tendon, 2 B-cun superior to the prominence of the medial malleolus. 
+Note: At the same level and posterior to KI8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4421,8 +4362,8 @@ Strengthens the Kidneys, resolves Dampness, regulates sweating, treats edema, st
 [操作]  直刺0.6~1寸。
 [配伍]  配后溪、阴郄治盗汗不止；配中极、阴谷治癃闭。'
 union select '8', '200', 'KI8', 'acupoint_ki8', '交信', 'Jiaoxin', 'Delivering message', '<<WHO>>
-Jiao: crossing; xin: belief.
-Xin is one of the Five-Moralities (benevolence, loyalty, courtesy, intelligence and belief), pertaining to earth and thus referring to the spleen. The Qi of the meridian is crossed by the spleen meridian at this point.
+On the medial aspect of the leg, in the depression posterior to the medial border of the tibial bone, 2 B-cun superior to the prominence of the medial malleolus. 
+Note: 0.5 B-cun anterior to KI7.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4444,8 +4385,9 @@ Regulates the Ren and Chong meridians, regulates menstruation.
 [配伍]  配关元、三阴交治妇科疾患之月经不调；配太冲、血海、地机治崩漏；配中都治疝气；配阴陵泉治五淋；配中极治癃闭；配关元治阴挺。
 [附注]  阴跷脉郄穴。'
 union select '8', '201', 'KI9', 'acupoint_ki9', '筑宾', 'Zhubin', 'Building for guest, 筑賓', '<<WHO>>
-Zhu: strong; bin: knee and leg.
-The point is on the medial aspect of the leg. It has the function of strengthening the knee and leg.
+On the posteromedial aspect of the leg, between the soleus muscle and the calcaneal tendon, 5 B-cun superior to the prominence of the medial malleolus. 
+Note 1: With the knee flexed and the leg stretched (plantar flexion) against resistance, the soleus muscle can be seen more clearly along the medial border of the tibia bone. 
+Note 2: At the same level as LR5, on the line connecting KI3 with KI10.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4467,8 +4409,7 @@ Calms the Shen, clears the Heart, alleviates pain.
 [配伍]  配肾俞、关元治水肿；配大敦、归来治疝气；配承山、合阳、阳陵泉治小腿痿、痹、瘫；配水沟、百会治癫、狂、痫证。
 [附注]  阴维脉郄穴。'
 union select '8', '202', 'KI10', 'acupoint_ki10', '阴谷', 'Yingu', 'Yin valley, 陰谷', '<<WHO>>
-Yin: Yin of Yin-Yang; gu: valley.
-Yin means `interior`. The point is at the medial aspect of the knee joint and the local depression is like a valley.
+On the posteromedial aspect of the knee, just lateral to the semitendinosus tendon, in the popliteal crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4490,8 +4431,7 @@ When the knee is flexed, the point is on the medial side of the popliteal fossa,
 [配伍]  配照海、中极治癃闭；配大赫、曲骨、命门治寒疝、阳萎、早泄、月经不调、崩漏。
 [附注]  足少阴经所入为“合”。'
 union select '8', '203', 'KI11', 'acupoint_ki11', '横骨', 'Henggu', 'Horizontal bone, 橫骨', '<<WHO>>
-Henggu is the ancient name of the pubis.
-Ths point is on the superior border of the pubis.
+On the lower abdomen, 5 B-cun inferior to the centre of the umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4513,8 +4453,7 @@ Regulates the Lower Jiao, resolves Dampness.
 [配伍]  配中极、三阴交治癃闭；配关元、肾俞、志室、大赫治阳萎、遗精、崩漏、月经不调。
 [附注]  足少阴经与冲脉交会穴。'
 union select '8', '204', 'KI12', 'acupoint_ki12', '大赫', 'Dahe', 'Great threat', '<<WHO>>
-Da: great; he: plentiful.
-This point is the confluence of the kidney meridian and Thoroughfare Vessel (Chongmai), where the primary Qi of the Lower Jiao is plentiful.
+On the lower abdomen, 4 B-cun inferior to the centre of the umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4535,8 +4474,7 @@ Tonifies Kidney Qi, binds Essence, regulates the Ren and Chong Vessels.
 [配伍]  配阴交肾俞、带脉、大敦、中极治阳萎、遗精、带下；配命门、肾俞、志室、中极、关元治男科病、不育症。
 [附注]  足少阴经与冲脉交会穴。'
 union select '8', '205', 'KI13', 'acupoint_ki13', '气穴', 'Qixue', 'Energy cave, 氣穴', '<<WHO>>
-Qi: vital energy; xue: cave.
-Qi refers to the Qi of the kidney. The point is beside Guanyuan (CV4), like a cave where the kidney Qi is stored.
+On the lower abdomen, 3 B-cun inferior to the centre of the umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4558,8 +4496,7 @@ Tonifies Kidney Qi, regulates the Lower Jiao, regulates the Ren and Chong Vessel
 [配伍]  配天枢、大肠俞主消化不良；配中极、阴陵泉、膀胱俞主五淋、小便不利；配气海、三阴交、肾俞、血海治月经不调、血带、宫冷不孕、先兆流产、阳萎、不育症。
 [附注]  足少阴经与冲脉交会穴。'
 union select '8', '206', 'KI14', 'acupoint_ki14', '四满', 'Siman', 'Four-full, 四滿', '<<WHO>>
-Si: fourth; man: fullness.
-This is the fourth point of the kidney meridian on the abdomen, and is indicated in abdominal distention.
+On the lower abdomen, 2 B-cun inferior to the centre of the umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4580,8 +4517,7 @@ Tonifies Kidney Qi, regulates the water passageways, regulates the Lower Jiao, m
 [配伍]  配气海、三阴交、大敦、归来治疝气、睾丸肿痛；配气海、三阴交、肾俞、血海治月经不调、带下、遗精等病症。
 [附注]  足少阴经与冲脉交会穴。'
 union select '8', '207', 'KI15', 'acupoint_ki15', '中注', 'Zhongzhu', 'Middle injection', '<<WHO>>
-Zhong: middle; zhu: to pour.
-The Qi of the kidney meridian pours from this point into the Middle Jiao.
+On the lower abdomen, 1 B-cun inferior to umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4602,8 +4538,7 @@ Regulates the Lower Jiao and intestines, regulates the Ren and Chong Vessels.
 [配伍]  配肾俞、委中、气海俞治腰背痛；配血海、肾俞、太冲、三阴交、阴交、中极治妇科病、月经不调、卵巢炎、睾丸炎、附件炎。
 [附注]  足少阴经与冲脉交会穴。'
 union select '8', '208', 'KI16', 'acupoint_ki16', '肓俞', 'Huangshu', 'Mang locus', '<<WHO>>
-Huang: Huang-membrane; shu: to transport.
-The Qi of the kidney infuses from this point into the Huang-membrane.
+On the upper abdomen, 0.5 B-cun lateral to the centre of the umbilicus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4623,8 +4558,7 @@ Regulates Qi, removes meridian obstructions, regulates the intestines.
 [配伍]  配天枢、足三里、大肠俞治便秘、泄泻、痢疾；配中脘、足三里、内庭、天枢治胃痛、腹痛、疝痛、排尿、尿道涩痛等症。
 [附注]  足少阴经与冲脉交会穴。'
 union select '8', '209', 'KI17', 'acupoint_ki17', '商曲', 'Shangqu', 'Tradesman`s music', '<<WHO>>
-Shang: one of the five sounds, pertaining to metal; qu: bend.
-The large intestine also pertains to metal. This point corresponds to the flexure of the intestines.
+On the upper abdomen, 2 B-cun superior to the centre of the umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4644,8 +4578,7 @@ Removes accumulations, relieves pain.
 [配伍]  配中脘、大横治腹痛、腹胀；配支沟治便秘；配大肠俞、天枢、治泄泻、痢疾。
 [附注]  足少阴经与冲脉交会穴。'
 union select '8', '210', 'KI18', 'acupoint_ki18', '石关', 'Shiguan', 'Stone pass, 石關', '<<WHO>>
-Shi: stone; guan: important.
-Stone here means `hard` in consistency. This is an important point in the treatment of abdominal diseases.
+On the upper abdomen, 3 B-cun superior to the centre of the umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4666,8 +4599,7 @@ Harmonizes the Stomach, regulates the Lower Jiao, relieves pain, regulates the R
 [配伍]  配中脘、内关治胃痛、呕吐、腹胀；配三阴交、阴交、肾俞治先兆流产和不孕症
 [附注]  足少阴经与冲脉交会穴。'
 union select '8', '211', 'KI19', 'acupoint_ki19', '阴都', 'Yindu', 'Yin capital, 陰都', '<<WHO>>
-Yin: Yin of Yin-Yang; du: to gather.
-Yin refers to the abdomen and the Yin meridian. The point is in the abdomen where water and food are stored.
+On the upper abdomen, 4 B-cun superior to the centre of the umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4688,8 +4620,7 @@ Harmonizes the Stomach, alleviates pain, regulates the Ren and Chong Vessels.
 [配伍]  配巨阙治心中烦满；配三阴交、血海治闭经；配中脘、天枢、足三里、四缝治纳呆及小儿疳积。
 [附注]  足少阴经与冲脉交会穴。'
 union select '8', '212', 'KI20', 'acupoint_ki20', '腹通谷', 'Futonggu', 'Reaching valley', '<<WHO>>
-Fu: abdomen; tong: passing; gu: water and food.
-The point is in the abdomen, where water and food pass.
+On the upper abdomen, 5 B-cun superior to the centre of the umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4709,8 +4640,7 @@ Harmonizes the Middle Jiao, opens the chest.
 [配伍]  配内关、中脘治胃气逆；配申脉、照海治癫痫、惊悸；配上脘、足三里治纳呆。
 [附注]  足少阴与冲脉交会穴。'
 union select '8', '213', 'KI21', 'acupoint_ki21', '幽门', 'Youmen', 'Pylorus gate, 幽門', '<<WHO>>
-You: hiding; men: door.
-The point pertains to the kidney meridian and is located where the lower orifice of the stomach is situated interiorly. It is hidden in the deep part of the abdomen.
+On the upper abdomen, 6 B-cun superior to the centre of the umbilicus, 0.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4730,8 +4660,7 @@ Harmonizes the Middle Jiao, descends rebellious Qi, smoothes Liver Qi.
 [配伍]  配玉堂治烦心呕吐；配中脘、建里治胃痛、噎嗝、呕吐；配天枢治腹胀、肠鸣、泄泻。
 [附注]  足少阴与冲脉交会穴。'
 union select '8', '214', 'KI22', 'acupoint_ki22', '步廊', 'Bulang', 'Walking pavilion', '<<WHO>>
-Bu: step; lang: corridor.
-The point lies along the Zhongting (middle courtyard). When the Qi of the meridian flows here, it is stepping into a corridor on either side of the courtyard.
+In the anterior thoracic region, in the fifth intercostal space, 2 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4751,8 +4680,7 @@ In the fifth intercostal space, 2 cun lateral to the Conception Vessel.', '<<针
 [操作]  斜刺或平刺0.5~0.8寸，本经胸部诸穴不可深刺，以免伤及内脏。
 [配伍]  配定喘、列缺治外感和内伤咳喘；配心俞、内关治胸痹、心悸怔忡。'
 union select '8', '215', 'KI23', 'acupoint_ki23', '神封', 'Shenfeng', 'God`s seal', '<<WHO>>
-Shen: mind, implying the heart; feng: manor.
-The point is located in the region which is subjected to the heart.
+In the anterior thoracic region, in the fourth intercostal space, 2 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4772,8 +4700,7 @@ In the fourth intercostal space, 2 cun lateral to the anterior midline.', '<<针
 [操作]  斜刺或平刺0.5~0.8寸。
 [配伍]  配阳陵泉、支沟治胸胁胀痛。'
 union select '8', '216', 'KI24', 'acupoint_ki24', '灵墟', 'Lingxu', 'Ghost night fair, 靈墟', '<<WHO>>
-Ling: spirit, implying the heart; xu: mound.
-The point internally corresponds to the heart and externally it is on the muscle prominence, which looks like a mound.
+In the anterior thoracic region, in the third intercostal space, 2 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4793,8 +4720,7 @@ In the third intercostal space, 2 cun lateral to the anterior midline.', '<<针�
 [操作]  斜刺或平刺0.5~0.8寸。
 [配伍]  配足三里、中脘、内关治呕吐、纳呆；配神门、神藏治失眠健忘。'
 union select '8', '217', 'KI25', 'acupoint_ki25', '神藏', 'Shencang', 'God`s storage', '<<WHO>>
-Shen: mind, implying the heart; cang: concealment.
-This point is at the place where the mind is concealed.
+In the anterior thoracic region, in the second intercostal space, 2 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4814,8 +4740,7 @@ In the third intercostal space, 2 cun lateral to the anterior midline.', '<<针�
 [操作]  斜刺或平刺0.5~0.8寸。
 [配伍]  配天突、内关、太冲治梅核气；配心俞、玉堂治胸痹、噎嗝、冠心病、心肌梗塞。'
 union select '8', '218', 'KI26', 'acupoint_ki26', '彧中', 'Yuzhong', 'Perhaps', '<<WHO>>
-Yu: luxuriance; zhong: middle.
-The point is at the place where the Qi of the kidney is luxuriant when flowing into the chest.
+In the anterior thoracic region, in the first intercostal space, 2 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4834,8 +4759,7 @@ In the first intercostal space, 2 cun lateral to the anterior midline.', '<<针�
 [操作]  斜刺或平刺0.5~0.8寸。
 [配伍]  配风门、肺俞治外邪袭肺；配天突、间使、华盖治咽喉肿痛。'
 union select '8', '219', 'KI27', 'acupoint_ki27', '俞府', 'Shufu', 'Shu prefecture', '<<WHO>>
-Shu: point; fu: organ.
-The Qi of the kidney infuses from this point into the Fu organs.
+In the anterior thoracic region, just inferior to the clavicle, 2 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4855,8 +4779,7 @@ In the depression on the lower border of the clavicle, 2 cun lateral to the ante
 [操作]  斜刺或平刺0.5~0.8寸；可灸。
 [配伍]  配天突、肺俞、鱼际治咳嗽、咽痛；配足三里、合谷治胃气上逆之呕吐、呃逆。'
 union select '9', '220', 'PC1', 'acupoint_pc1', '天池', 'Tianchi', 'Celestial pond', '<<WHO>>
-Tian: heaven; chi: pool. 
-The point is lateral to the breast and the milk secreted from the breast is as if coming from a heavenly pool.
+In the anterior thoracic region, in the fourth intercostal space, 5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4877,8 +4800,7 @@ In the fourth intercostal space, 1 cun lateral to the nipple and 5 cun lateral t
 [配伍]  配列缺、丰隆治咳嗽；配内关治心痛；配支沟治胁肋痛。
 [附注]  手厥阴、足少阳之会穴。'
 union select '9', '221', 'PC2', 'acupoint_pc2', '天泉', 'Tianquan', 'Celestial spring', '<<WHO>>
-Tian: heaven; quan: spring.
-The Qi of the meridian orginating from Tianchi flows downwards like spring water coming down from heaven.
+On the anterior aspect of the arm, between the long head and short head of the biceps brachii muscle, 2 B-cun distal to the anterior axillary fold.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4898,8 +4820,8 @@ Opens the chest, moves the blood, alleviates pain.
 [操作]  直刺0.5~0.8寸；可灸。
 [配伍]  配内关、通里治心痛、心悸；配肺俞、支沟治咳嗽、胸胁痛；配侠白、曲池、外关治上肢痿、痹、瘫、痛。'
 union select '9', '222', 'PC3', 'acupoint_pc3', '曲泽', 'Quze', 'Crooked pond, 曲澤', '<<WHO>>
-Qu: curve; ze: marsh.
-The Qi of the meridian infuses into the shallow depression of the elbow like water flowing into a marsh.
+On the anterior aspect of the elbow, at the cubital crease, in the depression medial to the biceps brachii tendon. 
+Note: When the elbow is flexed at 45 degrees, PC3 is located medial to the biceps brachii tendon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4920,8 +4842,9 @@ On the transverse cubital crease, at the ulnar side of the tendon of m. biceps b
 [配伍]  配神门、鱼际治呕血；配内关、大陵治心胸痛；配大陵、心俞、厥阴俞治心悸、心痛；配少商、尺泽、曲池治疗肘臂挛急、肩臂痛。
 [附注]  手厥阴经所入为“合”。'
 union select '9', '223', 'PC4', 'acupoint_pc4', '郗门', 'Ximen', 'Crooked gate, 郗門', '<<WHO>>
-Xi: cleft; men: door.
-This is a Xi - cleft point of the pericardium meridian, and is a door where the Qi of the meridian enters and exits.
+On the anterior aspect of the forearm, between the tendons of the palmaris longus and the flexor carpi radialis, 5 B-cun proximal to the palmar wrist crease. 
+Note 1: With the fist clenched, the wrist supinated, and the elbow slightly flexed, the two tendons become more prominent. PC4 is located 1 B-cun distal to the midpoint of the line connecting PC3 with PC7. 
+Note 2: If the palmaris longus tendon is not present, PC4 is medial to the flexor carpi radialis tendon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4944,8 +4867,9 @@ Cools the Blood, moves the Blood, removes Blood stagnation, calms the Shen.
 [配伍]  配大陵止咯血；配曲泽、大陵治心痛；配梁丘、足三里、太冲治神经性呕吐；配内关治急性缺血性心肌损伤。
 [附注]  手厥阴经郄穴。'
 union select '9', '224', 'PC5', 'acupoint_pc5', '间使', 'Jianshi', 'The emissary, 間使', '<<WHO>>
-Jian: space; shi: minister of a monarchy.
-This point pertains to the pericardium meridian and is in the space between the two tendons. It is so named because the pericardium is pictured as the minister of the heart.
+On the anterior aspect of the forearm, between the tendons of the palmaris longus and the flexor carpi radialis, 3 B-cun proximal to the palmar wrist crease. 
+Note 1: With the fist clenched, the wrist supinated and the elbow slightly flexed, the two tendons become more prominent. PC5 is located 3 B-cun proximal to PC7. 
+Note 2: If the palmaris longus tendon is not present, PC5 is medial to the flexor carpi radialis tendon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4968,8 +4892,9 @@ Resolves Heart Phlegm, calms the Shen, regulates the Stomach.
 [配伍]  配支沟治疟疾；配尺泽治反胃、呕吐、呃逆；配水沟、太冲治癔病；配腰奇治癫痫。
 [附注]  手厥阴经所行为“经”。'
 union select '9', '225', 'PC6', 'acupoint_pc6', '内关', 'Neiguan', 'Inner pass, 內關', '<<WHO>>
-Nei: medial; guan: pass.
-The point is at an important site on the medial aspect of the forearm, like a pass.
+On the anterior aspect of the forearm, between the tendons of the palmaris longus and the flexor carpi radialis, 2 B-cun proximal to the palmar wrist crease. 
+Note 1: With the fist clenched, the wrist supinated and the elbow slightly flexed, the two tendons become more prominent. PC6 is located 2 B-cun proximal to PC7. the posterial point corresponding to PC6 is TE5. 
+Note 2: If the palmaris longus tendon is not present, PC6 is medial to the flexor carpi radialis tendon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -4993,8 +4918,8 @@ Opens the chest, regulates Heart Qi, calms the Shen, harmonizes the Stomach, rel
 [配伍]  配公孙治肚痛；配膈俞治胸满支肿；配中脘、足三里治胃脘痛、呕吐、呃逆；配外关、曲池治上肢不遂、手振颤。配患侧悬厘治偏头痛；配建里除胸闷。
 [附注]  （1）手厥阴经络穴。（2）八脉交会穴之－，通阴维脉。'
 union select '9', '226', 'PC7', 'acupoint_pc7', '大陵', 'Daling', 'Great mound', '<<WHO>>
-Da: large; ling: mound.
-The palmar root is prominent, like a large mound. This point is in the depression of the wrist proximal to it.
+On the anterior aspect of the wrist, between the tendons of palmaris longus and the flexor carpi radialis, on the palmar wrist crease. 
+Note: With the fist clenched, the wrist slightly flexed, the two tendons become more prominent. PC7 is located at the midpoint of the palmar wrist crease, between the tendons of palmaris longus and the flexor carpi radialis, at the same level as HT7, at the proximal extremity of the pisiform bone.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5017,8 +4942,8 @@ In the middle of the transverse crease of the wrist, between the tendons of m. p
 [配伍]  配劳宫治心绞痛、失眠；配外关、支沟治腹痛、便秘；配水沟、间使、心俞、丰隆治癫、狂、痫、惊悸。
 [附注]  手厥阴经所注为“输”，心包经原穴。'
 union select '9', '227', 'PC8', 'acupoint_pc8', '劳宫', 'Laogong', 'Laboured palace, 勞宮', '<<WHO>>
-Lao: labour; gong: centre.
-The hand is used for labour. `Lao` refers to the hand. The point is in the centre of the palm.
+On the palm of the hand, in the depression between the second and third metacarpal bones, proximal to the metacarpophalangeal joints. 
+Remarks: Alternative location for PC8 - On the palm of the hand, in the depression, between the third and fourth metacarpal bones, proximal to the metacarpophalangeal joints.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5040,8 +4965,8 @@ At the center of the palm, between the 2nd and 3rd metacarpal bones, but close t
 [配伍]  配后溪治三消、黄疸；配涌泉治五般痫。
 [附注]  手厥阴经所溜为“荥”。'
 union select '9', '228', 'PC9', 'acupoint_pc9', '中冲', 'Zhongchong', 'Middle flush, 中沖', '<<WHO>>
-Zhong: middle; chong: gushing.
-The point is at the tip of the middle finger and is the Jing-well point of the pericardium meridian, where the Qi of the meridian originates and gushes upwards along the meridian.
+On the middle finger, at the centre of the tip of the middle finger. 
+Remarks: Alternative location for PC9 - On the middle finger, 0.1 F-cun proximal to the radial corner of the middle fingernail, at the intersection of the vertical line of the radial side of the nail and the horizontal line of the base of the fingernail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5062,8 +4987,7 @@ In the centre of the tip of the middle finger.', '<<针灸学>>@TCM100.COM:
 [配伍]  配内关、水沟治小儿惊风、中暑、中风昏迷等；配金津、玉液、廉泉治舌强不语、舌本肿痛；配商阳治耳聋时不闻音
 [附注]  手厥阴经所出为“井”。'
 union select '10', '229', 'TE1', 'acupoint_te1', '关冲', 'Guanchong', 'Pass flush, 關沖', '<<WHO>>
-Guan: bend; chong: gushing. 
-The ring finger cannot be stretched out alone. Guan here refers to the ring finger. The point is at the tip of the ring finger and is the Jing-well point of the Sanjiao meridian, where the Qi of the meridian originates and gushes upwards along the meridian.
+On the ring finger, ulnar to the distal phalanx, 0.1 f-cun proximal to the ulnar corner of the fingernail, at the intersection of the vertical line of the ulnar side of the nail and the horizontal line of the base of the fingernail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5085,8 +5009,7 @@ On the lateral side of the ring finger, about 0.1 cun from the corner of the nai
 [配伍]  配内关、人中治中暑、昏厥。
 [附注]  手少阳经所出为“井”。'
 union select '10', '230', 'TE2', 'acupoint_te2', '液门', 'Yemen', 'Secretion door, 液門', '<<WHO>>
-Ye: water; men: door.
-This is a Ying-spring point of this meridian, pertaining to water. It has a function of regulating the passage of water like a door for entry and exit of water.
+On the dorsum of the hand, in the depression superior to the web margin between the ring and little fingers, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5108,8 +5031,7 @@ When the fist is clenched, the point is located in the depression proximal to th
 [配伍]  配鱼际治喉痛。
 [附注]  手少阳经所溜为“荥”。'
 union select '10', '231', 'TE3', 'acupoint_te3', '中渚', 'Zhongzhu', 'Middle island', '<<WHO>>
-Zhong: middle; zhu: water margin.
-This point is in the middle of the Five-Shu points and the Qi of the meridian flows like water along the water margin.
+On the dorsum of the hand, between the fourth and fifth metacarpal bones, in the depression proximal to the fourth metacarpophalangeal joint.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5132,8 +5054,9 @@ When the fist is clenched, the point is on dorsum of the hand between the fourth
 [配伍]  配角孙治耳鸣耳聋；配太白治大便难；配支沟、内庭治嗌痛。
 [附注]  手少阳经所注为“输”。'
 union select '10', '232', 'TE4', 'acupoint_te4', '阳池', 'Yangchi', 'Yang pond, 陽池', '<<WHO>>
-Yang: Yang of Yin-Yang; chi: pool.
-This point is in the depression on the back of the wrist and the Qi of the meridian flows like water into a pool.
+On the posterior aspect of the wrist, in the depression ulnar to the extensor digitorum tendon, on the dorsal wrist crease. 
+Note 1: TE4 can be palpated when moving proximally along the gap between the fifth and fourth metacarpal bones, at the same level as LI5 and SI5. 
+Note 2: When the wrist is extended against resistance, the extensor digitorum tendon can be palpated more easily.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5156,8 +5079,8 @@ On the transverse crease of the dorsum of wrist, in the depression lateral to th
 [配伍]  配合谷、尺泽、曲池、中渚治手臂拘挛。
 [附注]  手少阳经所过为“原”。'
 union select '10', '233', 'TE5', 'acupoint_te5', '外关', 'Waiguan', 'Outer pass, 外關', '<<WHO>>
-Wai: lateral; guan: pass.
-This point is at an important place on the lateral aspect of the forearm like a pass.
+On the posterior aspect of the forearm, midpoint of the interosseous space between the radius and the ulna, 2 B-cun proximal to the dorsal wrist crease. 
+Note: 2 B-cun proximal to TE4, in the depression between the radius and the ulna. The anterior point corresponding to TE5 is PC6.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5179,8 +5102,8 @@ Dispels Wind-Heat, releases the exterior, benefits the ears, activates the merid
 [配伍]  配足临泣治颈项强痛、肩背痛；配大椎、曲池治外感热病；配阳陵泉治胁痛。
 [附注]  （l）手少阳经络穴。（2）八脉交会穴之一，通阳维脉。'
 union select '10', '234', 'TE6', 'acupoint_te6', '支沟', 'Zhigou', 'Branching ditch, 支溝', '<<WHO>>
-Zhi: limbs; gou: ditch.
-Zhi here refers to the upper limbs. The point is located between the radius and the ulna.
+On the posterior aspect of the forearm, midpoint of the interosseous space between the radius and the ulna, 3 B-cun proximal to the dorsal wrist crease. 
+Note: 1 B-cun proximal to TE5, between the radius and the ulna, at the same level as TE7.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5202,8 +5125,8 @@ Regulates Qi, moves the bowels, clears Heat, activates the meridian.
 [配伍]  配天枢治大便秘结；配双侧支沟治急性腰扭伤、胁痛。
 [附注]  手少阳经所行为“经”。'
 union select '10', '235', 'TE7', 'acupoint_te7', '会宗', 'Huizong', 'Meeting ancestors, 會宗', '<<WHO>>
-Hui: meeting; zong: gathering.
-This is a Xi-cleft point of this meridian, where the Qi of the meridian gathers.
+On the posterior aspect of the forearm, just radial to the ulna, 3 B-cun proximal to the dorsal wrist crease. 
+Note: TE7 is ulnar to TE6.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5225,8 +5148,8 @@ At the level with Zhigou (SJ-6), on the ulnar side of Zhigou (SJ-6), on the radi
 [配伍]  配听会、耳门治疗耳聋；配大包治上肢肌肉疼痛，软组织挫伤。
 [附注]  手少阳经郄穴。'
 union select '10', '236', 'TE8', 'acupoint_te8', '三阳络', 'Sanyangluo', 'Three Yang vessel, 三陽絡', '<<WHO>>
-Sanyang: the three Yang meridians of the hand; luo: connection.
-This point connects with the three Yang meridians of the hand.
+On the posterior aspect of the forearm, midpoint of the interosseous space between of the the radius and the ulna, 4 B-cun proximal olecranon to the dorsal wrist crease. 
+Note: At the junction of the upper two thirds and lower one third of the line connecting TE4 with the tip of the elbow.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5247,8 +5170,7 @@ Activates the meridian, removes obstructions, alleviates pain.
 [操作]  直刺0.5~1.2寸。
 [配伍]  配曲池、合谷、肩井治中风后遗症上肢不遂。'
 union select '10', '237', 'TE9', 'acupoint_te9', '四渎', 'Sidu', 'Four rivers, 四瀆', '<<WHO>>
-Si: four; du: river.
-The Yangtze, the Yellow River, the Huaihe River and Jishui River were called Sidu in ancient times. The Qi of the meridian is able to irrigate more regions when it reaches this point.
+On the posterior aspect of the forearm, midpoint of the interosseous space between prominence of thethe radius and the ulna, 5 B-cun distal to olecranon the prominence of the olecranon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5270,8 +5192,8 @@ On the lateral side of the forearm, 5 cun below the olecranon, between the radiu
 [操作]  直刺0.5~1寸。
 [配伍]  配三阳络、消泺、肩豂、天豂、肩外俞治肩臂痛；配三阳络、阳溪治手指伸展不利，上肢不遂。'
 union select '10', '238', 'TE10', 'acupoint_te10', '天井', 'Tianjing', 'Celestial well', '<<WHO>>
-Tian: heaven; jing: well.
-The upper indicates the heaven. The point is in the depression by the olecranon of the upper limb, which is likened to a well.
+On the posterior aspect of the elbow, in the depression 1 B-cun proximal to the prominence of the olecranon. 
+Note: When the elbow is flexed, TE10 is located in the olecranon fossa.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5293,8 +5215,8 @@ When the elbow is flexed, the point is in the depression about 1 cun superior to
 [操作]  直刺0.5~1寸。
 [配伍]  配率谷治偏头痛；配天突治瘿气；配臂治瘰疬、瘾疹；配巨阙、心俞治精神恍惚。'
 union select '10', '239', 'TE11', 'acupoint_te11', '清冷渊', 'Qinglengyuan', 'Bitter cold abyss, 清冷淵', '<<WHO>>
-Qing: cool; leng: cold; yuan: deep water.
-The function of this point is to eliminate the heat of Sanjiao as if the patient were in cool deep water.
+On the posterior aspect of the arm, on the line connecting the prominence of olecranon with the acromial angle, 2 B-cun proximal to the prominence of the olecranon. 
+Note: With the elbow extended, 2 B-cun superior to the prominence of the olecranon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5314,8 +5236,7 @@ Activates the meridian, resolves Damp-Heat, dispels Wind-Damp.
 [操作]  直刺0.5~1.2寸。
 [配伍]  配肩豂、天豂、臑俞、养老、合谷治上肢痿、痹、瘫、痛。'
 union select '10', '240', 'TE12', 'acupoint_te12', '消泺', 'Xiaoluo', 'Melting river, 消濼', '<<WHO>>
-Xiao: to eliminate; luo: marsh.
-This point pertains to the triple energizer merdian and functions to regulate water passage (water metabolism).
+On the posterior aspect of the arm, on the line connecting the prominence of the olecranon with the acromial angle, 5 B-cun proximal to the prominence of the olecranon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5334,8 +5255,7 @@ On the line joining the olecranon and Jianliao (SJ-14), midway between Qinglengy
 [操作]  直刺0.8~1寸。
 [配伍]  配肩豂、肩髃、臑会、清冷渊治肩臂痛、上肢不遂、肩周炎。'
 union select '10', '241', 'TE13', 'acupoint_te13', '臑会', 'Naohui', 'Shoulder meet', '<<WHO>>
-Nao: muscle prominence of the upper arm; hui: confluence.
-The point is at the muscle prominence of the upper arm and is a confluence of this  meridian with the Yang Link Vessel (Yangweimai).
+On the posterior aspect of the arm, posteroinferior to the border of the deltoid muscle, 3 B-cun inferior to the acromial angle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5355,8 +5275,8 @@ On the line joining Jianliao (SJ-14) and the olecranon, on the posterior border 
 [操作]  直刺0.5~1寸。
 [配伍]  配肩俞、肩贞治肩周炎；配肘豂、外关治肘臂挛痛。'
 union select '10', '242', 'TE14', 'acupoint_te14', '肩豂', 'Jianliao', 'Shoulder bone', '<<WHO>>
-Jian: shoulder; liao: foramen.
-The point is in a foramen on the shoulder.
+On the shoulder girdle, in the depression between the acromial angle and the greater tubercle of the humerus.
+Note: When the elbow is flexed and the arm is abducted, two depressions appear greater tubercle of the humerus respectively anterior and posterior to the acromion. LI15 is located in the anterior one, deeper than the posterior one, in which TE14 is located.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5375,8 +5295,8 @@ On the shoulder, posterior to Jianyu (LI-15), in the depression inferior and pos
 [操作]  直刺0.5~1.5寸。
 [配伍]  配天宗、曲垣治疗肩背疼痛；配肩井、天池、养老治上肢不遂、肩周炎。'
 union select '10', '243', 'TE15', 'acupoint_te15', '天豂', 'Tianliao', 'Celestial bone', '<<WHO>>
-Tian: heaven; liao: foramen.
-`Heaven` here means `upper`. The point is in a foramen above the shoulder blade.
+In the scapular region, in the depression superior to the superior angle of the scapula. 
+Note: With the upper limb hanging by the side of trunk in a seated position, TE15 is located midway between gB21 and SI13.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5396,8 +5316,7 @@ Midway between Jianjing (GB-21) and Quyuan (SI-13), on the superior angle of the
 [配伍]  配秉风、天宗、清冷渊、臑会治颈肩综合征、上肢不遂。
 [附注]  手少阳经与阳维脉交会穴。'
 union select '10', '244', 'TE16', 'acupoint_te16', '天牖', 'Tianyou', 'Celestial window', '<<WHO>>
-Tian: heaven; you: window.
-`Heaven` here means `upper`. Tianyou means heavenly windows. The point is on the upper part of the lateral aspect of …
+In the anterior region of the neck, at the same level as the angle of the mandible, in the depression posterior to the sternocleidomastoid muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5418,8 +5337,7 @@ On the lateral side of the neck, directly below the posterior border of mastoid 
 [操作]  直刺0.5~1寸。
 [配伍]  配外关、率谷、治偏头痛、耳鸣、耳聋、腮腺炎。'
 union select '10', '245', 'TE17', 'acupoint_te17', '翳风', 'Yifeng', 'Shielding wind, 翳風', '<<WHO>>
-Yi: shielding; feng: pathoginic wind.
-The point is behind the earlobe and is the place for shielding off the pathogenic wind.
+In the anterior region of the neck, posterior to the ear lobe, in the depression anterior to the inferior end of the mastoid process.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5442,8 +5360,7 @@ Posterior to the lobule of the ear, in the depression between the mandible and m
 [配伍]  配地仓、承浆、水沟、合谷治口噤不开。
 [附注]  手、足少阳经交会穴'
 union select '10', '246', 'TE18', 'acupoint_te18', '瘈脉', 'Chimai', 'Crazy vessel, 瘈脈', '<<WHO>>
-Chi: convulsion; mai: collateral.
-The point is behind the ear, where the collaterals are distributed, and is good for treating convulsions.
+On the head, at the centre of the mastoid process, at the junction of the upper two thirds and lower one third of the curved line from TE17 to TE20.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5463,8 +5380,7 @@ In the centre of the mastoid process, at the junction of the middle and lower th
 [操作]  平刺0.3~0.5寸，或点刺出血。
 [配伍]  配翳风、耳门、听宫、听会、百会治耳硬化症，提高听力。'
 union select '10', '247', 'TE19', 'acupoint_te19', '颅息', 'Luxi', 'Skull rest, 顱息', '<<WHO>>
-Lu: skull; xi: tranquility.
-This point is on the skull and is used to calm the mind.
+On the head, at the junction of the upper one third and lower two thirds of the curved line from TE17 to TE20.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5484,8 +5400,8 @@ Posterior to the ear, at the junction of the upper and middle third of the curve
 [操作]  平刺0.2~0.5寸。
 [配伍]  配太冲治小儿惊痫、呕吐涎沫、瘈疭；配天冲、脑空、风池、太阳治偏头痛、头风病。'
 union select '10', '248', 'TE20', 'acupoint_te20', '角孙', 'Jiaosun', 'Angled grandson', '<<WHO>>
-Jiao: corner; sun: tertiary collateral.
-This point is on the temporal region, corresponding to the apex of the ear, where the tertiary collaterals are distributed.
+On the head, just superior to the auricular apex. 
+Note: With the auricle folded forward and pressed against the head, the point is located where the auricular apex touches the head.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5508,8 +5424,8 @@ Directly above the ear apex, within the hair line.', '<<针灸学>>@TCM100.COM:
 [配伍]  率谷透角孙配足临泣治眩晕。
 [附注]  手、足少阳，手阳明经交会穴'
 union select '10', '249', 'TE21', 'acupoint_te21', '耳门', 'Ermen', 'Ear gate, 耳門', '<<WHO>>
-Er: ear; men: door.
-This point is in front of the ear, like a door of the ear.
+On the face, in the depression between the supratragic notch and the condylar process of the mandible. 
+Note: When the mouth is slightly opened, tE21 is located in the depression anterior to the supratragic notch, directly superior to SI19.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5529,8 +5445,7 @@ In the depression anterior to the supratragic notch and behind the posterior bor
 [操作]  张口，直刺0.5~1寸。
 [配伍]  配丝竹空治牙痛；配兑端治上齿龋。'
 union select '10', '250', 'TE22', 'acupoint_te22', '耳和豂', 'Erheliao', 'Harmonious bone', '<<WHO>>
-Er: ear; he: harmony; liao: foramen.
-This point is in the depression in front of the tragicus and is used to improve the hearing.
+On the head, posterior to the temple hairline, anterior to the auricular root, posterior to the superficial temporal artery.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5551,8 +5466,8 @@ Anterior and superior to Ermen (SJ-21), at the level with the root of the auricl
 [配伍]  配养老、完骨治耳聋。
 [附注]  手、足少阳，手太阳的交会穴。'
 union select '10', '251', 'TE23', 'acupoint_te23', '丝竹空', 'Sizhukong', 'Silky empty bamboo, 絲竹空', '<<WHO>>
-Sizhu: slender bamboo; kong: space.
-This point is at the lateral end of the eyebrow, which looks like a slender bamboo. The locus of the point is a shallow depression.
+On the head, in the depression at the lateral end of the eyebrow. 
+Note: TE23 is superior to GB1.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5572,8 +5487,7 @@ In the depression at the lateral end of the eyebrow.', '<<针灸学>>@TCM100.COM
 [操作]  平刺0.5~1寸。不宜灸。
 [配伍]  配丝竹空止牙痛。'
 union select '11', '252', 'GB1', 'acupoint_gb1', '瞳子豂', 'Tongziliao', 'Bone of the pupil', '<<WHO>>
-Tongzi: pupil; liao: foramen. 
-The point is in a foramen lateral to the outer canthus and on a level with the pupil.
+On the head, in the depression, 0.5 B-cun lateral to the outer canthus of the eye.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5595,8 +5509,8 @@ Dispels Wind, benefits the eyes, clears Heat.
 [配伍]  配合谷、临泣、睛明治目生内障；配少泽治妇人乳肿；配养老、肝俞、光明、太冲、治疗视物昏花。
 [附注]  手太阳，手、足少阳经交会穴。'
 union select '11', '253', 'GB2', 'acupoint_gb2', '听会', 'Tinghui', 'Listening conference, 聽會', '<<WHO>>
-Ting: hearing; hui: gathering.
-This point is in front of the ear and beneficial to hearing. It is a place where the Qi of the meridian at the ear is gathered.
+On the face, in the depression between the intertragic notch and the condylar process of the mandible. 
+Note: When the mouth is opened, GB2 is located in the depression anterior to the intertragic notch.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5617,8 +5531,8 @@ Anterior to the intertragic notch, at the posterior border of the condyloid proc
 [操作]  张口，直刺0.5~1寸。
 [配伍]  配颊车、地仓治中风口眼歪斜；配迎香治耳聋气痞；配耳门、听宫治下颌关节炎。'
 union select '11', '254', 'GB3', 'acupoint_gb3', '上关', 'Shangguan', 'Upper pass, 上關, Kezhurun', '<<WHO>>
-Shang: upper; guan: border.
-Guan refers to the zygomatic arch. The point is at the upper margin of the zygomatic arch.
+On the head, in the depression superior to the midpoint of the zygomatic arch 
+Note: In the depression superior to the zygomatic arch, superior to ST7.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5641,8 +5555,7 @@ In the front of the ear, on the upper border of the zygomatic arch, in the depre
 [配伍]  配肾俞、翳风、太溪、听会治老年人肾虚耳鸣耳聋；配耳门、合谷、颊车治下颌关节炎、牙关紧闭。
 [附注]  手足少阳、足阳明经交会穴。'
 union select '11', '255', 'GB4', 'acupoint_gb4', '颔厌', 'Hanyan', 'Jaw hated, 頷厭', '<<WHO>>
-Han: mandible; yan: obedience.
-The point is at the temple and the local muscle moves along with the motion of the mandible when chewing.
+On the head, at the junction of the upper one fourth and lower three fourths of the curved line from ST8 to GB7.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5665,8 +5578,7 @@ Within the hairline of the temporal region, at the junction of the upper 1/4 and
 [配伍]  配悬颅治偏头痛；透悬颅、悬厘，配外关、风池治眩晕。
 [附注]  手足少阳、足阳明经交会穴。'
 union select '11', '256', 'GB5', 'acupoint_gb5', '懸颅', 'Xuanlu', 'Skull in suspension, 懸顱', '<<WHO>>
-Xuan: hang; lu: skull.
-This point is at the temple as if hanging on both sides of the skull.
+On the head, at the midpoint of the curved line from ST8 to GB7.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5687,8 +5599,7 @@ Within the hairline of the temporal region, midway of the border line connecting
 [操作]  平刺0.5~0.8寸。
 [配伍]  配颔厌、治偏头痛；配曲池、合谷治热病头痛。'
 union select '11', '257', 'GB6', 'acupoint_gb6', '悬厘', 'Xuanli', 'Small supspension, 懸釐', '<<WHO>>
-Xuan: hang; li: hair.
-This point is at the temple, and covered by the long hair.
+On the head, at the junction of the upper three fourths and lower one fourth of the curved line from ST8 to GB7.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5710,8 +5621,7 @@ Within the hairline, at the junction of the lower 1/4 and upper 3/4 of the dista
 [配伍]  配鸠尾治热病偏头痛引目外眦；配束骨治癫痫。
 [附注]  手足少阳，足阳明经交会。'
 union select '11', '258', 'GB7', 'acupoint_gb7', '曲鬓', 'Qubin', 'Tortuous sidehair, 曲鬢', '<<WHO>>
-Qu: curve; bin: hair on the temple.
-This point is at the hairline on the temple above the ear.
+On the head, at the junction of the vertical line of the posterior border of the temple hairline and the horizontal line of the apex of the auricle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5732,8 +5642,8 @@ On the head, at a crossing point of the vertical posterior border of the temple 
 [配伍]  配风池、太冲治目赤肿痛；配下关、合谷、太冲治疗头痛、口噤不开。
 [附注]  足太阳与足少阳经交会穴。'
 union select '11', '259', 'GB8', 'acupoint_gb8', '率谷', 'Shuaigu', 'Chains of valleys', '<<WHO>>
-Shuai: command; gu: valley.
-This point is above the ear and is the highest of all the points named gu (valley), like a commander.
+On the head, directly superior to the auricular apex, 1.5 B-cun superior to the temporal hairline. 
+Note: Superior to TE20, 1.5 B-cun within the hairline, it is easier to palpate the point while the subject is chewing.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5754,8 +5664,8 @@ Superior to the apex of the auricle, 1.5 cun within the hairline.', '<<针灸学
 [配伍]  配印堂、太冲、合谷治小儿急慢惊风、眩晕、耳鸣；配合谷、足三里治流行性腮腺炎。
 [附注]  足太阳与足少阳经交会。'
 union select '11', '260', 'GB9', 'acupoint_gb9', '天冲', 'Tianchong', 'Heavenly flush', '<<WHO>>
-Tian: heaven; chong: gushing.
-Tian refers to the head, where the point is located. The Qi and blood gush upwards to the vertex of the head from this point.
+On the head, directly superior to the posterior border of the auricular root, 2 B-cun superior to the hairline. 
+Note: GB9 is 0.5 B-cun posterior to GB8.
 
 <<acupuncture.com>>
 [Needling]:  
@@ -5778,8 +5688,8 @@ Directly above the posterior border of the auricle, 2 cun within the hairline, a
 [配伍]  配目窗、风池治头痛。
 [附注]  足太阳与足少阳经交会。'
 union select '11', '261', 'GB10', 'acupoint_gb10', '浮白', 'Fubai', 'Floating white', '<<WHO>>
-Fu: superficial; bai: bright.
-The point is on the superficial layer of the body and functions in clearing the mind and brightening the eyes.
+On the head, posterosuperior to the mastoid process, at the junction of the upper one third and lower two thirds of the curved line from GB9 to GB12. 
+Note: Posterior to the auricular apex, 1 B-cun superior to the hairline.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5802,8 +5712,7 @@ Posterior and superior to the mastoid process, at the junction of the middle thi
 [配伍]  配风池、行间治偏头痛、目赤肿痛；配听会、中渚治耳鸣、耳聋；配肾俞、太溪、耳门治耳鸣、耳聋。
 [附注]  足太阳与足少阳经交会。'
 union select '11', '262', 'GB11', 'acupoint_gb11', '头窍阴', 'Touqiaoyin', 'Empty Yin, 頭竅陰', '<<WHO>>
-Tou: head; qiao: opening; yin: Yin of Yin-Yang.
-The kidney and the liver pertain to Yin and open to the ears and the eyes. The point is on the head and indicated in ear and eye diseases.
+On the head, posterior and superior to the mastoid process, at the junction of the upper two thirds and lower one third of the curved line from GB9 to GB12.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5824,8 +5733,7 @@ Posterior and superior to the mastoid process, at the junction of middle third a
 [配伍]  配强间治头痛；配只支沟、太冲、风池治肝胆火盛之偏头痛或巅顶痛。
 [附注]  足太阳与足少阳经交会。'
 union select '11', '263', 'GB12', 'acupoint_gb12', '完骨', 'Wangu', 'Last bone', '<<WHO>>
-Wangu: mastoid process.
-The point is on the lower margin of the mastoid process of the temporal bone, behind the ear.
+In the anterior region of the neck, in the depression posteroinferior to the mastoid process.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5846,8 +5754,8 @@ In the depression posterior and inferior to the mastoid process.', '<<针灸学>
 [配伍]  配风池、大杼治疟疾；配风池治癫疾僵仆；配风池、合谷治风热上犯喉痹、齿痛、痄腮、口歪。
 [附注]  足太阳与足少阳经交会。'
 union select '11', '264', 'GB13', 'acupoint_gb13', '本神', 'Benshen', 'According to God', '<<WHO>>
-Ben: essential; shen: mind.
-This point is lateral to Shenting along the anterior hairline. Inside the point, the brain is located which is known as the residence of the mind, responsible for mental activities and no doubt is essential to the life of man.
+On the head, 0.5 B-cun superior to the anterior hairline, 3 B-cun lateral to the anterior median line. 
+Note: GB13 is at the junction of the medial two thirds and lateral one third of the curved line from GV24 to ST8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5869,8 +5777,7 @@ Dispels Wind, calms the Shen, resolves phlegm, treats epilepsy.
 [配伍]  配前顶、囟会、天柱治小儿惊痫；配水沟、太阳、合谷、大椎、天柱、百会治中风不省人事、小儿惊风。
 [附注]  足太阳经与阳维脉交会穴。'
 union select '11', '265', 'GB14', 'acupoint_gb14', '阳白', 'Yangbai', 'Yang white, 陽白', '<<WHO>>
-Yang: Yang of Yin-Yang; bai: brightness.
-Yang here refers to the head. The point is at the head and its function is to brighten the eye.
+On the head, 1 B-cun superior to the eyebrow, directly superior to the centre of the pupil.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5892,8 +5799,8 @@ On the forehead, directly above the pupil, 1 cun directly above the midpoint of 
 [配伍]  配太阳、睛明、鱼腰治目赤肿痛、视物昏花、上睑下垂。
 [附注]  足太阳经与阳维脉交会穴。'
 union select '11', '266', 'GB15', 'acupoint_gb15', '头临泣', 'Toulinqi', 'Coming tears, 頭臨泣', '<<WHO>>
-Tou: head; lin: regulation; qi: tears.
-The point is on the head and indicated in disorders of lacrimation.
+On the head, 0.5 B-cun within the anterior hairline, directly superior to the centre of the pupil. 
+Note: When looking straight ahead, GB15 is superior to the centre of the pupil, at the midpoint of the curved line from GV24 to ST8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5915,8 +5822,8 @@ On the head, directly above the pupil and 0.5 cun above the anterior hairline, a
 [配伍]  配阳谷、腕骨、申脉治风眩；配肝俞治白翳；配大椎、腰奇、水沟、十宣治中风昏迷癫痫；配大椎、间使、胆俞、肝俞治疟疾。
 [附注]  足太阳、足少阳与阳维脉交会穴。'
 union select '11', '267', 'GB16', 'acupoint_gb16', '目窗', 'Muchuang', 'Eye window, 目窓', '<<WHO>>
-Mu: eye; chuang: window.
-The point is above the eye and is indicated in treating eye disorders, like a window of the eye.
+On the head, 1.5 B-cun within the anterior hairline, directly superior to the centre of the pupil. 
+Note: GB16 is 1 B-cun superior to GB15.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5938,8 +5845,8 @@ On the head, 1.5 cun above the anterior hairline and 2.25 cun lateral to the mid
 [配伍]  配关冲、风池治头疼；配陷谷治面目浮肿。
 [附注]  足少阳经与阳维脉交会穴。'
 union select '11', '268', 'GB17', 'acupoint_gb17', '正营', 'Zhengying', 'Upright camp, 正營', '<<WHO>>
-Zhengying: fright and fear.
-This point is indicated in treating mental disorders such as fright and fear.
+On the head, 2.5 B-cun within the anterior hairline, directly superior to the centre of the pupil.
+Note: GB17 is 2 B-cun superior to GB15.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5960,8 +5867,8 @@ On the head, 2.5 cun above the anterior hairline and 2.25 cun lateral to the mid
 [配伍]  配阳白、太冲、风池治疗头痛、眩晕、目赤肿痛。
 [附注]  足少阳经与阳维脉交会穴。'
 union select '11', '269', 'GB18', 'acupoint_gb18', '承灵', 'Chengling', 'Receiving spirit, 承靈', '<<WHO>>
-Cheng: support; ling: spirit.
-The brain dominates the mind. The parietal bone is also called the Tianling bone. This point is just lateral and inferior to it.
+On the head, 4 B-cun within the anterior hairline, directly superior to the centre of the pupil. 
+Note: GB18 is 1.5 B-cun posterior to GB17, at the same level as BL7.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -5982,8 +5889,8 @@ On the head, 4 cun above the anterior hairline and 2.25 cun lateral to the midli
 [配伍]  配风池、风门、后溪治鼻衄。
 [附注]  足少阳经与阳维脉交会穴。'
 union select '11', '270', 'GB19', 'acupoint_gb19', '脑空', 'Naokong', 'Empty brain, 腦空', '<<WHO>>
-Nao: brain; kong: cavity.
-This point is lateral to the occipital bone and internally related to the brain. It is indicated in treating mental disorders.
+On the head, at the same level as the superior border of the external occipital protuberance, directly superior to GB20. 
+Note: GB19 is at the same level as GV17 and BL9.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6005,8 +5912,8 @@ On the head and on the level of the upper border of external occipital protubera
 [配伍]  配大椎、照海、申脉治癫狂痫证；配风池、印堂、太冲治头痛、目眩；配悬钟、后溪治颈项强痛。
 [附注]  足少阳经与阳维脉交会穴。'
 union select '11', '271', 'GB20', 'acupoint_gb20', '风池', 'Fengchi', 'Wind pond, 風池', '<<WHO>>
-Feng: pathogenic wind; chi: pool.
-The point is below the occipital bone in a pool-like depression. It is an important point in eliminating the pathogenic wind.
+In the anterior region of the neck, inferior to the occipital bone, in the depression between the origins of sternocleidomastoid and the trapezius muscles. 
+Note: GB20 is at the same level as GV16.
 
 <<acupuncture.com>>
 [Needling]:   
@@ -6028,8 +5935,7 @@ In the depression between the upper portion of m. sternocleidomastoideus and m. 
 [配伍]  配合谷、丝竹空治偏正头痛；配脑户、玉枕、风府、上星治目痛不能视；配百会、太冲、水沟、足三里、十宣治中风。
 [附注]  （l）足少阳经与阳维脉交会穴。（2）深部蹭为延髓，必须严格掌握针刺的角度与深度。'
 union select '11', '272', 'GB21', 'acupoint_gb21', '肩井', 'Jianjing', 'Shoulder well', '<<WHO>>
-Jian: shoulder; jing: well.
-The point is on the shoulder depression, which is as deep as a well.
+In the posterior region of the neck, at the midpoint of the line connecting the spinous process of the seventh cervical vertebra (C7) with the lateral end of the acromion.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6051,8 +5957,7 @@ On the shoulder, directly above the nipple, at the midpoint of the line connecti
 [配伍]  配足三里、阳陵泉治脚气酸痛；治疗乳腺炎特效穴。
 [附注]  （l）手、足少阳经与阳维脉交会穴。（2）孕妇禁针。'
 union select '11', '273', 'GB22', 'acupoint_gb22', '渊腋', 'Yuanye', 'Armpit pond, 淵腋', '<<WHO>>
-Yuan: deep pond; ye: axilla.
-The axilla is likened to a deep pond. The point is at the axilla.
+In the lateral thoracic region, in the fourth intercostal space, on the midaxillary line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6073,8 +5978,7 @@ On the mid-axillary line when the arm is raised, 3 cun below the axilla, in the 
 [配伍]  配大包、支沟治胸肋痛、肋间神经痛。配条口透承山、天宗、臑俞治肩关节周围炎。
 [附注]  本经渊腋至京门诸穴，不可深刺，以免伤及内部重要脏器。'
 union select '11', '274', 'GB23', 'acupoint_gb23', '辄筋', 'Zhejin', 'Flank tendons, 輒筋', '<<WHO>>
-Zhe: ear of a cart; jin: muscle.
-The `ear` of a cart is the plate protecting its wheel. The muscle on both sides of the flanks are as important a the ears of a cart, where the point is located.
+In the lateral thoracic region, in the fourth intercostal space, 1 B-cun anterior to the midaxillary line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6094,8 +5998,9 @@ Opens the chest, lowers rebellious Qi.
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配肺俞、定喘治胸闷喘息不得卧；配阳陵泉、支沟治胸胁痛。'
 union select '11', '275', 'GB24', 'acupoint_gb24', '日月', 'Riyue', 'Sun moon', '<<WHO>>
-Ri: sun; yue: moon.
-Ri is Yang, indicating the gallbladder, while yue is Yin, indicating the liver. This is an important point in treating liver and gallbladder diseases.
+In the anterior thoracic region, in the seventh intercostal space, 4 B-cun lateral to the anterior median line. 
+Note 1: GB24 is inferior to the centre of the nipple, one rib inferior to LR14. 
+Note 2: In females, GB24 can be found at the intersection of the midclavicular line and the seventh intercostal space.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6117,8 +6022,8 @@ Directly below the nipple, in the seventh intercostal space, 4 cun lateral to th
 [配伍]  配胆俞治胆虚；配内关、中脘治呕吐、纳呆；配期门、阳陵泉治胆石症；配支沟、丘墟治胁胀痛；配胆俞、腕骨治黄疸。
 [附注]  （l）胆的募穴。（2）足少阳、足太阳经交会穴。'
 union select '11', '276', 'GB25', 'acupoint_gb25', '京门', 'Jingmen', 'Capital gate, 京門', '<<WHO>>
-Jing: primary; men: door.
-This is a Mu-front point of the kidney meridian which dominates the primary Qi of the body in general. The point is like the door through which the Qi of the kidney enters and exits.
+On the lateral abdomen, inferior to the free extremity of the 12th rib. 
+Note: GB25 can be located while the subject is lying on the side with the shoulder flexed. The free extremity of the 12th rib can be palpated below the inferior border of the costal arch posterior to the posterior axillary line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6139,8 +6044,9 @@ On the lateral side of the abdomen, on the lower border of the free end of the t
 [配伍]  配行间治腰痛不可久立仰俯；配身柱、筋缩、命门治脊强脊痛。
 [附注]  肾的募穴。'
 union select '11', '277', 'GB26', 'acupoint_gb26', '带脉', 'Daimai', 'Belt meridian, 帶脈', '<<WHO>>
-Dai: belt; mai: meridian.
-The point pertains to the gallbladder meridian and meets at the Belt Vessel (Daimai).
+On the lateral abdomen, inferior to the free extremity of the 11th rib, at the same level as the centre of umbilicus. 
+Note 1: GB26 can be located by first locating the tenth rib, then searching for the free extremity of the 11th rib that is situated immediately below the inferior border of the costal arch. 
+Note 2: GB26 is inferior to LR13, at the same level as CV8.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6161,8 +6067,8 @@ Directly below Zhangmen (LR 13), at the crossing point of a vertical line throug
 [配伍]  配关元、气海、三阴交、白环俞、间使治赤白带下；配关元、足三里、肾俞、京门、次豂治肾气虚带下；配中极、次豂、行间、三阴交治湿热下注之带下。
 [附注]  足少阳经与带脉交会穴。'
 union select '11', '278', 'GB27', 'acupoint_gb27', '五枢', 'Wushu', 'Five pivots, 五樞', '<<WHO>>
-Wu: five; shu: pivot.
-The numeral 5 is a middle number and Shaoyang governs the pivot between the exterior and the interior of the body. The point is in a vital place in the middle of the body.
+On the lower abdomen, 3 B-cun inferior to the centre of umbilicus, medial to the anterior superior iliac spine. 
+Note: GB27 is 3 B-cun inferior to GB26, at the same level as CV4.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6182,8 +6088,8 @@ Regulates the Dai Mai Vessel, regulates the Lower Jiao, resolves Dampness, moves
 [配伍]  五枢透维道、气海俞、阳陵泉对子宫全切术针麻。
 [附注]  足少阳经与带脉交会穴。'
 union select '11', '279', 'GB28', 'acupoint_gb28', '维道', 'Weidao', 'Protecting path, 維道', '<<WHO>>
-Wei: maintain; dao: passage.
-This point is the coinciding point of the gallbladder meridian and the Belt Vessel (Daimai), which encircle and restrains all the meridians.
+On the lower abdomen, 0.5 B-cun medioinferior to the anterior superior iliac spine. 
+Note: GB28 is 0.5 B-cun medioinferior to GB27.
 
 <<acupuncture.com>>
 [Needling]:   
@@ -6205,8 +6111,7 @@ Anterior and inferior to the anterior superior iliac spine, 0.5 cun anterior and
 [配伍]  配百会、气海、足三里、三阴交治气虚下陷之阴挺或带下症；配五枢、带脉、中极、太冲、三阴交治卵巢囊肿、闭经；配横骨、冲门、气冲、大敦治疝气。
 [附注]  足少阳经与带脉交会穴。'
 union select '11', '280', 'GB29', 'acupoint_gb29', '居豂', 'Juliao', 'Dwelling bone', '<<WHO>>
-Ju: reside; liao: foramen.
-The point is in the depression on the hip-bone.
+In the buttock region, midpoint of the line connecting the anterior superior iliac spine and the prominence of the greater trochanter.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6227,8 +6132,9 @@ In the depression of the midpoint between the anterosuperior iliac spine and the
 [配伍]  配环跳、委中治腿风湿痛。配腰夹脊穴L1-2 、L3-5 、环跳、跳跃、风市、阳陵泉、条口、悬钟治中风下肢瘫痪、根性坐骨神经痛、腓总神经麻痹。
 [附注]  阳跷脉与足少阳交会穴。'
 union select '11', '281', 'GB30', 'acupoint_gb30', '环跳', 'Huantiao', 'Circular jump, 環跳', '<<WHO>>
-Huan: a ring; tiao: jump.
-The point is on the hipjoint, which is the pivot for jumping.
+In the buttock region, at the junction of the lateral one third and medial two thirds of the line connecting the prominence of the greater trochanter with the sacral hiatus. 
+Note: GB30 is easier to locate when the subject is lying on the side with the thigh flexed. 
+Remarks: Alternative location for GB30 - in the buttock region, at the junction of the lateral one third and medial two thirds of the distance between the prominence of the greater trochanter and the anterior superior iliac spine.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6249,8 +6155,8 @@ At the junction of the lateral 1/3 and medial 2/3 of the distance between the pr
 [配伍]  配风市治风痹；配太白、足三里、阳陵泉、丰隆、飞扬治下肢水潴留、静脉炎；配风市、膝阳关、阳陵泉、丘墟治胆经型坐骨神经痛；配居豂、风市、中渎治股外侧皮神经炎；配髀关、伏兔、风市、犊鼻、足三里、阳陵泉、太冲、太溪治小儿麻痹，肌萎缩，中风半身不遂。
 [附注]  足少阳、太阳经交会穴。'
 union select '11', '282', 'GB31', 'acupoint_gb31', '风市', 'Fengshi', 'Windy fair, 風市', '<<WHO>>
-Feng: pathogenic wind; shi market.
-`Market` means gathering and dispersing. This is an important point for removing the pathogenic wind.
+On the lateral aspect of the thigh, in the depression posterior to the iliotibial band where the tip of the middle finger rests, when standing up with the arms hanging alongside the thigh. 
+Note: GB31 is located by first finding the iliotibial band when the knee is slightly flexed and the hip is abducted against resistance.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6271,8 +6177,7 @@ On the midline of the lateral aspect of the thigh, 7 cun above the transverse po
 [操作]  直刺1~2寸。
 [配伍]  配风池、大杼、大椎、命门、关元、腰阳关、十七椎治中心型类风湿。'
 union select '11', '283', 'GB32', 'acupoint_gb32', '中渎', 'Zhongdu', 'Middle river, 中瀆', '<<WHO>>
-Zhong: middle; du: small ditch.
-This point is in between the tendons at the lateral aspect of the thigh, as if in a ditch.
+On the lateral aspect of the thigh, posterior to the iliotibial band, 7 B-cun superior to the popliteal crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6290,8 +6195,7 @@ Dispels Wind, resolves Dampness, activates the meridian, relieves pain.
 [操作]  直刺1~2寸。
 [配伍]  配环跳、风市、膝阳关、阳陵泉、足三里治中风后遗症、下肢瘫痪及小儿麻痹症。'
 union select '11', '284', 'GB33', 'acupoint_gb33', '膝阳关', 'Xiyangguan', 'Knee Yang pass, 膝陽關', '<<WHO>>
-Xi: knee; yang: Yang of Yin-Yang; guan: joint.
-Yang here means lateral. The point is at the lateral aspect of the knee joint.
+On the lateral aspect of the knee, in the depression between the biceps femoris tendon and the iliotibial band, posterior and proximal to the lateral epicondyle of the femur.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6311,8 +6215,7 @@ Dispels Wind-Dampness, activates the meridian, relieves pain.
 [操作]  直刺1~2寸。
 [配伍]  配环跳、承筋治胫痹不仁；配血海、膝关、犊鼻、丰隆、曲池、合谷治膝关节炎。'
 union select '11', '285', 'GB34', 'acupoint_gb34', '阳陵泉', 'Yanglingquan', 'Spring in sunny hill, 陽陵泉', '<<WHO>>
-Yang: Yang of Yin-Yang; ling: mound; quan: spring.
-The lateral is Yang. The head of the fibula at the lateral aspect of the knee is prominent as a mound below which in the depression the point is located, like a spring.
+On the fibular aspect of the leg, in the depression anterior and distal to the head of the fibula.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6334,8 +6237,8 @@ In the depression anterior and inferior to the head of the fibula.', '<<针灸�
 [配伍]  配曲池治半身不遂；配日月、期门、胆俞、至阳治黄疸、胆囊炎、胆结石；配足三里、上廉治胸胁痛。
 [附注]  （l）足少阳经所入为“合”。（2）八会穴之一，筋会阳陵泉。'
 union select '11', '286', 'GB35', 'acupoint_gb35', '阳交', 'Yangjiao', 'Yang crossroad, 陽交', '<<WHO>>
-Yang: Yang of Yin-Yang; jiao: crossing.
-The lateral is Yang. The point is at the lateral aspect of the leg, where it crosses the bladder meridian.
+On the fibular aspect of the leg, posterior to the fibula, 7 B-cun proximal to the prominence of the lateral malleolus. 
+Note: GB35 is located 1 B-cun distal to the midpoint of the line connecting the prominence of the lateral malleolus and the lateral end of the popliteal crease, posterior to GB36.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6356,8 +6259,8 @@ Activates the meridian, relaxes the sinews, relieves pain.
 [配伍]  配支沟、相应节段夹脊穴治带状疱疹之神经痛；配阳辅、绝骨、行间、昆仑、丘墟治两足麻木；配环跳、秩边、风市、伏兔、昆仑治风湿性腰腿痛－腰扭伤、坐骨神经痛、中风半身不遂之下肢瘫痪、小儿麻痹症。
 [附注]  阳维脉郄穴。'
 union select '11', '287', 'GB36', 'acupoint_gb36', '外丘', 'Waiqiu', 'Outer mound, 外邱', '<<WHO>>
-Wai: lateral; qiu: mound.
-The point is above the lateral malleolus and the local muscle forms a mound-like prominence.
+On the fibular aspect of the leg, anterior to the fibula, 7 B-cun proximal to the prominence of the lateral malleolus. 
+Note: GB36 is located 1 B-cun distal to the midpoint of the line connecting the prominence of the lateral malleolus and the lateral end of the popliteal crease, anterior to GB35.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6377,8 +6280,7 @@ Activates the meridian, relaxes the sinews, relieves pain.
 [配伍]  配腰奇、间使、丰隆、百会治癫痫；配环跳、伏兔、阳陵泉、阳交治下肢痿、痹、瘫；配陵后、足三里、条口、阳陵泉治腓总神经麻痹。
 [附注]  足少阳经郄穴。'
 union select '11', '288', 'GB37', 'acupoint_gb37', '光明', 'Guangming', 'Light bright', '<<WHO>>
-Guangming: brightness.
-This is a Luo-connecting point of the gallbladder meridian and is indicated in eye diseases to regain the brightness of the eyes.
+On the fibular aspect of the leg, anterior to the fibula, 5 B-cun proximal to the prominence of the lateral malleolus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6400,8 +6302,7 @@ Benefits the eyes, dispels Wind, activates the meridian, relieves pain.
 [配伍]  配肝俞、肾俞、风池、目窗、睛明、行间治青光眼和早期白内障。
 [附注]  足少阳经络穴。'
 union select '11', '289', 'GB38', 'acupoint_gb38', '阳辅', 'Yangfu', 'Positive support, 陽輔', '<<WHO>>
-Yang: Yang of Yin-Yang; fu: auxiliary.
-The lateral is Yang and fu refers to the fibula. The point is anterior to the fibula on the lateral aspect of the leg.
+On the fibular aspect of the leg, anterior to the fibula, 4 B-cun proximal to the prominence of the lateral malleolus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6424,8 +6325,7 @@ Activates the meridian, harmonizes the Shaoyang, benefits the sinews and bones, 
 [配伍]  配陵后、飞扬、金门治下肢痿痹瘫之足内翻畸型。
 [附注]  足少阳经所行为“经”。'
 union select '11', '290', 'GB39', 'acupoint_gb39', '悬钟', 'Xuanzhong', 'Suspended bell, 懸鐘, Juegu', '<<WHO>>
-Xuan: hanging; zhong: bell.
-The point is above the lateral malleolus, where children in ancient times used to hang a bell.
+On the fibular aspect of the leg, anterior to the fibula, 3 B-cun proximal to the prominence of the lateral malleolus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6447,8 +6347,8 @@ Strengthens the sinews and bones, nourishes marrow, activates the meridian, disp
 [配伍]  配内庭治心腹胀满；配昆仑、合谷、肩髃、曲池、足三里治中风、半身不遂；配后溪、列缺治项强、落枕。
 [附注]  八会穴之一，髓会绝骨。'
 union select '11', '291', 'GB40', 'acupoint_gb40', '丘墟', 'Qiuxu', 'Great cemetery, 坵墟', '<<WHO>>
-Qiu: mound; xu: large mound.
-The point is between the lateral malleolus (like a mound) and the peroneal trochlea of the calcaneus (like a large mound).
+On the anterolateral aspect of the ankle, in the depression lateral to the extensor digitorum longus tendon, anterior and distal to the lateral malleolus. 
+Note: GB40 is easier to locate by finding the extensor digitorum longus tendon when the second to fifth toes are extended against resistance.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6470,8 +6370,7 @@ Anterior and inferior to the external malleolus, in the depression on the latera
 [配伍]  配昆仑、绝骨治踝跟足痛；配中渎治胁痛；配大敦、阴市、照海治卒疝；配日月、期门、肝俞、胆俞、阳陵泉、腕骨治黄疸、胆道疾患。
 [附注]  足少阳经所过为“原”。'
 union select '11', '292', 'GB41', 'acupoint_gb41', '足临泣', 'Zulinqi', 'Foot coming to tears, 足臨泣', '<<WHO>>
-Zu: foot; lin: treatment; qi: to tear.
-The point is at the foot and is indicated in lacrimation and other eye diseases.
+On the dorsum of the foot, distal to the junction of the bases of the fourth and fifth metatarsal bones, in the depression lateral to the fifth extensor digitorum longus tendon.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6493,8 +6392,7 @@ Posterior to the fourth metatarsophalangeal joint, in the depression lateral to 
 [配伍]  配三阴交治痹证；配三阴交、中极治月事不利。
 [附注]  （l）足少阳经所注为“输”。（2）八脉交会穴之一，通于带脉。'
 union select '11', '293', 'GB42', 'acupoint_gb42', '地五会', 'Diwuhui', 'Ground five meetings, 地五會', '<<WHO>>
-Di: ground; wu: five; hui: confluence.
-Ground means inferior, indicating the foot. There are five points of the gallbladder meridian on the foots and this point is …
+On the dorsum of the foot, between the fourth and fifth metatarsal bones, in the depression proximal to the fourth metatarsophalangeal joint.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6515,8 +6413,7 @@ Posterior to the fourth metatarsophalangeal joint, between the fourth and fifth 
 [操作]  直刺或斜刺0.3~0.5寸。
 [配伍]  配耳门、足三里治耳鸣、腰痛。'
 union select '11', '294', 'GB43', 'acupoint_gb43', '侠溪', 'Xiaxi', 'Chivalrous brook, 俠谿', '<<WHO>>
-Xia: to press from both sides; xi: stream.
-The point is in the space between the 4th and the 5th toes. The space like a stream.
+On the dorsum of the foot, between the fourth and fifth toes, proximal to the web margin, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6539,8 +6436,7 @@ On the dorsum of foot, between the fourth and fifth toe, proximal to the margin 
 [配伍]  配太阳、太冲、阳白、风池、头临泣治眩晕、偏头痛、耳鸣耳聋、目外眦痛。
 [附注]  足少阳经所溜为“荥”。'
 union select '11', '295', 'GB44', 'acupoint_gb44', '足窍阴', 'Zuqiaoyin', 'Foot empty Yin, 足竅陰', '<<WHO>>
-Zu:foot; qiao: opening; yin: Yin of Yin-Yang.
-The kidney and the liver pertain to Yin and open into the ear and the eye. The point is on the foot and is indicated in treating ear and eye disorders.
+On the fourth toe, lateral to the distal phalanx, 0.1 f-cun proximal to the lateral corner of the toenail, at the intersection of the vertical line of the lateral side of the nail and the horizontal line of the base of the fourth toenail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6562,8 +6458,7 @@ On the lateral side of the fourth toe, about 0.1 cun from the corner of the nail
 [配伍]  配太冲、太溪、内关、太阳、风池、百会治神经性头痛、高血压病、肋间神经痛、胸膜炎、急性传染性结膜炎、神经性耳聋等；配阳陵泉、期门、支沟、太冲治胆道疾患；配水沟、太冲、中冲、百会、风池急救中风昏迷。
 [附注]  足少阳经所出为“井”。'
 union select '12', '296', 'LR1', 'acupoint_lr1', '大敦', 'Dadun', 'Great mound', '<<WHO>>
-Da: big; dun: thickness. 
-`Da` refers to the big toe. The point is on the lateral aspect of the big toe, where the muscle is thick.
+On the great toe, lateral to the distal phalanx, 0.1 f-cun proximal to the lateral corner of the toenail, at the intersection of the vertical line of the lateral side of the nail and the horizontal line of the base of the toenail.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6586,8 +6481,7 @@ On the lateral side of the terminal phalanx of the great toe, 0.1 cun from the c
 [配伍]  配内关、水沟治癫、狂、痫和中风昏仆；配膻中、天突、间使治梅核气。
 [附注]  （l）足厥阴经所出为“井”。（2）《图翼》孕妇产前产后皆不宜灸。'
 union select '12', '297', 'LR2', 'acupoint_lr2', '行间', 'Xingjian', 'Between columns, 行間', '<<WHO>>
-Xing: walking; jian: middle.
-The point is in the depression anterior to the first and second metatarsophalangeal joints. The Qi of the  meridian runs between them.
+On the dorsum of the foot, between the first and second toes, proximal to the web margin, at the border between the red and white flesh.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6610,8 +6504,8 @@ On the dorsum of the foot between the first and second toe, proximal to the marg
 [配伍]  配睛明治青光眼、降眼压；配太冲、合谷、、风池、百会治肝火上炎、头痛、眩晕、衄血；配中脘、肝俞、胃俞治肝气犯胃之胃痛；配中府、孔最治肝火犯肺干咳或咯血。
 [附注]  足厥阴经所溜为“荥”。'
 union select '12', '298', 'LR3', 'acupoint_lr3', '太冲', 'Taichong', 'Great flush', '<<WHO>>
-Tai: big; chong: important pass.
-The point is on the foot, where the Qi of the meridian is abundant. It is an important pass in this meridian.
+On the dorsum of the foot, between the first and second metatarsal bones, in the depression distal to the junction of the bases of the two bones, over the dorsalis pedis artery. 
+Note: LR3 can be felt in the depression when moving proximally from LR2 in the gap between the first and second metatarsal bones towards the base of two metatarsal bones.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6635,8 +6529,8 @@ On the dorsum of the foot, in the depression distal to the junction of the first
 [配伍]  配大敦治七疝；泻太冲、补太溪、复溜治肝阳上亢之眩晕；配合谷为开四关又治四肢抽搐；配肝俞、膈俞、太溪、血海治贫血、羸瘦；配间使、鸠尾、心俞、肝俞治癫狂痫。
 [附注]  （l）足厥阴经所注为“输”。（2）肝的原穴。'
 union select '12', '299', 'LR4', 'acupoint_lr4', '中封', 'Zhongfeng', 'Middle seal', '<<WHO>>
-Zhong: middle; feng: earth heaped into a mound.
-This point lies between the two malleoli, as if between two mounds.
+On the anteromedial aspect of the ankle, in the depression medial to the tibialis anterior tendon, anterior to the medial malleolus. 
+Note: LR4 is located midway between SP5 and ST41.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6658,8 +6552,8 @@ Anterior to the medial malleolus, midway between Shangqiu (SP-5) and Jiexi (ST-4
 [配伍]  配胆俞、阳陵泉、太冲、内庭泄热舒肝，治黄疸、疟疾；配足三里、阴廉治阴缩入腹、阴茎痛、遗精、淋症、小便不利。
 [附注]  足厥阴经所行为“经”。'
 union select '12', '300', 'LR5', 'acupoint_lr5', '蠡沟', 'Ligou', 'Insect gutter, 蠡溝', '<<WHO>>
-Li: shell; gou: groove.
-The external shape of the gastrocnemius muscle looks like a shell and the point is in the groove medial and anterior to it.
+On the anteromedial aspect of the leg, at the centre of the medial border (surface) of the tibia, 5 B-cun proximal to the prominence of the medial malleolus. 
+Note: LR5 is located at the same level as the upper two thirds and lower one third of the line connecting the apex of the patella with the prominence of the medial malleolus, at the centre of the medial border (surface) of the tibia, at the same level as KI9.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6681,8 +6575,8 @@ Regulates Liver Qi, resolves Damp-Heat in Lower Jiao, benefits the genitals.
 [配伍]  配百虫窝、阴陵泉、三阴交治滴虫性阴道炎；配中都、地机、中极、三阴交治月经不调、带下症、睾丸炎；配大敦、气冲治睾肿、卒疝、赤白带下。
 [附注]  足厥阴经络穴。'
 union select '12', '301', 'LR6', 'acupoint_lr6', '中都', 'Zhongdu', 'Middle capital', '<<WHO>>
-Zhong: middle; du: confluence.
-The point is at the midpoint of the meridian aspect of the leg, and is a confluence of the Qi of the Liver meridian.
+On the anteromedial aspect of the leg, at the centre of the medial border (surface) of the tibia, 7 B-cun proximal to the prominence of the medial malleolus. 
+Note: LR6 is located at 0.5 B-cun inferior to the midpoint of the line connecting the apex of the patella with the prominence of the medial malleolus, at the centre of the medial border (surface) of the tibia.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6704,8 +6598,7 @@ Regulates Liver Qi, relieves pain, resolves Dampness.
 [配伍]  配血海、三阴交治月经过多和崩漏、产后恶露不绝；配合谷、次豂、三阴交治痛经；配脾俞、阴陵泉治白带症；配足三里、梁丘治肝木乘土之腹胀、泄泻；配太冲治疝气；配三阴交、阴陵泉、膝阳关、膝关、伏兔、箕门治下肢痿痹瘫痛。
 [附注]  足厥阴经郄穴。'
 union select '12', '302', 'LR7', 'acupoint_lr7', '膝关', 'Xiguan', 'Knee pass, 膝關', '<<WHO>>
-Xi: knee; guan: joint.
-The point is in the vicinity of the knee joint.
+On the tibial aspect of the leg, inferior to the medial condyle of the tibia, 1 B-cun posterior to SP9.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6724,8 +6617,8 @@ Posterior and inferior to the medial condyle of the tibia, in the upper portion 
 [操作]  直刺0.8~1.5寸。
 [配伍]  配足三里、血海、阴市、阳陵泉、髀关、伏兔、丰隆治中风下肢不遂、小儿麻痹等；配委中、足三里治两膝红肿疼痛。'
 union select '12', '303', 'LR8', 'acupoint_lr8', '曲泉', 'Ququan', 'Tortuous spring', '<<WHO>>
-Qu: crooked; quan: spring.
-The point is at the medial end of the transverse crease of the popliteal fossa. With the knee flexed, the local depression is like a spring.
+On the medial aspect of the knee, in the depression medial to the tendons of the semitendinosus and the semimembranosus muscles, at the medial end of the popliteal crease. 
+Note: With the knee flexed, LR8 is lo-semitendinosus cated in the depression medial to the most muscle prominent tendon on the medial end of the popliteal crease.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6748,8 +6641,8 @@ When knee is flexed, the point is at the medial end of the transverse popliteal 
 [配伍]  配丘墟、阳陵泉治胆道疾患；配肝俞、肾俞、章门、商丘、太冲治肝炎；配复溜、肾俞、肝俞治肝肾阴虚之眩晕、翳障眼病；配支沟、阳陵泉治心腹疼痛、乳房胀痛、疝痛；配归来、三阴交治肝郁气滞之痛经、月经不调；
 [附注]  足厥阴经所入为“合”。'
 union select '12', '304', 'LR9', 'acupoint_lr9', '阴包', 'Yingbao', 'Envelope of Yin, 陰包', '<<WHO>>
-Yin: Yin of Yin-Yang; bao: womb.
-Yin here means interior. Bao refers to the uterus. The point is at the medial aspect of the thigh and is indicated in treating diseases of the uterus.
+On the medial aspect of the thigh, between the gracilis and the sartorius muscles, 4 Bcun proximal to the base of the patella. 
+Note: With the hip slightly flexed and abducted and with the muscle under tension, the sartorius muscle becomes more distinct. LR9 is located posterior to the sartorius muscle.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6769,8 +6662,7 @@ Regulates Liver Qi and the Lower Jiao.
 [操作]  直刺0.8~2寸。
 [配伍]  配交信治月经不调；配关元、肾俞治气虚不固之遗尿；配箕门、足五里、血海治膝股内侧疼痛，小儿麻痹的肌萎缩。'
 union select '12', '305', 'LR10', 'acupoint_lr10', '足五里', 'Zuwuli', 'Five miles', '<<WHO>>
-Zu: lower limbs; wu: five; li: used to mean cun in ancient times.
-The point is on the lower limbs, 5 cun above Jimen (SP11).
+On the medial aspect of the thigh, 3 B-cun distal to St30, over the artery.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6790,8 +6682,8 @@ Resolves Damp-Heat in the Lower Jiao.
 [操作]  直刺0.5~2寸。
 [配伍]  配三阳络、天井、历兑、三间治嗜卧欲动摇。'
 union select '12', '306', 'LR11', 'acupoint_lr11', '阴廉', 'Yinlian', 'Yin screen, 陰廉', '<<WHO>>
-Yin: Yin of Yin-Yang; lian: edge.
-Yin here means medial. The point is on the medial aspect of the thigh, near the genitalia.
+On the medial aspect of the thigh, 2 B-cun distal to ST30. 
+Note: LR11 is located lateral to the adductor longus muscle. When the thigh is adducted against resistance with the hip slightly flexed and abducted, the knee flexed, the adductor longus muscle becomes more distinct.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6811,8 +6703,7 @@ Regulates the Ren Meridian and Chong Vessel, benefits the uterus.
 [操作]  直刺0.8~2寸。
 [配伍]  配曲骨、次豂、三阴交治湿热下注之月经不调、白带多、阴门搔痒、股癣等；配肾俞、大赫、命门、太溪治妇人不孕、男子不育症；配委中、次豂、膀胱俞治膀胱炎、膀胱结石。'
 union select '12', '307', 'LR12', 'acupoint_lr12', '急脉', 'Jimai', 'Rapid pulse, 急脈', '<<WHO>>
-Ji: urgent; mai: artery.
-The point is at the medial aspect of the thigh, where the artery can be palpated.
+In the groin region, at the same level as the superior border of the pubic symphysis, and 2.5 B-cun lateral to the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6833,8 +6724,8 @@ Lateral to the pubic tubercle, lateral and inferior to Qichong (ST 30), in the i
 [配伍]  配大敦治疝气、阴挺、阴茎痛、阳痿；配阴包、箕门、曲泉、足五里治下肢痿瘫、小儿麻痹。
 [附注]  《素问》王注：可灸而不可刺。'
 union select '12', '308', 'LR13', 'acupoint_lr13', '章门', 'Zhangmen', 'Broad door, 章門', '<<WHO>>
-Zhang: screen; men: door.
-The point is below the hypochondrium, which acts like a screen for the internal organs.
+On the lateral abdomen, inferior to the free extremity of the 11th rib. 
+Note: LR13 can be located while the subject is lying on the side with the shoulder flexed. The free extremity of the 11th rib can be palpated below the inferior border of the costal arch.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6856,7 +6747,8 @@ On the lateral side of the abdomen, below the free end of the eleventh rib.', '<
 [附注]  脾经募穴，八会穴之一，脏会章门；肝经与胆经交会穴。'
 union select '12', '309', 'LR14', 'acupoint_lr14', '期门', 'Qimen', 'Qi: cycle; men: door.
 The bilateral flanks where the point is located look like an open door. When the Qi of the meridian reaches here, it is considered as one cycle of circulation. The point is therefore named Qimen.', '<<WHO>>
-
+In the anterior thoracic region, in the sixth intercostal space, 4 B-cun lateral to the anterior median line. 
+Note: LR14 is inferior to the centre of the nipple, 2 B-cun lateral to ST19. In females, LR14 is located at the intersection of the midclavicular line and the sixth intercostal space.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6879,8 +6771,8 @@ Directly below the nipple, in the sixth intercostal space, 4 cun lateral to the 
 [配伍]  配大敦治疝气；配肝俞、公孙、中脘、太冲、内关治肝胆疾患、胆囊炎、胆结石及肝气郁结之胁痛、食少、乳少、胃痛、呕吐、呃逆、食不化、泄泻等。
 [附注]  肝经募穴；足厥阴、足太阴与阴维脉交会穴。'
 union select '13', '310', 'GV1', 'acupoint_gv1', '长强', 'Changqiang', 'Long strong, 長強', '<<WHO>>
-Chang: long; qiang: strong. 
-The spinal column is long and strong. The point is at its lower end.
+In the perineal region, inferior to the coccyx, midway between the tip of the coccyx and the anus. 
+Note: The subject may be in prone position or knee-chest position.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6901,8 +6793,8 @@ Midway between the tip of the coccyx and the anus, locating the point in prone p
 [配伍]  配二白、阴陵泉、上巨虚、三阴交治痔疮（湿热下注型） ；配精官、二白、百会（灸） 治脱肛、痔疮。
 [附注]  督脉与足少阳、足少阴经交会穴；督脉络穴。'
 union select '13', '311', 'GV2', 'acupoint_gv2', '腰俞', 'Yaoshu', 'Lumbar locus', '<<WHO>>
-Yao: lower back; shu: point.
-The point is on the lower back, where the Qi of the meridian is infused.
+In the sacral region, at the sacral hiatus, on the posterior median line. 
+Note: The sacral hiatus is a small depression immediately above the anal cleft.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6925,8 +6817,8 @@ In the hiatus of the sacrum.', '<<针灸学>>@TCM100.COM:
 [操作]  向上斜刺0.5~1寸。
 [配伍]  配膀胱俞（灸）、长强、气冲、上豂、下豂、居豂治腰脊冷痛；配太冲治脊强反折、抽搐。'
 union select '13', '312', 'GV3', 'acupoint_gv3', '腰阳关', 'Yaoyangguan', 'Lumbar sunny pass, 腰陽關', '<<WHO>>
-Yao: lower back; yang: Yang of Yin-Yang; guan: gear.
-The governor vessel is Yang. The point pertains to it and is located in the turning zone of the lower back, like a gear for the lumbar joint.
+In the lumbar region, in the depression inferior to the spinous process of the fourth lumbar vertebra (L4), on the posterior median line. 
+Note: GV3 can be located by first palpating the highest points of the iliac crests and the spinous process of the fourth lumbar vertebra (L4) can then be found at the midpoint of the highest points of both iliac crests.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6947,8 +6839,7 @@ Below the spinous process of the fourth lumbar vertebra, at the level with the c
 [操作]  向上斜刺0.5~1寸。
 [配伍]  补腰阳关、肾俞、次豂、泻委中治腰脊痛、四肢厥冷、小便频数；配腰夹脊、秩边、承山、飞扬治坐骨神经痛、腰腿痛；配膀胱俞、三阴交治遗尿、尿频。'
 union select '13', '313', 'GV4', 'acupoint_gv4', '命门', 'Mingmen', 'Gate of life, 命門', '<<WHO>>
-Ming: life; men: door.
-The kidney is the vital source. The point is between Shensu, like a door for the Qi of the kidney.
+In the lumbar region, in the depression inferior to the spinous process of the second lumbar vertebra (L2), on the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6970,8 +6861,7 @@ Below the spinous process of the second lumbar vertebra.', '<<针灸学>>@TCM100
 [操作]  直刺或向上斜刺0.5~1寸。
 [配伍]  配肾俞、太溪治遗精、早泄、腰脊酸楚、足膝无力、遗尿、癃闭、水肿、头昏耳鸣等肾阳亏虚之症；配百会、筋缩、腰阳关治破伤风抽搐；灸命门、隔盐灸神阙治中风脱症；配关元、肾俞、神阙（艾灸） 治五更泄；补命门、肾俞、三阴交治肾虚腰痛；泻命门、阿是穴、委中、腰夹脊穴治腰扭伤痛和肥大性脊柱炎；配十七椎、三阴交治痛经（寒湿凝滞型）（艾灸） ；配大肠俞、膀胱俞、阿是穴（灸） 治寒湿痹腰痛。'
 union select '13', '314', 'GV5', 'acupoint_gv5', '悬枢', 'Xuanshu', 'Hanging pivot, 懸樞', '<<WHO>>
-Xuan: suspended; shu: pivot.
-The point is on the lower back. When lying supine, the local region is suspended as a pivot for lumbar movement.
+In the lumbar region, in the depression inferior to the spinous process of the first lumbar vertebra (L1), on the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -6991,8 +6881,7 @@ Below the spinous process of the first lumbar vertebra.', '<<针灸学>>@TCM100.
 [操作]  直刺或向上斜刺0.5~1寸。
 [配伍]  配委中、肾俞治腰脊强痛；配足三里、太白治完谷不化、泄泻。'
 union select '13', '315', 'GV6', 'acupoint_gv6', '脊中', 'Jizhong', 'Middle of spine', '<<WHO>>
-Ji: spine; zhong: middle.
-The spine consists of 21 vertebrae. This point is below the 11th vertebra in exactlly the middle of the spine.
+In the upper back region, in the depression inferior to the spinous process of the 11th thoracic vertebra (T11), on the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7014,8 +6903,7 @@ Below the spinous process of the eleventh thoracic vertebra.', '<<针灸学>>@TC
 [操作]  向上斜刺0.5~1寸。
 [配伍]  配足三里、中脘治腹胀胃痛；配上巨虚、下巨虚治腹泻痢疾；配鸠尾、大椎、丰隆治癫痫；配肾俞、太溪治腰膝痛；配至阳、阳陵泉、胆俞治黄疸。'
 union select '13', '316', 'GV7', 'acupoint_gv7', '中枢', 'Zhongshu', 'Middle pivot, 中樞', '<<WHO>>
-Zhong: middle; shu: pivot.
-This point is below the 10th vertebra and is like a pivot in the middle of the spine.
+In the upper back region, in the depression inferior to the spinous process of the tenth thoracic vertebra (T10), on the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7035,8 +6923,7 @@ Below the spinous process of the tenth thoracic vertebra.', '<<针灸学>>@TCM10
 [操作]  斜刺0.5~1寸。
 [配伍]  配命门、腰眼、阳陵泉、后溪治腰脊痛。'
 union select '13', '317', 'GV8', 'acupoint_gv8', '筋缩', 'Jinsuo', 'Ligament contraction, 筋縮', '<<WHO>>
-Jin: muscle; suo: contracture.
-This point is used in treating all kinds of muscle contracture.
+In the upper back region, in the depression inferior to the spinous process of the ninth thoracic vertebra (T9), on the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7057,8 +6944,9 @@ Below the spinous process of the ninth thoracic vertebra.', '<<针灸学>>@TCM10
 [操作]  斜刺0.5~1寸。
 [配伍]  配角孙、瘛脉治小儿惊痫、瘛疭、角弓反张；配通里治癫痫；配水道治脊强。'
 union select '13', '318', 'GV9', 'acupoint_gv9', '至阳', 'Zhiyang', 'Bright sunshine, 至陽', '<<WHO>>
-Zhi: reaching; yang: Yang of Yin-Yang.
-This point is on a level with the diaphragm. The Qi of the meridian passes here and ascends, i.e. it reaches to Yang within Yang above the diaphragm from Yin within Yang below the diaphragm.
+In the upper back region, in the depression inferior to the spinous process of the seventh thoracic vertebra (T7), on the posterior median line. 
+Note: The depression inferior to the spinous process of the seventh thoracic vertebra (T7) which is at the intersection of two imaginary lines: the posterior 
+midline and the horizontal line of the inferior border of the inferior angle of the scapula.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7079,8 +6967,7 @@ Below the spinous process of the seventh thoracic vertebra, approximately at the
 [操作]  斜刺0.5~1寸。
 [配伍]  配曲池、阳陵泉、脾俞治黄疸；配天枢、大肠俞治腹胀、肠鸣、泄泻；配内关、神门治心悸、心痛。'
 union select '13', '319', 'GV10', 'acupoint_gv10', '灵台', 'Lingtai', 'Spiritual terrace, 靈臺', '<<WHO>>
-Ling: spirit; tai: platform.
-This point is below Shendao (GV11) and Xinshu (BL15) and is therefore likened to a platform for the heart spirit.
+In the upper back region, in the depression inferior to the spinous process of the sixth thoracic vertebra (T6), on the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7101,8 +6988,7 @@ Below the spinous process of the sixth thoracic vertebra.', '<<针灸学>>@TCM10
 [操作]  斜刺0.5~1寸。
 [配伍]  配陶道、内关治间日疟；配合谷（泻法） 、委中（放血） 治疔疮；配阳陵泉、支沟治胸胁痛；配身柱、至阳治背痛；配胆俞、阳陵泉、太冲治黄疸。'
 union select '13', '320', 'GV11', 'acupoint_gv11', '神道', 'Shendao', 'God`s path', '<<WHO>>
-Shen: mind; dao: pathway.
-The heart houses the mind. This point is medial to Xinshu (BL15), like a pathway of the mind.
+In the upper back region, in the depression inferior to the spinous process of the fifth thoracic vertebra (T5), on the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7123,8 +7009,8 @@ Below the spinous process of the fifth thoracic vertebra.', '<<针灸学>>@TCM10
 [操作]  斜刺0.5~1寸。
 [配伍]  配关元治身热头痛；配神门治健忘惊悸；配百会、三阴交治失眠健忘、小儿惊风、痫症；配心俞、厥阴俞、内关、通里、曲泽治胸痹。'
 union select '13', '321', 'GV12', 'acupoint_gv12', '身柱', 'Shenzhu', 'Pillar of body', '<<WHO>>
-Shen: body; zhu: pillar.
-This point is below the third thoracic vertebra and connects upwards with the head and the neck when downwards with the back and the lumbar vertebrae, like a pillar of the body.
+In the upper back region, in the depression inferior to the spinous process of the third thoracic vertebra (T3), on the posterior median line. 
+Note: The depression inferior to the spinous process of the third thoracic vertebra (T3) which is at the intersection of two imaginary lines: the posterior median line and the horizontal line of the medial end of the spine of the scapula.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7145,8 +7031,7 @@ Below the spinous process of the third thoracic vertebra.', '<<针灸学>>@TCM10
 [操作]  斜刺0.5~1寸。
 [配伍]  配水沟、内关、丰隆、心俞治癫狂痫；配风池、合谷、大椎治肺热、咳嗽；配灵台、合谷、委中（泻法） 治疔毒。'
 union select '13', '322', 'GV13', 'acupoint_gv13', '陶道', 'Taodao', 'Seeking path', '<<WHO>>
-Tao: moulding; dao: pathway.
-The Qi of the Zang-fu organs gathers on the Governor Vessel and ascends along this way.
+In the upper back region, in the depression inferior to the spinous process of the first thoracic vertebra (T1), on the posterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7166,8 +7051,9 @@ Below the spinous process of the first thoracic vertebra.', '<<针灸学>>@TCM10
 [操作]  斜刺0.5~1寸；可灸。
 [配伍]  配丰隆、水沟、神门、心俞治癫狂痫；配大椎、间使、后溪治疟疾；配合谷、曲池、风池治外感病；配肾俞、腰阳关、委中治胸背痛。'
 union select '13', '323', 'GV14', 'acupoint_gv14', '大椎', 'Dazhui', 'Big vertebra', '<<WHO>>
-Da: large; zhui: vertebra.
-This point is below the prominence of the 7th cervical vertebra, which is the largest of the cervical vertebrae.
+In the posterior region of the neck, in the depression inferior to the spinous process of the seventh cervical vertebra (C7), on the posterior median line. 
+Note 1: When the head is in a neutral position while the subject is seated, the most prominent site on the posterior aspect of the neck is the spinous process of the seventh cervical vertebra (C7). Forward flexion of the neck may facilitate palpation of the C7 spinous process. 
+Note 2: Slight rotation of C7 can be palpated by rotating the head with the neck slightly flexed.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7189,8 +7075,8 @@ Below the spinous process of the seventh cervical vertebra, approximately at the
 [操作]  斜刺0.5~1寸；可灸。
 [配伍]  配肺俞治虚损、盗汗、劳热；配间使、乳根治脾虚发疟；配四花穴治百日咳（双膈俞、双胆俞） ；配曲池预防流脑；配合谷治白血球减少；配足三里、命门提高机体免疫力；配大椎、定喘、孔最治哮喘；配曲池、合谷泻热；配腰奇、间使治癫痫。'
 union select '13', '324', 'GV15', 'acupoint_gv15', '哑门', 'Yamen', 'Dump gate, 啞門', '<<WHO>>
-Ya: mutism; men: door.
-This point may either cause or treat mutism. It is likened to a two-way door to mutism.
+In the posterior region of the neck, in the depression superior to the spinous process of the second cervical vertebra (C2), on the posterior median line. 
+Note: After locating GV16, GV15 is located 0.5 B-cun inferior to GV16.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7215,8 +7101,8 @@ Dispels Wind, treats loss of voice, benefits the tongue, neck and head.
 [配伍]  泻哑门、听会、外关（或中渚） 、丘墟治高热或疟疾所致耳聋；配人中、廉泉治舌强不语、暴喑、咽喉炎；配百会、人中、丰隆、后溪治癫狂、癫痫。配风池、风府治中风失语、不省人事；配劳宫、三阴交、涌泉等九穴为回阳九针，可以开窍醒神治昏厥；配脑户、百会、风池、太溪、昆仑、肾俞治大脑发育不全；针哑门、肾俞、太溪治疗贫血。
 [附注]  督脉与阳维脉交会穴。深部接近延髓，必须严格掌握针刺的角度和深度。'
 union select '13', '325', 'GV16', 'acupoint_gv16', '风府', 'Fengfu', 'Windy prefecture, 風府', '<<WHO>>
-Feng: pathogenic wind; fu: place.
-This is a point for eliminating the pathogenic wind.
+In the posterior region of the neck, directly inferior to the external occipital protuberance, in the depression between the trapezius muscles. 
+Note: With the head slightly extended in the seated position, loosen the trapezius muscle, then move superiorly from the midpoint of the posterior hairline to the occipital bone, GV16 will be found.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7237,8 +7123,8 @@ Dispels Wind, calms the Shen, clears the head, benefits the head and neck.
 [配伍]  配腰俞治足不仁；配昆仑治癫狂、多言；配二间、迎香治鼽衄；配金津、玉液、廉泉治舌强难言。
 [附注]  督脉与阳维脉将会穴。深部为延髓，针刺注意安全。'
 union select '13', '326', 'GV17', 'acupoint_gv17', '脑户', 'Naohu', 'Brain window, 腦戶', '<<WHO>>
-Nao: brain; hu: door.
-The Governor Vessel (Dumai) runs upwards along the spine and enters the brain. This point is like a door on the occipital region for the Qi of the meridian flowing into the brain.
+On the head, in the depression superior to the external occipital protuberance. 
+Note: GV17 is located in the depression at the intersection of two imaginary lines: the vertical line of the posterior median line and the horizontal line of the superior border of the external occipital protuberance, at the same level as BL9.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7259,8 +7145,8 @@ Dispels Wind, calms the Shen, clears the head.
 [配伍]  配通天、脑空治头重痛；配人中、太冲、丰隆治癫狂痫。
 [附注]  督脉与足太阳经交会穴。'
 union select '13', '327', 'GV18', 'acupoint_gv18', '强间', 'Qiangjian', 'Strong connections, 強間', '<<WHO>>
-Qiang: stiffness; jian: middle.
-This point is between the parietal bone and the occipital bone and is indicated in treating stiff neck and headache.
+On the head, 4 B-cun superior to the posterior hairline, on the posterior median line. 
+Note: GV18 is located in the depression 1.5 B-cun superior to GV17.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7281,8 +7167,8 @@ Regulates the Liver, dispels Wind, calms the Shen, alleviates pain.
 [操作]  平刺0.5~0.8寸。
 [配伍]  配后溪、至阴治后头痛、目眩；配丰隆治头痛难忍。'
 union select '13', '328', 'GV19', 'acupoint_gv19', '后顶', 'Houding', 'Posterior vertex, 後頂', '<<WHO>>
-Hou: posterior; ding: vertex.
-This point is posterior to the vertex.
+On the head, 5.5 B-cun superior to the posterior hairline, on the posterior median line. 
+Note: GV19 is located 1.5 B-cun posterior to GV20.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7303,8 +7189,9 @@ Dispels Wind, calms the Shen, alleviates pain.
 [操作]  平刺0.5~0.8寸。
 [配伍]  配百会、合谷治头顶剧痛；配外丘治颈项痛、恶风寒；配玉枕、颔厌治风眩；配率谷、太阳治偏头痛；配风池治脱发。'
 union select '13', '329', 'GV20', 'acupoint_gv20', '百会', 'Baihui', 'Hundred meetings, 百會', '<<WHO>>
-Bai: hundred; hui: meeting.
-The point is at the vertex, and a meeting place of the three Foot-yang meridian, the liver meridian and the Governor Vessel (Dumai).
+On the head, 5 B-cun superior to the anterior hairline, on the anterior median line. 
+Note 1: GV20 is located in the depression auricular 1 B-cun anterior to the midpoint of the line apex from the anterior hairline to the posterior hairline. 
+Note 2: When the ears are folded, GV20 is located at the midpoint of the connecting line between the auricular apices.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7327,8 +7214,8 @@ On the midline of the head, 5 cun directly above the midpoint of the anterior ha
 [配伍]  配天窗治中风失音不能言语；配百会、长强、大肠俞治小儿脱肛；配百会、人中、合谷、间使、气海、关元治尸厥、卒中、气脱；配脑空、天枢治头风；针刺百会，配耳穴的神门埋揿针戒烟；配养老、百会、风池、足临泣治美尼尔氏综合症；针百会透曲鬓、天柱治脑血管痉挛、偏头痛；配百会、水沟、足三里治低血压；配百会、水沟、京骨治癫痫大发作；配百会、肾俞（回旋灸） 主治炎症。
 [附注]  督脉与足太阳经交会穴。'
 union select '13', '330', 'GV21', 'acupoint_gv21', '前顶', 'Qianding', 'Anterior vertex, 前頂', '<<WHO>>
-Qian: front; ding: vertex.
-This point is in front of the vertex.
+On the head, 3.5 B-cun superior to the anterior hairline, on the anterior median line. 
+Note: GV21 is located at the midpoint of the line connecting GV20 and GV22.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7349,8 +7236,7 @@ Dispels Wind, calms the Shen, benefits the head.
 [操作]  平刺0.3~0.8寸。
 [配伍]  配前顶、后顶、颌厌治风眩、偏头痛；配人中治面肿虚浮；配百会治目暴赤肿；配五处治头风目眩、目戴上。'
 union select '13', '331', 'GV22', 'acupoint_gv22', '囟会', 'Xinhui', 'Fontanelle meet, 顖會', '<<WHO>>
-Xin: fontanel; hui: closing.
-The point is located where the anterior fontanel closes.
+On the head, 2 B-cun superior to the anterior hairline, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7372,8 +7258,7 @@ Dispels Wind, soothes the Liver, benefits the head and nose.
 [操作]  平刺0.3~0.8寸，小儿前囟门未闭者禁针。
 [配伍]  配玉枕治头风；配百会治多睡；配头维、太阳、合谷治头痛目眩；配上星、合谷、列缺、迎香治鼻渊、鼻衄；配前顶、天柱、本神治小儿惊痫；配人中、十宣治中风昏迷、癫痫；配血海、支沟治血虚头晕。'
 union select '13', '332', 'GV23', 'acupoint_gv23', '上星', 'Shangxing', 'Super star', '<<WHO>>
-Shang: upper; xing: star.
-The head is considered as the sky. This point is at the head like a star in the sky.
+On the head, 1 B-cun superior to the anterior hairline, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7395,8 +7280,8 @@ Dispels Wind, opens the nose, benefits the eyes.
 [操作]  平刺0.5~1寸。
 [配伍]  配合谷、太冲治头目痛；配丘墟、陷谷治疟疾；配大椎治鼻中息肉、面赤肿、口鼻出血不止；配水沟治癫狂；配印堂、素豂、百会、迎香、合谷、曲池、列缺、支沟治酒渣鼻。'
 union select '13', '333', 'GV24', 'acupoint_gv24', '神庭', 'Shenting', 'God`s courtyard', '<<WHO>>
-Shen: mind; ting: vestibule.
-The brain is the mansion of the mind. Shen here means brain. This point is on the forehead, like the vestibule of the brain.
+On the head, 0.5 B-cun superior to the anterior hairline, on the anterior median line. 
+Note: When the anterior hairline is unclear or changed, GV 24 is located 3.5 B-cun superior to the midpoint between the medial ends of the eyebrows.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7418,8 +7303,7 @@ Dispels Wind, opens the nose, calms the Shen.
 [配伍]  配行间治目泪出；配囟会治中风不语；配兑端、承浆治癫痫呕沫；配水沟治寒热头痛、喘渴、目不可视；配太冲、太溪、阴郄、风池治肝阳上亢型头痛、眩晕、失眠等病症。
 [附注]  （l）督脉与足太阳、阳明经交会穴。（2）《甲乙》：禁不可刺，令人癫疾。'
 union select '13', '334', 'GV25', 'acupoint_gv25', '素豂', 'Suliao', 'Simple bone', '<<WHO>>
-Su: nasal cartilage; liao: foramen.
-This point is in a foramen at the lower end of the nasal cartilage.
+On the face, at the tip of the nose.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7441,8 +7325,8 @@ On the tip of the nose.', '<<针灸学>>@TCM100.COM:
 [操作]  向上斜刺0.3~0.5寸，或点刺出血；不灸。
 [配伍]  配百会、足三里治低血压休克；配迎香、合谷治鼻渊。'
 union select '13', '335', 'GV26', 'acupoint_gv26', '水沟', 'Shuigou', 'Water ditch, 水溝', '<<WHO>>
-Shui: water; gou: groove.
-This point is in the philtrum, which looks like a water groove.
+On the face, at the midpoint of the philtrum midline. 
+Remarks: Alternative location for GV26 - at the junction of the upper one third and lower two thirds of the philtrum midline.
 
 <<acupuncture.com>>
 [Needling]:
@@ -7465,8 +7349,7 @@ At the junction of the upper third and middle third of the philtrum.', '<<针灸
 [配伍]  配百会、十宣、涌泉治昏迷急救。中暑加委中、尺泽，溺水窒息加会阴，癫狂加内关，癔病发作加合谷透劳宫；配上星、风府治鼻流清涕；配委中（泻法） 治急性腰扭伤；配三阴交、血海治月经不调、崩漏。
 [附注]  督脉与手足阳明经交会穴。'
 union select '13', '336', 'GV27', 'acupoint_gv27', '兑端', 'Duiduan', 'Exchange extreme', '<<WHO>>
-Dui: mouth; duan: tip.
-This point is at the tip of the upper lip.
+On the face, at the midpoint of the tubercle of the upper lip.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7486,8 +7369,8 @@ On the labial tubercle of the upper lip, on the vermilion border between the phi
 [操作]  斜刺0.2~0.3寸；不灸。
 [配伍]  配本神治癫痫呕沫；配目窗、正营、耳门治唇吻强，止齿龋痛。'
 union select '13', '337', 'GV28', 'acupoint_gv28', '龈交', 'Yinjiao', 'Gum crossing, 齦交', '<<WHO>>
-Yin: gum; jiao: meet.
-This point is on the incisive suture of the upper gum, where the Governor Vessel and the Conception Vessel meet.
+On the face, at the junction of the frenulum of the upper lip with the upper gum. 
+Note: With the head extended in the seated frenulum of the posture and the upper lip lifted, gV28 is upper gum upper lip located at the junction of the frenulum of the upper lip with the upper gum.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7510,8 +7393,8 @@ At the junction of the gum and the frenulum of the upper lip.', '<<针灸学>>@T
 [操作]  向上斜刺0.2~0.3寸，或点刺出血；不灸。
 [配伍]  配风府治颈项急，不得顾；配承浆治口臭难近；配上关、大迎、翳风治口噤不开。'
 union select '14', '338', 'CV1', 'acupoint_cv1', '会阴', 'Huiyin', 'Meeting of Yin, 會陰', '<<WHO>>
-Hui: crossing; yin: genitalia. 
-This point is located between the external genitalia and the anus, called Huiyin.
+In the perineal region, at the midpoint of the line connecting the anus with the posterior border of the scrotum in males and the posterior commissure of labium majoris in females. 
+Note: CV1 is located midway between the anus and the genital organ, with the subject lying on the side or in knee-chest position.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7519,8 +7402,7 @@ Perpendicular insertion .5 - 1.0 cun.
 [Indications]: 
 * Constipation and dysuria, or incontinence of feces and urine, * Spermatorrhea, impotence, pruritus vulva
 * Asphyxiation from drowning, loss of consciousness, manic psychosis
-[Functions]: 
-Nourishes Kidney Yin, resolves Damp-Heat, resuscitates, treats prolapse.
+[Functions]
 
 <<rootdown.us>>
 [Location]:', '<<针灸学>>@TCM100.COM: 
@@ -7529,10 +7411,9 @@ Nourishes Kidney Yin, resolves Damp-Heat, resuscitates, treats prolapse.
 [主治]  昏迷，癫狂，惊痫，小便不利，痔疾，遗精，月经不调。
 [操作]  直刺0.5~1寸，孕妇慎用；可灸。
 [配伍]  配神门治癫狂痫；配水沟治溺水窒息；配十宣急救昏迷；配蠡沟治阴痒、阴痛（湿热下注型） ；配归来、百会治阴挺（中气下陷型） ；配承山治痔疮、脱肛；配支沟、上巨虚治便秘；配中极治遗尿、淋症；配关元治遗精。
-[附注]  任脉别络，侠督脉、冲脉之会。'
+[附注]'
 union select '14', '339', 'CV2', 'acupoint_cv2', '曲骨', 'Qugu', 'Crooked bone', '<<WHO>>
-Qu: crooked; gu: bone.
-Qugu refers to the pubic bone, and the point is at the superior border of the pubic symphysis.
+On the lower abdomen, superior to the pubic symphysis, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7542,7 +7423,7 @@ Perpendicular insertion 1.0 - 1.5 cun.
 * Spermatorrhea, impotence
 * Irregular menstruation, leukorrhea
 [Functions]: 
-Regulates the Lower Jiao, tonifies the Kidneys, clears Heat, resolves Dampness, regulates menstruation.
+Regulates the Lower Jiao, tonifies the Kidneys, clears Heat, resolves Dampness, regulate
 
 <<rootdown.us>>
 [Location]: 
@@ -7551,11 +7432,9 @@ On the midpoint of the upper border of the symphysis pubis.', '<<针灸学>>@TCM
 [解剖]  在腹白线上，两侧有锥体肌；有腹壁下动脉及闭孔动脉的分支；布有髂腹下神经分支。
 [主治]  少腹胀满，小便不利，遗尿，遗精，月经不调，赤白带下。
 [操作]  直刺0.5~1寸，内为膀胱，应在排尿后进行针刺；可灸。
-[配伍]  配肾俞、志室、大赫、关元、命门治阳萎、遗精（肾气虚型） ；配膀胱俞、肾俞、次豂、阴陵泉、蠡沟治阳萎、遗精、癃闭、淋症、阴痒、湿疹、带下（湿热下注） ；配中极、关元、肾俞治肾虚、遗尿、小便不利；配关元、命门、阴交（针补法或灸） 治宫寒不孕、痛经。
-[附注]  （l）任脉与足厥阴经交会穴。（2）本经曲骨至上脘诸穴，孕妇针灸慎用。'
+[配伍]  配肾俞、志室、大赫、关元、命门治阳萎、遗精（肾气虚型） ；配膀胱俞、肾俞、次豂、阴陵泉、蠡沟治阳萎、遗精、癃闭、淋症、阴痒、湿疹、带下（湿热下注） ；配中极、关元、肾俞治肾虚、遗尿、小便不利；配关元、命门、阴交（针'
 union select '14', '340', 'CV3', 'acupoint_cv3', '中极', 'Zhongji', 'Middle extreme, 中極', '<<WHO>>
-Zhong: centre; ji: exactly.
-The point is exactly at the centre of the body.
+On the lower abdomen, 4 B-cun inferior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7566,7 +7445,7 @@ Perpendicular insertion 1.0 - 1.5 cun.
 * Irregular menstruation, metrorrhagia, leukorrhea, prolapse of the uterus, infertility
 * Hernia
 [Functions]: 
-Benefits the Urinary Bladder, benefits urination, regulates the Lower Jiao, resolves Damp-Heat.
+Benefits the Urinary Bladder
 
 <<rootdown.us>>
 [Location]: 
@@ -7575,22 +7454,16 @@ On the anterior midline, 4 cun below the umbilicus.', '<<针灸学>>@TCM100.COM:
 [解剖]  在腹白线上，深部为乙状结肠；有腹壁浅动、静脉分支，腹壁下动、静脉分支；布有髂腹下神经的前皮支。
 [主治]  小便不利，遗溺不禁，阳痿，遗精，疝气，月经不调，带下，崩漏，阴挺。
 [操作]  直刺0.5~1.5寸。
-[配伍]  配大赫、肾俞、阴交、三阴交、次豂治阳萎、早泄、遗精、白浊、月经不调、痛经崩漏、产后恶露不止、胞衣不下、阴挺等症（肾气虚型） ；配阴谷、气海、肾俞治遗溺不止；配大敦、关元、三阴交治疝气偏坠；配水分、三焦俞、三阴交、气海、委阳治水肿；中极透曲骨、配三阴交、地机治产后、术后尿潴留；中极透曲骨、配气海、膻中、足三里治尿潴留（老年人气虚） 。
-[附注]  任脉与足三阴经交会穴。膀胱的募穴。'
+[配伍]  配大赫、肾俞、阴交、三阴交、次豂治阳萎、早泄、遗精、白浊、月经不调、痛经崩漏、产后恶露不止、胞衣不下、阴挺等症（肾气虚型） ；配阴谷、气海、肾俞治遗溺不止；配大敦、关元、三阴交治疝气偏坠；配水分、三焦俞、三阴交、气海、委阳治水'
 union select '14', '341', 'CV4', 'acupoint_cv4', '关元', 'Guanyuan', 'Pass origin, 關元', '<<WHO>>
-Guan: storage; yuan: primary Qi.
-The point is 3 cun directly below the navel and is a storage place for the primary Qi of the body.
+On the lower abdomen, 3 B-cun inferior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
 Perpendicular insertion 1.0 - 2.0 cun. 
 [Indications]: 
 * Impotence, spermatorrhea, enuresis, frequent micturition, retention of urine
-* Irregular menstruation, metrorrhagia, morbid leukorrhea, dysmenorrhea, prolapse of the uterus, infertility, postpartum hemorrhage
-* Flaccidity of apoplexy, emaciation due to consumptive disease
-* Diarrhea, prolapse of rectum, dyspepsia
-[Functions]: 
-Strengthens, nourishes the Kidneys (Qi, Yin and Yang), nourishes Essence, benefits Original Qi, calms the Shen, benefits menstruation and the uterus.
+* Irregular menstruation, metrorrhagia, morbid leukorrhea, dysmenorrhea, prolapse of the uterus, infertilit
 
 <<rootdown.us>>
 [Location]: 
@@ -7599,11 +7472,9 @@ On the anterior midline, 3 cun below the umbilicus.', '<<针灸学>>@TCM100.COM:
 [解剖]  在腹白线上，深部为小肠；有腹壁浅动、静脉分支，腹壁下动、静脉分支；布有第十二肋间神经前皮支的内侧皮支。
 [主治]  遗尿，小便不利，疝气，遗精，阳萎，月经不调，崩漏带下，阴挺，不孕。
 [操作]  直刺0.5~2寸；可灸。
-[配伍]  配气海、肾俞（重灸） 、神阙（隔盐灸） 急救中风脱证；配足三里、脾俞、公孙、大肠俞治虚劳、里急、腹痛；配三阴交、血海、中极、阴交治月经不调（冲任不固，针用补法） ；配中极、大赫、肾俞、次豂、命门、三阴交治男子不育症、阳萎、遗精、早泄、尿频、尿闭、遗尿（肾阳虚衰、针补法或艾灸） ；配太溪、肾俞治泄痢不止、五更泄。
-[附注]  （l） 任脉与足三阴经交会穴。小肠的募穴。（2）本穴有强壮作用，为保健要穴。'
+[配伍]  配气海、肾俞（重灸） 、神阙（隔盐灸） 急救中风脱证；配足三里、脾俞、公孙、大肠俞治虚劳、里急、腹痛；配三阴交、血海、中极、阴交治月经不调（冲任不固，针用补法） ；配中极、大赫、肾俞、次豂、命门、三阴交治男子不育症、'
 union select '14', '342', 'CV5', 'acupoint_cv5', '石门', 'Shimen', 'Stone gate, 石門', '<<WHO>>
-Shi: stone; men: door.
-Stone here means hard. The point is indicated in treating lumps in the lower abdomen.
+On the lower abdomen, 2 B-cun inferior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7613,7 +7484,7 @@ Perpendicular insertion 1.0 - 2.0 cun.
 * Hernia, abdominal pain, diarrhea
 * Amenorrhea, morbid leukorrhea, metrorrhagia
 [Functions]: 
-Opens and regulates the water passages, promotes the function of the San Jiao, regulates Qi.
+Opens and regulates the water passages, promotes the function of the San J
 
 <<rootdown.us>>
 [Location]: 
@@ -7625,8 +7496,7 @@ On the anterior midline, 2 cun below the umbilicus.', '<<针灸学>>@TCM100.COM:
 [配伍]  配阴陵泉、关元、阴交治四肢水肿、小便不利（肾气不化）；配肾俞、三阴交治遗尿；配关元、天枢、气海、足三里治腹胀泄泻、绕脐痛；配大敦、归来治疝气；配三阴交、带脉穴治崩漏、带下。
 [附注]  三焦的募穴。'
 union select '14', '343', 'CV6', 'acupoint_cv6', '气海', 'Qihai', 'Vapor sea, 氣海', '<<WHO>>
-Qi: primary Qi; hai: sea.
-This point is below the navel and is the sea of the primary Qi of the whole body.
+On the lower abdomen, 1.5 B-cun inferior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7639,7 +7509,7 @@ Perpendicular insertion 1.0 - 2.0 cun.
 * Irregular menstruation, amenorrhea
 * Emaciation due to consumptive disease
 [Functions]: 
-Strengthens Kidney Qi and Yang, regulates Qi, benefits Original Qi, treats prolapse.
+Strengt
 
 <<rootdown.us>>
 [Location]: 
@@ -7648,11 +7518,9 @@ On the anterior midline, 1.5 cun below the umbilicus.', '<<针灸学>>@TCM100.CO
 [解剖]  在腹白线上，深部为小肠；有腹壁浅动脉、静脉分支，腹壁下动、静脉分支；布有第十一肋间神经前皮支的内侧皮支。
 [主治]  绕脐腹痛，水肿鼓胀，水谷不化，大便不通，泄痢不禁，遗尿，遗精，疝气，月经不调，经闭，阴挺。
 [操作]  直刺0.5~2寸。
-[配伍]  配三阴交治白浊、遗精；配关元治产后恶露不止；配灸关元、膏肓、足三里治喘息短气（元气虚惫）；配关元、命门（重灸）、神阙（隔盐灸）急救中风脱证。配足三里、脾俞、胃俞、天枢、上巨虚治胃腹胀痛、呃逆、呕吐、水谷不化、大便不通、泄痢不止（脾气虚弱） ；配足三里、合谷、百会治胃下垂、子宫下垂、脱肛。
-[附注]  本穴有强壮作用，为保健要穴。'
+[配伍]  配三阴交治白浊、遗精；配关元治产后恶露不止；配灸关元、膏肓、足三里治喘息短气（元气虚惫）；配关元、命门（重灸）、神阙（隔盐灸）急救中风脱证。配足三里、脾俞、胃俞、天枢、上巨虚治胃腹胀痛、呃逆、'
 union select '14', '344', 'CV7', 'acupoint_cv7', '阴交', 'Yinjiao', 'Cross of Yin, 陰交', '<<WHO>>
-Yin: Yin of Yin-Yang; jiao: crossing.
-This point is 1 cun below the navel, and is the crossing point of the Conception Vessel (Renmai), the thoroughfare Vessel (Chongmai) and the kidney meridian.
+On the lower abdomen, 1 B-cun inferior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7662,7 +7530,7 @@ Perpendicular insertion 1.0 - 2.0 cun.
 * Hernia, abdominal pain
 * Irregular menstruation, morbid leukorrhea, metrorrhagia, pruritus vulva, postpartum hemorrhage
 [Functions]: 
-Regulates the Lower Jiao and menstruation.
+Regulates the Lower Jiao and mens
 
 <<rootdown.us>>
 [Location]: 
@@ -7674,18 +7542,14 @@ On the anterior midline, 1 cun below the umbilicus.', '<<针灸学>>@TCM100.COM:
 [配伍]  配阴陵泉、带脉穴治赤白带下；配子宫穴、三阴交治月经不调、崩漏；配大肠俞、曲池治脐周作痛；配天枢、气海治腹胀肠鸣、泄泻。
 [附注]  任脉与冲脉交会穴。'
 union select '14', '345', 'CV8', 'acupoint_cv8', '神阙', 'Shenque', 'Spiritual shrine, 神闕', '<<WHO>>
-Shen: spirit; que: palace gate.
-This point is in the centre of the navel which is an important passage for the circulation of the Qi and blood of the foetus, like a palace gate of the spirit.
+On the upper abdomen, in the centre of the umbilicus.
 
 <<acupuncture.com>>
 [Needling]: 
 Indirect moxibustion with moxa stick, or moxibustion on some type of material (salt, ginger, etc.).
 [Indications]: 
 * Flaccidity of apoplexy, coldness of the four extremities
-* Chronic diarrhea, hemihidrosis (sweating on only one side of the body)
-* Edema
-[Functions]: 
-Rescues Yang collapse, resuscitates, warms Yang, regulates the intestines.
+* Chronic diarrhea, hemihidrosis (sweating on only one side of the
 
 <<rootdown.us>>
 [Location]: 
@@ -7697,8 +7561,7 @@ In the centre of the umbilicus.', '<<针灸学>>@TCM100.COM:
 [配伍]  配三阴交治五淋；配公孙、水分、天枢、足三里治泄痢便秘、绕脐腹痛（脾肾不和） ；配长强、气海、关元治脱肛、小便不禁、肾虚不孕症；神阙（隔盐灸） 配关元、气海（重灸） 治中风脱证。
 [附注]  《甲乙经》谓不可刺。'
 union select '14', '346', 'CV9', 'acupoint_cv9', '水分', 'Shuifen', 'Water dividing', '<<WHO>>
-Shui: water; fen: separation.
-This point is 1cun above the navel and corresponds internally to the small intestine, where the water and food are separated into the turbid and the clear.
+On the upper abdomen, 1 B-cun superior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7719,8 +7582,7 @@ On the anterior midline, 1 cun above the umbilicus.', '<<针灸学>>@TCM100.COM:
 [配伍]  配天枢、地机治腹水；配内关治反胃呕吐；配中封、曲泉治脐痛；配脾俞、三阴交治浮肿。
 [附注]  《铜人》：水病灸之大良，禁不可针。'
 union select '14', '347', 'CV10', 'acupoint_cv10', '下脘', 'Xiawan', 'Lower epigastrium', '<<WHO>>
-Xia: a inferior; wan: stomach.
-This point is over the inferior portion of the stomach.
+On the upper abdomen, 2 B-cun superior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7740,8 +7602,7 @@ On the anterior midline, 2 cun above the umbilicus.', '<<针灸学>>@TCM100.COM:
 [配伍]  配天枢、气海、关元、足三里（针灸并用） 治急性菌痢。
 [附注]  任脉与足太阴经交会穴。'
 union select '14', '348', 'CV11', 'acupoint_cv11', '建里', 'Jianli', 'Building interior', '<<WHO>>
-Jian: establishing; li: interior.
-This point is located in the epigastric region and aids in establishing the Qi of the Middle Jiao.
+On the upper abdomen, 3 B-cun superior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7762,8 +7623,8 @@ On the anterior midline, 3 cun above the umbilicus.', '<<针灸学>>@TCM100.COM:
 [操作]  直刺0.5~2寸。
 [配伍]  配内关治胸中苦闷；配水分治肚腹浮肿。'
 union select '14', '349', 'CV12', 'acupoint_cv12', '中脘', 'Zhongwan', 'Middle epigastrium', '<<WHO>>
-Zhong: middle; wan: stomach.
-This point is over the middle of the stomach.
+On the upper abdomen, 4 B-cun superior to the centre of the umbilicus, on the anterior median line. 
+Note: CV12 is located at the midpoint of the line connecting the xiphisternal junction and the centre of umbilicus.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7775,7 +7636,7 @@ Perpendicular insertion 1.0 - 1.5 cun.
 * Jaundice
 * Insomnia
 [Functions]: 
-Strengthens and harmonizes the Spleen and Stomach, resolves Dampness, relieves pain.
+Strengthens and harmonizes
 
 <<rootdown.us>>
 [Location]: 
@@ -7784,11 +7645,9 @@ On the anterior midline, 4 cun above the umbilicus.', '<<针灸学>>@TCM100.COM:
 [解剖]  在腹白线上，深部为胃幽门部；有腹壁上动、静脉；布有第七肋间神经前皮支的内侧皮支。
 [主治]  胃痛，腹胀，呕吐，翻胃，吞酸，黄疸，癫狂。
 [操作]  直刺0.5~1.5寸。
-[配伍]  配百会、足三里、神门治失眠、脏躁；配膻中、天突、丰隆治哮喘；配梁丘、下巨虚治急性胃肠炎；配肝俞、太冲、三阴交、公孙治疗胃十二指肠球部溃疡；配上脘、梁门（电针20分钟） 治胆道蛔虫症；配阳池、胞门、子户（针灸并用） ，治腰痛、痛经、月经不调（子宫不正） ；配气海、足三里、内关、百会治胃下垂。
-[附注]  胃的募穴。八会穴之一，腑会中脘。任脉与手太阳、少阳、足阳明经交会穴。'
+[配伍]  配百会、足三里、神门治失眠、脏躁；配膻中、天突、丰隆治哮喘；配梁丘、下巨虚治急性胃肠炎；配肝俞、太冲、三阴交、公孙治疗胃十二指肠球部溃疡；配上脘、梁门（电针20分钟） 治胆道蛔虫症；配阳池、胞门、子户（针灸并用） ，治腰痛、痛经、月经不调（子宫不正） ；配气海、足'
 union select '14', '350', 'CV13', 'acupoint_cv13', '上脘', 'Shangwan', 'Upper epigastrium', '<<WHO>>
-Shang: superior; wan: stomach.
-This point is over the upper portion of the stomach.
+On the upper abdomen, 5 B-cun superior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7809,8 +7668,7 @@ On the anterior midline, 5 cun above the umbilicus.', '<<针灸学>>@TCM100.COM:
 [配伍]  配丰隆治纳呆；配天枢、中脘治嗳气吞酸、腹胀、肠鸣、泄泻。
 [附注]  任脉与足阳明、手太阳经交会穴。'
 union select '14', '351', 'CV14', 'acupoint_cv14', '巨阙', 'Juque', 'Great temple, 巨闕', '<<WHO>>
-Ju: great; que: palace gate.
-This is a Mu-front point of the heart meridian, like a door for the Qi of the heart.
+On the upper abdomen, 6 B-cun superior to the centre of the umbilicus, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7820,7 +7678,7 @@ Oblique insertion downwards .5 - 1.0 cun.
 * Manic psychosis, epilepsy
 * Gastric pain, vomiting
 [Functions]: 
-Opens the chest, transforms Phlegm, regulates the Heart, calms the Shen, subdues rebellious Qi.
+Opens the chest, transforms Phlegm, regulates the Heart, calms t
 
 <<rootdown.us>>
 [Location]: 
@@ -7832,8 +7690,7 @@ On the anterior midline of the abdomen, 6 cun above the umbilicus.', '<<针灸�
 [配伍]  配内关治心绞痛；配章门、合谷、中脘、内关、足三里治呃逆；配足三里、膻中、内关、三阴交、心平穴、心俞治疗急性心肌梗塞；配内关、人中治癫狂痫证；配神门治失眠健忘。
 [附注]  （l）心的募穴。（2）不可深刺，以免伤及肝脏。'
 union select '14', '352', 'CV15', 'acupoint_cv15', '鸠尾', 'Jiuwei', 'Bird`s tail, 鳩尾', '<<WHO>>
-Jiu: turtledove; wei: tail.
-This point is below the xiphoid process of the sternum which looks like a turtledove`s tail.
+On the upper abdomen, 1 B-cun inferior to the xiphisternal junction, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7842,7 +7699,7 @@ Oblique insertion downwards .4 - .6 cun.
 * Manic depression, epilepsy
 * Chest pain, palpitations, abdominal distention
 [Functions]: 
-Opens the chest, transforms Phlegm, regulates the Heart, calms the Shen, subdues rebellious Qi.
+Opens the chest, transforms Phlegm, regulates the Heart, calms the Shen, subdues rebellious Q
 
 <<rootdown.us>>
 [Location]: 
@@ -7853,8 +7710,7 @@ On the anterior midline, 1 cun below the xiphosternal synchondrosis. Locate the 
 [操作]  斜向下刺0.4~0.6寸。
 [配伍]  配梁门、足三里治胃痛；配三关、足三里治呕吐。'
 union select '14', '353', 'CV16', 'acupoint_cv16', '中庭', 'Zhongting', 'Middle courtyard', '<<WHO>>
-Zhong: middle; ting: courtyard.
-This point is below the heart, as if in the courtyard in front of the palace.
+In the anterior thoracic region, at the midpoint of the xiphisternal junction, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7863,7 +7719,7 @@ Subcutaneous insertion .3 - .5 cun.
 * Distention and fullness in the chest and costal region, cardiac pain
 * Vomiting, infantile milk regurgitation
 [Functions]: 
-Opens the chest, subdues rebellious Qi, regulates the Middle Jiao.
+Opens the chest, subdues rebellious Qi, regulates the Middle Jia
 
 <<rootdown.us>>
 [Location]: 
@@ -7874,8 +7730,7 @@ On the anterior midline, at the level with the fifth intercostal space, on the x
 [操作]  平刺0.3~0.5寸。
 [配伍]  配俞府、意舍治呕吐。'
 union select '14', '354', 'CV17', 'acupoint_cv17', '膻中', 'Danzhong', 'Middle altar, Shanzhong, Tanzhong', '<<WHO>>
-Dan: exposure; zhong: middle.
-The exposed middle part of the chest was called Tanzhong in ancient times. This point is located there.
+In the anterior thoracic region, at the same level as the fourth intercostal space, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7885,7 +7740,7 @@ Subcutaneous insertion .3 - .5 cun.
 * Cardiac pain, palpitations
 * Insufficient lactation, hiccup, dysphagia
 [Functions]: 
-Opens the chest, tonifies and regulates Lung Qi, subdues rebellious Lung Qi, benefits the breasts.
+Opens the chest, tonifies and regulates Lung Qi, subdues reb
 
 <<rootdown.us>>
 [Location]: 
@@ -7895,10 +7750,9 @@ On the anterior midline, at the level with the fourth intercostal space, midway 
 [主治]  咳嗽，气喘，胸痛，心悸，产妇少乳，噎嗝，呕吐。
 [操作]  平刺0.3~0.5寸。
 [配伍]  配曲池、合谷（泻法） 治急性乳腺炎；配内关、三阴交、巨阙、心平、足三里治冠心病急性心肌梗塞；配中脘、气海治呕吐反胃；配天突治哮喘；配乳根、合谷、三阴交、少泽、灸膻中治产后缺乳；配肺俞、丰隆、内关治咳嗽痰喘；配厥阴俞、内关治心悸、心烦、心痛。
-[附注]  心包的募穴，八会穴一，气会膻中。'
+[附注]'
 union select '14', '355', 'CV18', 'acupoint_cv18', '玉堂', 'Yutang', 'Hall of jade', '<<WHO>>
-Yu: jade; tang: palace.
-Jade is valuable. The point is located at the site of the heart. It is so important that is is considered a jade palace.
+In the anterior thoracic region, at the same level as the third intercostal space, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7918,8 +7772,7 @@ On the anterior midline, at the level with the third intercostal space.', '<<针
 [操作]  平刺0.3~0.5寸。
 [配伍]  玉堂透膻中、内关、胸夹脊（T1-5）治疗胸痹。'
 union select '14', '356', 'CV19', 'acupoint_cv19', '紫宫', 'Zigong', 'Purple palace, 紫宮', '<<WHO>>
-Zi: purple; gong: palace.
-Zigong is the name of a star and refers to the emperor`s residence. This point corresponds to the heart which is the organ of monarch, and is therefore called Zigong.
+In the anterior thoracic region, at the same level as the second intercostal space, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7938,8 +7791,7 @@ On the anterior midline, at the level with the second intercostal space.', '<<�
 [操作]  平刺0.3~0.5寸。
 [配伍]  配玉堂、太溪治呃逆上气、心烦。'
 union select '14', '357', 'CV20', 'acupoint_cv20', '华盖', 'Huagai', 'Flowery covering, 華蓋', '<<WHO>>
-Hua: magnificent; gai: umbrella.
-Huagai refers to the emperor`s umbrella. The location of the point corresponds to the lung, which lies above the heart and like an umbrella over it.
+In the anterior thoracic region, at the same level as the first intercostal space, on the anterior median line.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7958,8 +7810,8 @@ On the anterior midline, at the midpoint of the sternal angle, at the level with
 [操作]  平刺0.3~0.5寸。
 [配伍]  配气户治胁肋疼痛。'
 union select '14', '358', 'CV21', 'acupoint_cv21', '璇玑', 'Xuanji', 'Rotating machine, 璇璣', '<<WHO>>
-Xuan: rotating; ji: axis.
-Xuanji is the name of the second and the third stars of the Big Dipper, opposite to star Zigong. This point is also opposite to the point Zigong (CV19) and is therefore named Xuanji.
+In the anterior thoracic region, 1 B-cun inferior to the suprasternal fossa, on the anterior median line. 
+Note: CV21 is located 1 B-cun inferior to CV22.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -7979,18 +7831,13 @@ On the anterior midline, in the centre of the sternal manubrium, 1 cun below Tia
 [操作]  平刺0.3~0.5寸。
 [配伍]  配鸠尾治喉痹咽肿。'
 union select '14', '359', 'CV22', 'acupoint_cv22', '天突', 'Tiantu', 'Sky prominence', '<<WHO>>
-Tian: heaven; tu: chimney.
-The location of this point corresponds to the upper part of the trachea, which is like the chimney for the Qi of the lung.
+In the anterior region of the neck, in the centre of the suprasternal fossa, on the anterior median line. 
+Note: CV22 is located in the depression midway between the medial ends of each clavicle.
 
 <<acupuncture.com>>
 [Needling]: 
 First, puncture perpendicularly 0.2 cun, then insert the needle tip downwards along the posterior aspect of the sternum 1.0 - 1.5 cun.  Strict attention must be paid to the needle angle and depth. The lungs can be easily injured.
-[Indications]: 
-* Cough, asthma, chest pain
-* Sore throat, sudden hoarseness of the voice, goiter
-* Plum pit sensation in the throat, dysphagia
-[Functions]: 
-Subdues rebellious Lung Qi, benefits the throat, resolves Phlegm, stops cough.
+[Indications
 
 <<rootdown.us>>
 [Location]: 
@@ -7999,11 +7846,10 @@ In the centre of the suprasternal fossa.', '<<针灸学>>@TCM100.COM:
 [解剖]  在胸骨切迹中央，左右胸锁乳突肌之间，深层为胸骨舌骨肌和胸甲状肌；皮下有颈静脉弓，甲状腺下动脉分支，深部为气管，向下胸骨柄后方为无名静脉及主动脉弓；布有锁骨上神经前支深部神经。
 [主治]  咳嗽，哮喘，胸痛，咽喉肿痛，暴喑，瘿气，噎嗝，梅核气。
 [操作]  先直刺0.2寸，然后将针尖转向下方，沿胸骨柄后缘，气管前缘缓慢向下刺入0.5~1.5寸。
-[配伍]  配定喘穴、鱼际治哮喘、咳嗽；配膻中、列缺治外感咳嗽；配内关、中脘治呃逆；配廉泉、涌泉治暴喑；配丰隆治梅核气；配少商、天容治咽喉肿痛；配气舍、合谷治地方性甲状腺肿大。
-[附注]  （l）任脉与阴维脉交会穴。（2）本穴针刺不能过深，也不宜向左右刺，以防刺伤锁骨下动脉及肺尖。如刺中气管壁，针下有硬而轻度弹性的感觉，病人出现喉痒欲咳等现象；若刺破气管壁，可引起剧烈的咳嗽及血痰等现象。如刺中无名静脉或主动脉弓时，针下可有柔软而有弹力的阻力或病人有疼痛感觉，应即退针。'
+[配伍]  配定喘穴、鱼际治哮喘、咳嗽；配膻中、列缺治外感咳嗽；配内关、中脘治呃逆；配廉泉、涌泉治暴喑；'
 union select '14', '360', 'CV23', 'acupoint_cv23', '廉泉', 'Lianquan', 'Screen spring', '<<WHO>>
-Lian: clear; quan: spring.
-The two blood vessels below the tongue were called Lianquan in ancient times. This point is at the upper margin of the laryngeal prominence, close to the Lianquan vessels.
+In the anterior region of the neck, superior to superior border to thyroid cartilage, in the depression superior to the hyoid bone, on the anterior median line. 
+Note: With the head slightly extended, the hyoid tubercle can be palpated between the mandible mandible and the thyroid cartilage.
 
 <<acupuncture.com>>
 [Needling]: 
@@ -8011,8 +7857,7 @@ Oblique insertion toward tongue root  .5 - .8 cun.
 [Indications]: 
 * Swelling and pain of the subglossal region, salivation with flaccid tongue, aphasia with stiffness of the tongue
 * Sudden hoarseness of the voice, difficulty in swallowing
-[Functions]: 
-Subdues rebellious Qi, benefits the tongue throat and speech, resolves Phlegm, stops cough.
+[
 
 <<rootdown.us>>
 [Location]: 
@@ -8024,8 +7869,7 @@ Above the Adam`s apple, in the depression of the upper border of the hyoid bone.
 [配伍]  配金津、玉液、天突、少商治舌强不语、舌下肿痛、舌缓流涎、暴喑。
 [附注]  任脉与阴维脉交会穴。'
 union select '14', '361', 'CV24', 'acupoint_cv24', '承浆', 'Chengjiang', 'Receiving fluid, 承漿', '<<WHO>>
-Cheng: receiving; jiang: fluid.
-This point is in the depression at the middle of the chin; it is where excessive saliva is received.
+On the face, in the depression in the centre of the mentolabial sulcus.
 
 <<acupuncture.com>>
 [Needling]: 

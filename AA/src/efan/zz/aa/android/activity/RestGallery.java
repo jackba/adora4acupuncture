@@ -61,6 +61,8 @@ public class RestGallery extends Activity
         img.setImageResource(mImageIds[position]);
       }
     });
+    
+    AAUtil.addAd(this, R.id.ad_layout);
   }
   
   @Override

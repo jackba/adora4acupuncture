@@ -37,7 +37,9 @@ public class CreditList extends Activity
 
     ListView list = (ListView) findViewById(R.id.credit_list);
     list.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mStrings));
-  }
+
+    AAUtil.addAd(this, R.id.ad_layout);
+}
 
   private String[] mStrings = 
   { 

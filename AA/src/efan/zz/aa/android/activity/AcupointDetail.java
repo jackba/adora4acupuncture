@@ -121,7 +121,8 @@ public class AcupointDetail extends TabActivity
     /// descView.setText("Alias: " + alias + "\n\n" + desc.replace("\\n", "\n "));
     descView.setText(getResources().getString(R.string.notes_title_alias) + alias + "\n\n" + desc);
     
-    editAcupointAction();
+    // editAcupointAction();
+    // disable Edit since 1.2.0 until further consideration 
   }
 
   private void editAcupointAction()
