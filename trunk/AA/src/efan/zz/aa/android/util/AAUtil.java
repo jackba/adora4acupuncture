@@ -17,10 +17,15 @@ package efan.zz.aa.android.util;
 
 import java.util.Locale;
 
+import com.adwhirl.AdWhirlLayout;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 import efan.zz.aa.AA;
 import efan.zz.aa.android.activity.WelcomeAA;
@@ -101,4 +106,16 @@ public class AAUtil
     intent.setAction(Intent.ACTION_VIEW);
     caller.startActivity(intent);
   }
+
+  public static void addAd(Activity caller, int parentViewId)
+  {
+    // Try AdWhirl by AdMob (acquired by Google)
+    LinearLayout adLayout = (LinearLayout) caller.findViewById(parentViewId);
+    AdWhirlLayout adWhirlLayout = new AdWhirlLayout(caller, "e33eead9798240b4a60d20c88900f6ca");
+    RelativeLayout.LayoutParams adWhirlLayoutParams = new RelativeLayout.LayoutParams(320, 52);
+    adLayout.addView(adWhirlLayout, adWhirlLayoutParams);
+    adLayout.setVisibility(View.GONE);
+    adLayout.invalidate();
+  }
+
 }

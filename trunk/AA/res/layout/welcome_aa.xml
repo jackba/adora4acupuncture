@@ -93,16 +93,45 @@ welcome (screen) = default home + support
         android:layout_height="fill_parent" 
         android:gravity="bottom" >
         
-        <com.mobclix.android.sdk.MobclixMMABannerXLAdView
-            android:id="@+id/banner_adview"
-            android:layout_height="50dip"
-            android:layout_width="300dip"
-            android:layout_centerHorizontal="true"
-        />
+        <!-- Ad layout -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		              xmlns:app="http://schemas.android.com/apk/res/efan.zz.aa" 
+            android:id="@+id/ad_layout" 
+		    android:orientation="vertical" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent" >
+
+	        <com.mobclix.android.sdk.MobclixMMABannerXLAdView
+	            android:id="@+id/banner_adview"
+	            android:layout_height="50dip"
+	            android:layout_width="300dip"
+	            android:layout_centerHorizontal="true"
+	            android:visibility="gone"
+	        />
+	
+	        <!-- Place an AdMob ad -->
+	        <!-- It has white text on a black background. -->
+	        <!-- The description of the surrounding context is in the keywords. -->
+	        <com.admob.android.ads.AdView  
+	          android:id="@+id/ad" 
+	          android:visibility="gone"
+	          android:layout_width="fill_parent" 
+	          android:layout_height="wrap_content"
+	          android:layout_alignParentBottom="true"
+	          app:backgroundColor="#000000"
+	          app:primaryTextColor="#FFFFFF"
+	          app:secondaryTextColor="#CCCCCC"
+	          app:keywords="@string/ad_keywords"
+	        />
+	        
+	        <!-- AdWhirl (by AdMob) ad will be inserted here by Java code -->
+	        
+	    </LinearLayout>
+
 
         <ImageView
           android:id="@+id/bottom_line"
-          android:layout_below="@id/banner_adview"
+          android:layout_below="@id/ad_layout"
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
           android:src="@drawable/line" />

@@ -1,5 +1,9 @@
 Assist acupuncture professionals. Quick & easy query from hundreds of acupoints standardized by WHO. Release professionals from memory tedious details, so to focus on patient and syndrome differentiation for better accurate treatment...
 
-1.1.2: Add missed pics; Restore Wall Charts.
- 
+1.2.0_ad: EXISTING USERS: PLEASE read developer's Web page 1st before upgrade!
+* WHO latest upgraded standard (much better!).
+* Side effect: Ad.
+* "Edit" function disabled.
+* Overwrite any existing data. Please backup your own edited data if any before upgrade. Sorry for any inconvenience caused.
+
 [efan]

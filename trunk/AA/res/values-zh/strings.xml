@@ -18,13 +18,13 @@
     <string name="app_name">愛心神針AA => 針灸助理</string>
 
     <array name="about_msg">
-        <item>愛心神針AA => 針灸助理  1.1.2</item>
+        <item>愛心神針AA => 針灸助理  1.2.0_ad</item>
         <item></item>
         <item>【功能】: 輕松快捷地查詢由國際衛生組織WHO所標準化的上百個穴位. 精準定位及實用說明.</item> 
         <item></item>
         <item>【備注】: 內容均來自互聯網(包括WHO), 僅供教育或參考使用.</item>
         <item></item>
-        <item>2010-6-12 (仲夏五月初一)</item> 
+        <item>2010-7-4 (仲夏小暑前)</item> 
     </array>
 
     <string name="button_market">市場</string>
@@ -94,6 +94,8 @@
         (為節省主設備空間, 1.1.0及以上版本之設計將數據分離到該數據程式中.)
     </string>
     <string name="btn_label_install_aa_data">去安裝 AA 數據</string>
+    
+    <string name="ad_keywords">針灸 中醫 Android 保健 健康 參考 世界衛生組織 WHO  针灸 中医 保健 健康 参考 世界卫生组织 WHO</string>
     
     
     <!-- Support -->

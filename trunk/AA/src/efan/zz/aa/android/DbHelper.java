@@ -28,7 +28,7 @@ import efan.zz.aa.R;
 
 public class DbHelper extends SQLiteOpenHelper
 {
-  private static final float VERSION = 1.12f;
+  private static final float VERSION = 1.20f;
   private static final int DB_VERSION = (int) (VERSION*100);
   private static final String DB_PATH = "AA.db";
   
@@ -114,6 +114,7 @@ public class DbHelper extends SQLiteOpenHelper
     {
       db.beginTransaction();
       
+      /* since V1.2.0, no more Edit, so no need upgrade 
       switch(oldVersion)
       {
       case 1:   // 1.0
@@ -123,6 +124,9 @@ public class DbHelper extends SQLiteOpenHelper
       case 112: // 1.12*100
         // TODO
       }
+      */
+      applySQLs(db, R.raw.db_clean_1_2_0);
+      onCreate(db);
       
       db.setTransactionSuccessful();
     }
