@@ -2,8 +2,8 @@
 <resources>
     <string name="app_name">Adora AA Data</string>
 
-    <string name="progress_msg">Please wait while installing AA data 1.1.2 to external storage (e.g. SD card) ...</string>
-    <string name="finished_msg">Adora AA Data 1.1.2 installed successfully. You can uninstall the data app to save main device space any time.</string>
+    <string name="progress_msg">Please wait while installing AA data 1.1.3 to external storage (e.g. SD card) ...</string>
+    <string name="finished_msg">Adora AA Data 1.1.3 installed successfully. You can uninstall the data app to save main device space any time.</string>
 
     <string name="btn_label0">Start AA</string>
     <string name="btn_label1">Go Install AA</string>
