@@ -2433,8 +2433,7 @@ On the ulnar side of the palm, in the depression between the base of the 5th met
 [操作]  直刺0.3~0.5寸。
 [配伍]  配阳陵泉、肝俞、胆俞治黄疸。
 [附注]  手太阳经所过为“原”。'
-union select '6', '111', 'SI5', 'acupoint_si5', '阳谷', 'Yanggu', 'Yang: Yang of Yin-Yang; gu: valley.
-Yang means the `exterior`. The seam on the exterior aspect of the wrist, where the point is located, is like a valley.', '<<WHO>>
+union select '6', '111', 'SI5', 'acupoint_si5', '阳谷', 'Yanggu', '陽谷', '<<WHO>>
 On the posteromedial aspect of the wrist, in the depression between the triquetrum bone and the ulnar styloid process.
 
 <<acupuncture.com>>
@@ -3016,8 +3015,7 @@ Releases the exterior, strengthens Wei Qi, spreads and descends Lung Qi, regulat
 [操作]  斜刺0.5~0.8寸。
 [配伍]  配肺俞、大椎治咳嗽、气喘；配合谷治伤风咳嗽。
 [附注]  足太阳经与督脉交会穴。'
-union select '7', '138', 'BL13', 'acupoint_bl13', '肺俞', 'Feishu', 'Fei: lung; shu: point.
-This point is the place where the Qi of the lung is infused into the back.', '<<WHO>>
+union select '7', '138', 'BL13', 'acupoint_bl13', '肺俞', 'Feishu', '', '<<WHO>>
 In the upper back region, at the same level as the inferior border of the spinous process of the third thoracic vertebra (T3), 1.5 B-cun lateral to the posterior median line.
 
 <<acupuncture.com>>
@@ -6745,8 +6743,7 @@ On the lateral side of the abdomen, below the free end of the eleventh rib.', '<
 [操作]  斜刺0.5~1寸。
 [配伍]  配足三里治荨麻疹、组织胺过敏症；配天枢、脾俞、中脘、足三里治肝脾不和之腹胀、痞块、胁痛、泄泻、消瘦；配肾俞、肝俞、水道、京门、阴陵泉、三阴交、阳谷、气海治肝硬化腹水、肾炎。
 [附注]  脾经募穴，八会穴之一，脏会章门；肝经与胆经交会穴。'
-union select '12', '309', 'LR14', 'acupoint_lr14', '期门', 'Qimen', 'Qi: cycle; men: door.
-The bilateral flanks where the point is located look like an open door. When the Qi of the meridian reaches here, it is considered as one cycle of circulation. The point is therefore named Qimen.', '<<WHO>>
+union select '12', '309', 'LR14', 'acupoint_lr14', '期门', 'Qimen', '期門', '<<WHO>>
 In the anterior thoracic region, in the sixth intercostal space, 4 B-cun lateral to the anterior median line. 
 Note: LR14 is inferior to the centre of the nipple, 2 B-cun lateral to ST19. In females, LR14 is located at the intersection of the midclavicular line and the sixth intercostal space.
 

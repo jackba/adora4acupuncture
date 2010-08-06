@@ -17,12 +17,12 @@ package efan.zz.aa.android.activity;
 
 import android.app.TabActivity;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -37,7 +37,11 @@ import efan.zz.aa.android.util.AAUtil;
 
 public class AcupointDetail extends TabActivity
 {
-  private String acupointId;
+  private int currentOrderNum;
+  private int maxOrderNum;
+  
+  private Button preBtn;
+  private Button nextBtn;
   
   private TabHost mTabHost;
   
@@ -70,9 +74,9 @@ public class AcupointDetail extends TabActivity
     
     // query DB for detail by acupoint-id ...
     final Intent intent = getIntent();
-    this.acupointId = Uri.decode(intent.getDataString());
-    final String sql = getResources().getString(R.string.SQL_QUERY_ACUPOINT_BY_ID);
-    final Cursor cursor = AA.db.rawQuery(sql, new String[]{acupointId});
+    this.currentOrderNum = Integer.parseInt(Uri.decode(intent.getDataString()));
+    final String sql = getResources().getString(R.string.SQL_QUERY_ACUPOINT_BY_ORDER_NUM);
+    final Cursor cursor = AA.db.rawQuery(sql, new String[]{""+currentOrderNum});
     String imgFileId = null;
     String imgFileIdChannel = null;
     String name = null;
@@ -123,6 +127,50 @@ public class AcupointDetail extends TabActivity
     
     // editAcupointAction();
     // disable Edit since 1.2.0 until further consideration 
+    
+    preBtn = (Button) findViewById(R.id.acupointPreBtn);
+    nextBtn = (Button) findViewById(R.id.acupointNextBtn);
+    maxOrderNum = Integer.parseInt(getResources().getString(R.string.constant_acupoint_order_num_max));
+    if (currentOrderNum == 1)
+      preBtn.setEnabled(false);
+    if (currentOrderNum == maxOrderNum)
+      nextBtn.setEnabled(false);
+    preOrNextAct();
+  }
+  
+  private void preOrNextAct()
+  {
+    preBtn.setOnClickListener(new Button.OnClickListener()
+    {
+      public void onClick(View v)
+      {
+        if (currentOrderNum > 1)
+        {
+          currentOrderNum--;
+          AAUtil.showActivity(""+currentOrderNum, AcupointDetail.this, AcupointDetail.class);
+        }
+        else 
+        {
+          // impossible status
+        }
+      }
+    });
+
+    nextBtn.setOnClickListener(new Button.OnClickListener()
+    {
+      public void onClick(View v)
+      {
+        if (currentOrderNum < maxOrderNum)
+        {
+          currentOrderNum++;
+          AAUtil.showActivity(""+currentOrderNum, AcupointDetail.this, AcupointDetail.class);
+        }
+        else 
+        {
+          // impossible status
+        }
+      }
+    });
   }
 
   private void editAcupointAction()
@@ -132,7 +180,7 @@ public class AcupointDetail extends TabActivity
     {
       public void onClick(View v)
       {
-        Uri data = Uri.parse(Uri.encode(""+acupointId));
+        Uri data = Uri.parse(Uri.encode(""+currentOrderNum));
         Intent nextAct = new Intent();
         nextAct.setData(data);
         nextAct.setAction(Intent.ACTION_EDIT);

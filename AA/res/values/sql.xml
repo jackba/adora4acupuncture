@@ -22,22 +22,22 @@ select PK_ID, NAME, CHINESE_NAME, CODE, null
   ]]></string>
 
   <string name="SQL_LOAD_ACUPOINT_FOR_ADAPTER"><![CDATA[
-select PK_ID, NAME, CHINESE_NAME, CODE, ALIAS 
+select ORDER_NUM, NAME, CHINESE_NAME, CODE, ALIAS 
   from ACUPOINT 
  order by CODE, NAME 
   ]]></string>
 
   <string name="SQL_LOAD_ACUPOINT_FOR_ADAPTER_BY_CHANNEL"><![CDATA[
-select PK_ID, NAME, CHINESE_NAME, CODE, ALIAS 
+select ORDER_NUM, NAME, CHINESE_NAME, CODE, ALIAS 
   from ACUPOINT 
  where CHANNEL_ID = ?
  order by ORDER_NUM 
   ]]></string>
 
-  <string name="SQL_QUERY_ACUPOINT_BY_ID"><![CDATA[
+  <string name="SQL_QUERY_ACUPOINT_BY_ORDER_NUM"><![CDATA[
 select A.PICTURE, A.NAME, A.CHINESE_NAME, A.CODE, A.ALIAS, M.PICTURE, A.DESCRIPTION, A.DESCRIPTION_ZH 
   from ACUPOINT A, MERIDIAN_CHANNEL M 
- where A.PK_ID = ?
+ where A.ORDER_NUM = ?
    and M.PK_ID = A.CHANNEL_ID  
   ]]></string>
 

@@ -27,6 +27,9 @@
         <item></item>
         <item>7/4/2010</item>
     </array>
+    
+    <string name="constant_acupoint_order_num_max">361</string>
+    
     <string name="button_market">Market</string>
     <string name="button_ok">OK</string>
 
@@ -79,7 +82,11 @@
     <string name="name_code_hint">(name or code)</string>
 
     <string name="button_query">Query List</string>
+    <!-- 
     <string name="button_edit">Edit</string>
+    -->
+    <string name="button_pre"><![CDATA[<=]]></string>
+    <string name="button_next"><![CDATA[=>]]></string>
     <string name="button_save">Save</string>
     <string name="button_cancel">Cancel</string>
 
