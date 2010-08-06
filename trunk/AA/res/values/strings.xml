@@ -19,13 +19,13 @@
 
     <array name="about_msg">
         <item>Adora AA =></item>
-        <item>Acupuncture Assistant 1.2.0_ad</item>
+        <item>Acupuncture Assistant 1.3.0</item>
         <item></item>
         <item><![CDATA[【Function】: Quick & easy query from hundreds of acupoints standardized by WHO.]]></item> 
         <item></item>
         <item>【Notes】: Contents come from internet (including WHO), for education / reference only.</item>
         <item></item>
-        <item>7/4/2010</item>
+        <item>8/8/2010</item>
     </array>
     
     <string name="constant_acupoint_order_num_max">361</string>

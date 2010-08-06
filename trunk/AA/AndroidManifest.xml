@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="efan.zz.aa"
-      android:versionCode="4"
-      android:versionName="1.2.0_ad" android:sharedUserId="efan.zz.aa">
+      android:versionCode="5"
+      android:versionName="1.3.0" android:sharedUserId="efan.zz.aa">
       
     <uses-sdk android:minSdkVersion="3" />
 
@@ -16,10 +16,12 @@
         <meta-data android:name="ADMOB_PUBLISHER_ID" 
                    android:value="a14c2ec31812ded" />
 
+        <!-- Disable due to its server https problem 
         <meta-data android:name="com.mobclix.APPLICATION_ID" 
                    android:value="68B7D514-5F3E-42D6-B2DC-0EF30B7A91BC"/>
 
         <activity android:name="com.mobclix.android.sdk.MobclixBrowserActivity"/>
+        -->
 
         <activity android:name=".android.activity.WelcomeAA"
             android:windowSoftInputMode="stateHidden"

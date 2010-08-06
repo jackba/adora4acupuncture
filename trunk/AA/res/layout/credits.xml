@@ -28,6 +28,7 @@
 	     android:layout_width="fill_parent"
 	     android:layout_height="fill_parent" >
 	
+         <!-- Disable due to its server https problem 
 	     <com.mobclix.android.sdk.MobclixMMABannerXLAdView
 	         android:id="@+id/banner_adview"
 	         android:layout_height="50dip"
@@ -35,6 +36,7 @@
 	         android:layout_centerHorizontal="true"
 	         android:visibility="gone"
 	     />
+	     -->
 	
 	     <!-- Place an AdMob ad -->
 	     <!-- It has white text on a black background. -->
