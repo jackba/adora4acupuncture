@@ -67,7 +67,7 @@ public class AcupointDetailEdit extends Activity
     acupointId0 = Uri.decode(intent.getDataString());
 
     // query DB for detail...
-    final String sql = getResources().getString(R.string.SQL_QUERY_ACUPOINT_BY_ID);
+    final String sql = getResources().getString(R.string.SQL_QUERY_ACUPOINT_BY_ORDER_NUM);
     final Cursor cursor = AA.db.rawQuery(sql, new String[]{acupointId0});
     String name = null;
     String cnName = null;

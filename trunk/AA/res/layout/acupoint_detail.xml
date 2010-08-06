@@ -53,7 +53,7 @@
 			    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
 			        android:layout_width="fill_parent"
 			        android:layout_height="wrap_content"
-			        android:stretchColumns="1" >
+			        android:stretchColumns="*" >
 			      <TableRow>
 	                <TextView
 	                    android:id="@+id/acupoint_name"
@@ -68,6 +68,20 @@
 			            android:layout_width="wrap_content"
 			            style="?android:attr/buttonStyleSmall"
 			            android:text="@string/button_edit" />
+
+                    <Button
+                        android:id="@+id/acupointPreBtn"
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content"
+                        style="?android:attr/buttonStyleSmall"
+                        android:text="@string/button_pre" />
+
+                    <Button
+                        android:id="@+id/acupointNextBtn"
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content"
+                        style="?android:attr/buttonStyleSmall"
+                        android:text="@string/button_next" />
 			      </TableRow>
 			    </TableLayout>
 

@@ -12,7 +12,7 @@ create table ACUPOINT
 (
 	PK_ID			integer    primary key		autoincrement,
     CODE            text       unique           not null,
-    ORDER_NUM       int                         not null,
+    ORDER_NUM       int        unique           not null,
 	NAME			text		     			not null,
     CHINESE_NAME    text                        not null,
 	ALIAS		    text,
