@@ -85,8 +85,8 @@
     <!-- 
     <string name="button_edit">Edit</string>
     -->
-    <string name="button_pre"><![CDATA[<=]]></string>
-    <string name="button_next"><![CDATA[=>]]></string>
+    <string name="button_pre"><![CDATA[<]]></string>
+    <string name="button_next"><![CDATA[>]]></string>
     <string name="button_save">Save</string>
     <string name="button_cancel">Cancel</string>
 
