@@ -1,0 +1,2 @@
+Under Health category.
+It's sort of big (10M) so takes a little while and bandwidth to download. Recommend to download it through WIFI. But once downloaded and installed, everything is in local and query fast and accurate.
